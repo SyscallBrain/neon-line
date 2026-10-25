@@ -1,0 +1,635 @@
+{
+    "policyVersion": 4,
+    "samples": [
+        {
+            "level": "level-0061",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 62,
+            "averageMoves": 5.90625
+        },
+        {
+            "level": "level-0061",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 56,
+            "averageMoves": 9.3125
+        },
+        {
+            "level": "level-0061",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 38,
+            "averageMoves": 6.515625
+        },
+        {
+            "level": "level-0062",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 63,
+            "averageMoves": 2.0
+        },
+        {
+            "level": "level-0062",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 56,
+            "averageMoves": 3.0
+        },
+        {
+            "level": "level-0062",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 53,
+            "averageMoves": 4.0
+        },
+        {
+            "level": "level-0063",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 58,
+            "averageMoves": 4.0
+        },
+        {
+            "level": "level-0063",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 50,
+            "averageMoves": 5.328125
+        },
+        {
+            "level": "level-0063",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 27,
+            "averageMoves": 8.578125
+        },
+        {
+            "level": "level-0064",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 57,
+            "averageMoves": 7.90625
+        },
+        {
+            "level": "level-0064",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 56,
+            "averageMoves": 7.0625
+        },
+        {
+            "level": "level-0064",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 30,
+            "averageMoves": 9.203125
+        },
+        {
+            "level": "level-0065",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 55,
+            "averageMoves": 3.90625
+        },
+        {
+            "level": "level-0065",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 41,
+            "averageMoves": 5.90625
+        },
+        {
+            "level": "level-0065",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 22,
+            "averageMoves": 8.21875
+        },
+        {
+            "level": "level-0066",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 49,
+            "averageMoves": 3.0
+        },
+        {
+            "level": "level-0066",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 46,
+            "averageMoves": 3.0
+        },
+        {
+            "level": "level-0066",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 15,
+            "averageMoves": 3.828125
+        },
+        {
+            "level": "level-0067",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 61,
+            "averageMoves": 7.453125
+        },
+        {
+            "level": "level-0067",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 41,
+            "averageMoves": 5.609375
+        },
+        {
+            "level": "level-0067",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 36,
+            "averageMoves": 7.4375
+        },
+        {
+            "level": "level-0068",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 58,
+            "averageMoves": 2.109375
+        },
+        {
+            "level": "level-0068",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 44,
+            "averageMoves": 5.109375
+        },
+        {
+            "level": "level-0068",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 14,
+            "averageMoves": 7.875
+        },
+        {
+            "level": "level-0069",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 64,
+            "averageMoves": 2.0
+        },
+        {
+            "level": "level-0069",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 55,
+            "averageMoves": 3.0
+        },
+        {
+            "level": "level-0069",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 42,
+            "averageMoves": 4.0
+        },
+        {
+            "level": "level-0070",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 39,
+            "averageMoves": 9.515625
+        },
+        {
+            "level": "level-0070",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 25,
+            "averageMoves": 7.1875
+        },
+        {
+            "level": "level-0070",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 16,
+            "averageMoves": 7.65625
+        },
+        {
+            "level": "level-0071",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 56,
+            "averageMoves": 2.984375
+        },
+        {
+            "level": "level-0071",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 48,
+            "averageMoves": 3.0
+        },
+        {
+            "level": "level-0071",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 19,
+            "averageMoves": 4.0
+        },
+        {
+            "level": "level-0072",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 62,
+            "averageMoves": 4.0
+        },
+        {
+            "level": "level-0072",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 45,
+            "averageMoves": 5.484375
+        },
+        {
+            "level": "level-0072",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 20,
+            "averageMoves": 7.828125
+        },
+        {
+            "level": "level-0073",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 64,
+            "averageMoves": 7.765625
+        },
+        {
+            "level": "level-0073",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 49,
+            "averageMoves": 5.203125
+        },
+        {
+            "level": "level-0073",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 16,
+            "averageMoves": 9.21875
+        },
+        {
+            "level": "level-0074",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 60,
+            "averageMoves": 3.953125
+        },
+        {
+            "level": "level-0074",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 56,
+            "averageMoves": 5.109375
+        },
+        {
+            "level": "level-0074",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 18,
+            "averageMoves": 7.890625
+        },
+        {
+            "level": "level-0075",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 61,
+            "averageMoves": 2.0
+        },
+        {
+            "level": "level-0075",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 56,
+            "averageMoves": 3.0
+        },
+        {
+            "level": "level-0075",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 13,
+            "averageMoves": 3.9375
+        },
+        {
+            "level": "level-0076",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 60,
+            "averageMoves": 8.046875
+        },
+        {
+            "level": "level-0076",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 42,
+            "averageMoves": 7.6875
+        },
+        {
+            "level": "level-0076",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 22,
+            "averageMoves": 7.640625
+        },
+        {
+            "level": "level-0077",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 59,
+            "averageMoves": 2.0
+        },
+        {
+            "level": "level-0077",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 50,
+            "averageMoves": 3.65625
+        },
+        {
+            "level": "level-0077",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 30,
+            "averageMoves": 9.0
+        },
+        {
+            "level": "level-0078",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 59,
+            "averageMoves": 2.0
+        },
+        {
+            "level": "level-0078",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 49,
+            "averageMoves": 3.0
+        },
+        {
+            "level": "level-0078",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 44,
+            "averageMoves": 3.984375
+        },
+        {
+            "level": "level-0079",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 51,
+            "averageMoves": 1.9375
+        },
+        {
+            "level": "level-0079",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 52,
+            "averageMoves": 5.15625
+        },
+        {
+            "level": "level-0079",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 16,
+            "averageMoves": 8.9375
+        },
+        {
+            "level": "level-0080",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 51,
+            "averageMoves": 8.203125
+        },
+        {
+            "level": "level-0080",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 26,
+            "averageMoves": 7.21875
+        },
+        {
+            "level": "level-0080",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 24,
+            "averageMoves": 4.484375
+        },
+        {
+            "level": "level-0081",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 49,
+            "averageMoves": 2.0
+        },
+        {
+            "level": "level-0081",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 53,
+            "averageMoves": 3.0
+        },
+        {
+            "level": "level-0081",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 47,
+            "averageMoves": 4.0
+        },
+        {
+            "level": "level-0082",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 64,
+            "averageMoves": 4.0
+        },
+        {
+            "level": "level-0082",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 29,
+            "averageMoves": 5.390625
+        },
+        {
+            "level": "level-0082",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 20,
+            "averageMoves": 8.8125
+        },
+        {
+            "level": "level-0083",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 61,
+            "averageMoves": 5.046875
+        },
+        {
+            "level": "level-0083",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 56,
+            "averageMoves": 3.875
+        },
+        {
+            "level": "level-0083",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 28,
+            "averageMoves": 7.578125
+        },
+        {
+            "level": "level-0084",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 60,
+            "averageMoves": 3.0
+        },
+        {
+            "level": "level-0084",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 47,
+            "averageMoves": 3.0
+        },
+        {
+            "level": "level-0084",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 56,
+            "averageMoves": 4.0
+        },
+        {
+            "level": "level-0085",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 55,
+            "averageMoves": 3.015625
+        },
+        {
+            "level": "level-0085",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 51,
+            "averageMoves": 4.734375
+        },
+        {
+            "level": "level-0085",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 27,
+            "averageMoves": 8.4375
+        },
+        {
+            "level": "level-0086",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 49,
+            "averageMoves": 6.6875
+        },
+        {
+            "level": "level-0086",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 45,
+            "averageMoves": 10.203125
+        },
+        {
+            "level": "level-0086",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 23,
+            "averageMoves": 6.375
+        },
+        {
+            "level": "level-0087",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 57,
+            "averageMoves": 3.21875
+        },
+        {
+            "level": "level-0087",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 48,
+            "averageMoves": 5.859375
+        },
+        {
+            "level": "level-0087",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 17,
+            "averageMoves": 8.046875
+        },
+        {
+            "level": "level-0088",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 57,
+            "averageMoves": 3.0
+        },
+        {
+            "level": "level-0088",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 54,
+            "averageMoves": 3.0
+        },
+        {
+            "level": "level-0088",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 47,
+            "averageMoves": 4.0
+        },
+        {
+            "level": "level-0089",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 63,
+            "averageMoves": 5.28125
+        },
+        {
+            "level": "level-0089",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 56,
+            "averageMoves": 7.90625
+        },
+        {
+            "level": "level-0089",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 26,
+            "averageMoves": 7.390625
+        },
+        {
+            "level": "level-0090",
+            "difficulty": "easy",
+            "games": 64,
+            "wins": 53,
+            "averageMoves": 3.0
+        },
+        {
+            "level": "level-0090",
+            "difficulty": "medium",
+            "games": 64,
+            "wins": 25,
+            "averageMoves": 2.765625
+        },
+        {
+            "level": "level-0090",
+            "difficulty": "hard",
+            "games": 64,
+            "wins": 4,
+            "averageMoves": 3.953125
+        }
+    ]
+}

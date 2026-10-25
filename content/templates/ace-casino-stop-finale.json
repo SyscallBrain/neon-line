@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "engineVersion": 2,
+  "lessons": [
+    {"ordinal":541,"familyId":"ace-casino-combo","titleEn":"Neon Toll","titlePt":"Portagem de néon","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":3,"openingPairsMax":4,"popOut":true,"moveClockSec":10},
+    {"ordinal":542,"familyId":"ace-casino-combo","titleEn":"Spinning Powder","titlePt":"Pólvora giratória","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":3,"openingPairsMax":4,"rotateEvery":6,"specialInventory":{"bomb":1}},
+    {"ordinal":543,"familyId":"ace-casino-combo","titleEn":"Locked Glow","titlePt":"Brilho bloqueado","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":6,"fadeAfter":[5,3,2],"specialInventory":{"lock":1}},
+    {"ordinal":544,"familyId":"ace-casino-combo","titleEn":"Wild Countdown","titlePt":"Contagem selvagem","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":6,"moveClockSec":10,"specialInventory":{"wild":1}},
+    {"ordinal":545,"familyId":"ace-casino-combo","titleEn":"Bomb Rebound","titlePt":"Ressalto explosivo","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"popOut":true,"specialInventory":{"bomb":1}},
+    {"ordinal":546,"familyId":"ace-casino-combo","titleEn":"Vanishing Roulette","titlePt":"Roleta que desvanece","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"rotateEvery":6,"fadeAfter":[5,3,2]},
+    {"ordinal":547,"familyId":"ace-casino-combo","titleEn":"Lockstep Turn","titlePt":"Volta bloqueada","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"rotateEvery":6,"specialInventory":{"lock":1}},
+    {"ordinal":548,"familyId":"ace-casino-combo","titleEn":"Fading Fuse","titlePt":"Rastreio que se apaga","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":8,"fadeAfter":[5,3,2],"specialInventory":{"bomb":1}},
+    {"ordinal":549,"familyId":"ace-casino-combo","titleEn":"Wild Exit","titlePt":"Saída selvagem","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":9,"popOut":true,"specialInventory":{"wild":1}},
+    {"ordinal":550,"familyId":"ace-casino-double-neon","titleEn":"Ace's Last Hand","titlePt":"A última mão do Ás","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":3,"openingPairsMax":5,"specialInventory":{"wild":1,"lock":1},"isDoubleNeon":true}
+  ]
+}

@@ -1,0 +1,38 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+local.properties
+
+# Android
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+.externalNativeBuild/
+.cxx/
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+
+# Logs and scratch
+logs/
+.kotlin/
+.superpowers/
+
+# Generated content candidates (regenerable; published content IS committed)
+content/candidates/
+
+# Level tool scratch
+content/candidates/
+
+# Internal planning and progress notes (kept locally, not published)
+docs/superpowers/
+report.md
+PLAN.md
+docs/PROGRESS.md

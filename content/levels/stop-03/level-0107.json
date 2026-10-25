@@ -1,0 +1,293 @@
+{
+    "schemaVersion": 1,
+    "engineVersion": 2,
+    "id": "level-0107",
+    "ordinal": 107,
+    "stopId": "stop-03",
+    "titlePt": "Caminhos cruzados",
+    "titleEn": "Crossed Paths",
+    "familyId": "motel-crossed-paths",
+    "learningTags": [
+        "motel",
+        "shape",
+        "horizontal_only"
+    ],
+    "revision": 1,
+    "isDoubleNeon": false,
+    "tutorial": null,
+    "variants": {
+        "easy": {
+            "seedHex": "734738ade4f8d2bd",
+            "kind": {
+                "type": "shape",
+                "winInMoves": null,
+                "surviveAiMoves": null,
+                "shapeRule": "horizontal_only",
+                "bestOf": null
+            },
+            "width": 7,
+            "height": 6,
+            "connect": 4,
+            "mask": [
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX"
+            ],
+            "pieces": [
+                {
+                    "r": 5,
+                    "c": 0,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 1,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 2,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 6,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 4,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 5,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                }
+            ],
+            "targets": [],
+            "shapeRule": "horizontal_only",
+            "rules": {
+                "popOut": false,
+                "rotateEvery": null,
+                "fadeAfter": null,
+                "moveClockSec": null
+            },
+            "inventory": {},
+            "firstToMove": "P1",
+            "rival": "flamingo",
+            "ai": {
+                "maxDepth": 2,
+                "nodeBudget": 2000,
+                "blunderRate": 220,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "stars": {
+                "two": 8,
+                "three": 3
+            },
+            "hints": 3,
+            "expectedMetrics": {
+                "humanWinRate": 1.0,
+                "solverMoves": 1
+            },
+            "bossRounds": []
+        },
+        "medium": {
+            "seedHex": "69af7c73a13ffe0a",
+            "kind": {
+                "type": "shape",
+                "winInMoves": null,
+                "surviveAiMoves": null,
+                "shapeRule": "horizontal_only",
+                "bestOf": null
+            },
+            "width": 7,
+            "height": 6,
+            "connect": 4,
+            "mask": [
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX"
+            ],
+            "pieces": [
+                {
+                    "r": 5,
+                    "c": 0,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 1,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 2,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 6,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                }
+            ],
+            "targets": [],
+            "shapeRule": "horizontal_only",
+            "rules": {
+                "popOut": false,
+                "rotateEvery": null,
+                "fadeAfter": null,
+                "moveClockSec": null
+            },
+            "inventory": {},
+            "firstToMove": "P1",
+            "rival": "flamingo",
+            "ai": {
+                "maxDepth": 3,
+                "nodeBudget": 8000,
+                "blunderRate": 40,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "stars": {
+                "two": 8,
+                "three": 3
+            },
+            "hints": 2,
+            "expectedMetrics": {
+                "humanWinRate": 1.0,
+                "solverMoves": 1
+            },
+            "bossRounds": []
+        },
+        "hard": {
+            "seedHex": "adddf9ca6feb0d59",
+            "kind": {
+                "type": "shape",
+                "winInMoves": null,
+                "surviveAiMoves": null,
+                "shapeRule": "horizontal_only",
+                "bestOf": null
+            },
+            "width": 7,
+            "height": 6,
+            "connect": 4,
+            "mask": [
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX"
+            ],
+            "pieces": [
+                {
+                    "r": 5,
+                    "c": 0,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 1,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 2,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 6,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 4,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                }
+            ],
+            "targets": [],
+            "shapeRule": "horizontal_only",
+            "rules": {
+                "popOut": false,
+                "rotateEvery": null,
+                "fadeAfter": null,
+                "moveClockSec": null
+            },
+            "inventory": {},
+            "firstToMove": "P1",
+            "rival": "flamingo",
+            "ai": {
+                "maxDepth": 4,
+                "nodeBudget": 20000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 5,
+                "center": 3,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "stars": {
+                "two": 8,
+                "three": 3
+            },
+            "hints": 1,
+            "expectedMetrics": {
+                "humanWinRate": 1.0,
+                "solverMoves": 1
+            },
+            "bossRounds": []
+        }
+    }
+}

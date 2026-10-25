@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- NeonLine is always dark: it is always night on the road. -->
+    <color name="asphalt">#FF0F0B16</color>
+    <color name="dusk">#FF22122A</color>
+    <color name="pink">#FFFF4F9A</color>
+    <color name="amber">#FFFFB547</color>
+    <color name="launcher_background">#FF0F0B16</color>
+</resources>

@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "engineVersion": 2,
+  "lessons": [
+    {
+      "ordinal": 451,
+      "familyId": "night-fair-first-five",
+      "titleEn": "Five to Win",
+      "titlePt": "Cinco para vencer",
+      "kind": "duel",
+      "width": 9,
+      "height": 7,
+      "connect": 5,
+      "openingPairsMin": 3,
+      "openingPairsMax": 3,
+      "tutorialKey": "tut_451_five"
+    },
+    {
+      "ordinal": 452,
+      "familyId": "night-fair-duel",
+      "titleEn": "First Lights",
+      "titlePt": "Primeiras luzes",
+      "kind": "duel",
+      "width": 9,
+      "height": 7,
+      "connect": 5,
+      "openingPairsMin": 3,
+      "openingPairsMax": 4
+    },
+    {
+      "ordinal": 453,
+      "familyId": "night-fair-early-duel",
+      "titleEn": "Patient Rival",
+      "titlePt": "Rival paciente",
+      "kind": "duel",
+      "width": 9,
+      "height": 7,
+      "connect": 5,
+      "openingPairsMin": 3,
+      "openingPairsMax": 4
+    },
+    {
+      "ordinal": 454,
+      "familyId": "night-fair-duel",
+      "titleEn": "Ferris Wheel",
+      "titlePt": "Roda gigante",
+      "kind": "duel",
+      "width": 9,
+      "height": 7,
+      "connect": 5,
+      "openingPairsMin": 4,
+      "openingPairsMax": 6
+    },
+    {
+      "ordinal": 455,
+      "familyId": "night-fair-duel",
+      "titleEn": "Lantern Line",
+      "titlePt": "Linha de lanternas",
+      "kind": "duel",
+      "width": 9,
+      "height": 7,
+      "connect": 5,
+      "openingPairsMin": 4,
+      "openingPairsMax": 6
+    },
+    {
+      "ordinal": 456,
+      "familyId": "night-fair-duel",
+      "titleEn": "Hold the Midway",
+      "titlePt": "Defende o recinto",
+      "kind": "duel",
+      "width": 9,
+      "height": 7,
+      "connect": 5,
+      "openingPairsMin": 5,
+      "openingPairsMax": 7
+    },
+    {
+      "ordinal": 457,
+      "familyId": "night-fair-duel",
+      "titleEn": "Long Horizon",
+      "titlePt": "Horizonte longo",
+      "kind": "duel",
+      "width": 9,
+      "height": 7,
+      "connect": 5,
+      "openingPairsMin": 5,
+      "openingPairsMax": 7
+    },
+    {
+      "ordinal": 458,
+      "familyId": "night-fair-duel",
+      "titleEn": "Ring of Lights",
+      "titlePt": "Anel de luzes",
+      "kind": "duel",
+      "width": 9,
+      "height": 7,
+      "connect": 5,
+      "openingPairsMin": 6,
+      "openingPairsMax": 8
+    },
+    {
+      "ordinal": 459,
+      "familyId": "night-fair-duel",
+      "titleEn": "Last Ride",
+      "titlePt": "Última volta",
+      "kind": "duel",
+      "width": 9,
+      "height": 7,
+      "connect": 5,
+      "openingPairsMin": 6,
+      "openingPairsMax": 8
+    },
+    {
+      "ordinal": 460,
+      "familyId": "night-fair-double-neon",
+      "titleEn": "Neon Ferris Wheel",
+      "titlePt": "Roda gigante de néon",
+      "kind": "duel",
+      "width": 9,
+      "height": 7,
+      "connect": 5,
+      "openingPairsMin": 3,
+      "openingPairsMax": 5,
+      "isDoubleNeon": true
+    }
+  ]
+}

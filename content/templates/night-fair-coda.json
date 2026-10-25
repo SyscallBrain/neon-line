@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "engineVersion": 2,
+  "lessons": [
+    {"ordinal":481,"familyId":"night-fair-duel","titleEn":"Gate of Lanterns","titlePt":"Portão das lanternas","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":3,"openingPairsMax":3},
+    {"ordinal":482,"familyId":"night-fair-duel","titleEn":"The Ring Toss","titlePt":"Jogo das argolas","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":3,"openingPairsMax":4},
+    {"ordinal":483,"familyId":"night-fair-duel","titleEn":"Carousel Lights","titlePt":"Luzes do carrossel","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":3,"openingPairsMax":4},
+    {"ordinal":484,"familyId":"night-fair-duel","titleEn":"Hall of Mirrors","titlePt":"Sala dos espelhos","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":4,"openingPairsMax":6},
+    {"ordinal":485,"familyId":"night-fair-duel","titleEn":"The Last Ride","titlePt":"A última volta","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":4,"openingPairsMax":6},
+    {"ordinal":486,"familyId":"night-fair-duel","titleEn":"Firework Stand","titlePt":"Banca dos fogos","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":4,"openingPairsMax":6},
+    {"ordinal":487,"familyId":"night-fair-duel","titleEn":"The Empty Midway","titlePt":"O recinto vazio","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":5,"openingPairsMax":7},
+    {"ordinal":488,"familyId":"night-fair-duel","titleEn":"The Final Ticket","titlePt":"O último bilhete","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":5,"openingPairsMax":7},
+    {"ordinal":489,"familyId":"night-fair-duel","titleEn":"Dawn Over the Fairground","titlePt":"Amanhecer na feira","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":6,"openingPairsMax":8},
+    {"ordinal":490,"familyId":"night-fair-double-neon","titleEn":"The Last Light","titlePt":"A última luz","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":3,"openingPairsMax":5,"isDoubleNeon":true}
+  ]
+}

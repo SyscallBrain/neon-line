@@ -1,0 +1,471 @@
+{
+    "schemaVersion": 1,
+    "engineVersion": 2,
+    "id": "level-0163",
+    "ordinal": 163,
+    "stopId": "stop-04",
+    "titlePt": "Par superior",
+    "titleEn": "Overhead Pair",
+    "familyId": "bowling-overhead-pair",
+    "learningTags": [
+        "bowling",
+        "duel",
+        "obstacles"
+    ],
+    "revision": 1,
+    "isDoubleNeon": false,
+    "tutorial": null,
+    "variants": {
+        "easy": {
+            "seedHex": "ee682e2aa60b7afb",
+            "kind": {
+                "type": "duel",
+                "winInMoves": null,
+                "surviveAiMoves": null,
+                "shapeRule": null,
+                "bestOf": null
+            },
+            "width": 8,
+            "height": 7,
+            "connect": 4,
+            "mask": [
+                "XX#XX#XX",
+                "XXXXXXXX",
+                "XXXXXXXX",
+                "XXXXXXXX",
+                "XXXXXXXX",
+                "XXXXXXXX",
+                "XXX#XXXX"
+            ],
+            "pieces": [
+                {
+                    "r": 1,
+                    "c": 3,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 2,
+                    "c": 3,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 3,
+                    "c": 3,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 4,
+                    "c": 1,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 4,
+                    "c": 3,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 4,
+                    "c": 6,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 1,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 3,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 4,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 6,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 7,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 0,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 1,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 4,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 6,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 7,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                }
+            ],
+            "targets": [],
+            "shapeRule": null,
+            "rules": {
+                "popOut": false,
+                "rotateEvery": null,
+                "fadeAfter": null,
+                "moveClockSec": null
+            },
+            "inventory": {},
+            "firstToMove": "P1",
+            "rival": "strike",
+            "ai": {
+                "maxDepth": 2,
+                "nodeBudget": 2000,
+                "blunderRate": 180,
+                "attack": 5,
+                "defense": 3,
+                "center": 4,
+                "trap": 2,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "stars": {
+                "two": 18,
+                "three": 13
+            },
+            "hints": 3,
+            "expectedMetrics": {
+                "humanWinRate": 1.0,
+                "solverMoves": 11
+            },
+            "bossRounds": []
+        },
+        "medium": {
+            "seedHex": "f0e0752247d2314f",
+            "kind": {
+                "type": "duel",
+                "winInMoves": null,
+                "surviveAiMoves": null,
+                "shapeRule": null,
+                "bestOf": null
+            },
+            "width": 8,
+            "height": 7,
+            "connect": 4,
+            "mask": [
+                "XX#XX#XX",
+                "XXXXXXXX",
+                "XXXXXXXX",
+                "XXXXXXXX",
+                "XXXXXXXX",
+                "XXXXXXXX",
+                "XXX#XXXX"
+            ],
+            "pieces": [
+                {
+                    "r": 4,
+                    "c": 1,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 4,
+                    "c": 5,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 1,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 3,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 4,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 5,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 1,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 4,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 5,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 7,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                }
+            ],
+            "targets": [],
+            "shapeRule": null,
+            "rules": {
+                "popOut": false,
+                "rotateEvery": null,
+                "fadeAfter": null,
+                "moveClockSec": null
+            },
+            "inventory": {},
+            "firstToMove": "P1",
+            "rival": "strike",
+            "ai": {
+                "maxDepth": 3,
+                "nodeBudget": 8000,
+                "blunderRate": 20,
+                "attack": 6,
+                "defense": 3,
+                "center": 5,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "stars": {
+                "two": 13,
+                "three": 8
+            },
+            "hints": 2,
+            "expectedMetrics": {
+                "humanWinRate": 0.875,
+                "solverMoves": 6
+            },
+            "bossRounds": []
+        },
+        "hard": {
+            "seedHex": "0676ec7e49b01488",
+            "kind": {
+                "type": "duel",
+                "winInMoves": null,
+                "surviveAiMoves": null,
+                "shapeRule": null,
+                "bestOf": null
+            },
+            "width": 8,
+            "height": 7,
+            "connect": 4,
+            "mask": [
+                "XX#XX#XX",
+                "XXXXXXXX",
+                "XXXXXXXX",
+                "XXXXXXXX",
+                "XXXXXXXX",
+                "XXXXXXXX",
+                "XXX#XXXX"
+            ],
+            "pieces": [
+                {
+                    "r": 4,
+                    "c": 0,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 4,
+                    "c": 7,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 0,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 1,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 5,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 6,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 7,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 0,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 1,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 2,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 4,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 5,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 6,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 7,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                }
+            ],
+            "targets": [],
+            "shapeRule": null,
+            "rules": {
+                "popOut": false,
+                "rotateEvery": null,
+                "fadeAfter": null,
+                "moveClockSec": null
+            },
+            "inventory": {},
+            "firstToMove": "P1",
+            "rival": "strike",
+            "ai": {
+                "maxDepth": 4,
+                "nodeBudget": 20000,
+                "blunderRate": 0,
+                "attack": 8,
+                "defense": 3,
+                "center": 6,
+                "trap": 4,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "stars": {
+                "two": 18,
+                "three": 13
+            },
+            "hints": 1,
+            "expectedMetrics": {
+                "humanWinRate": 0.625,
+                "solverMoves": 11
+            },
+            "bossRounds": []
+        }
+    }
+}

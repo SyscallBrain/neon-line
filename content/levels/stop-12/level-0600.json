@@ -1,0 +1,1071 @@
+{
+    "schemaVersion": 1,
+    "engineVersion": 2,
+    "id": "level-0600",
+    "ordinal": 600,
+    "stopId": "stop-12",
+    "titlePt": "Rainha da Avenida",
+    "titleEn": "Queen of the Avenue",
+    "familyId": "boulevard-of-lights-boss",
+    "learningTags": [
+        "boulevard-of-lights",
+        "boss",
+        "duel",
+        "double-neon"
+    ],
+    "revision": 3,
+    "isDoubleNeon": true,
+    "tutorial": null,
+    "variants": {
+        "easy": {
+            "seedHex": "7c185802fae01757",
+            "kind": {
+                "type": "boss",
+                "winInMoves": null,
+                "surviveAiMoves": null,
+                "shapeRule": null,
+                "bestOf": 3
+            },
+            "width": 7,
+            "height": 6,
+            "connect": 4,
+            "mask": [
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX"
+            ],
+            "pieces": [
+                {
+                    "r": 4,
+                    "c": 0,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 4,
+                    "c": 4,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 0,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 2,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 3,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 4,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 6,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                }
+            ],
+            "targets": [],
+            "shapeRule": null,
+            "rules": {
+                "popOut": false,
+                "rotateEvery": null,
+                "fadeAfter": null,
+                "moveClockSec": null
+            },
+            "inventory": {
+                "P1": {
+                    "bomb": 1,
+                    "wild": 1
+                },
+                "P2": {
+                    "bomb": 1,
+                    "wild": 1
+                }
+            },
+            "firstToMove": "P1",
+            "rival": "queen",
+            "ai": {
+                "maxDepth": 3,
+                "nodeBudget": 5000,
+                "blunderRate": 160,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "stars": {
+                "two": 24,
+                "three": 16
+            },
+            "hints": 3,
+            "expectedMetrics": {
+                "humanWinRate": 0.75,
+                "solverMoves": 14
+            },
+            "bossRounds": [
+                {
+                    "seedHex": "7c185802fae01757",
+                    "firstToMove": "P1",
+                    "pieces": [
+                        {
+                            "r": 4,
+                            "c": 0,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 4,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 0,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 2,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 3,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 4,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 6,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        }
+                    ]
+                },
+                {
+                    "seedHex": "7367e7d15606ad37",
+                    "firstToMove": "P2",
+                    "pieces": [
+                        {
+                            "r": 3,
+                            "c": 6,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 1,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 3,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 4,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 6,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 1,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 2,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 3,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 4,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 6,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        }
+                    ]
+                },
+                {
+                    "seedHex": "1334e539ce76a460",
+                    "firstToMove": "P1",
+                    "pieces": [
+                        {
+                            "r": 3,
+                            "c": 0,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 0,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 1,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 2,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 4,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 0,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 1,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 2,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 4,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 6,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        "medium": {
+            "seedHex": "071dd6dcbe5ea975",
+            "kind": {
+                "type": "boss",
+                "winInMoves": null,
+                "surviveAiMoves": null,
+                "shapeRule": null,
+                "bestOf": 3
+            },
+            "width": 7,
+            "height": 6,
+            "connect": 4,
+            "mask": [
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX"
+            ],
+            "pieces": [
+                {
+                    "r": 4,
+                    "c": 1,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 4,
+                    "c": 2,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 4,
+                    "c": 3,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 1,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 2,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 3,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 4,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                }
+            ],
+            "targets": [],
+            "shapeRule": null,
+            "rules": {
+                "popOut": false,
+                "rotateEvery": null,
+                "fadeAfter": null,
+                "moveClockSec": null
+            },
+            "inventory": {
+                "P1": {
+                    "bomb": 1,
+                    "wild": 1
+                },
+                "P2": {
+                    "bomb": 1,
+                    "wild": 1
+                }
+            },
+            "firstToMove": "P1",
+            "rival": "queen",
+            "ai": {
+                "maxDepth": 1,
+                "nodeBudget": 1000,
+                "blunderRate": 400,
+                "attack": 2,
+                "defense": 3,
+                "center": 2,
+                "trap": 2,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "stars": {
+                "two": 24,
+                "three": 16
+            },
+            "hints": 2,
+            "expectedMetrics": {
+                "humanWinRate": 0.375,
+                "solverMoves": 13
+            },
+            "bossRounds": [
+                {
+                    "seedHex": "071dd6dcbe5ea975",
+                    "firstToMove": "P1",
+                    "pieces": [
+                        {
+                            "r": 4,
+                            "c": 1,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 2,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 3,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 1,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 2,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 3,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 4,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        }
+                    ]
+                },
+                {
+                    "seedHex": "7382db3ef6c65c7f",
+                    "firstToMove": "P2",
+                    "pieces": [
+                        {
+                            "r": 2,
+                            "c": 3,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 3,
+                            "c": 3,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 3,
+                            "c": 5,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 0,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 1,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 3,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 5,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 0,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 1,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 2,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 3,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 4,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 5,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 6,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        }
+                    ]
+                },
+                {
+                    "seedHex": "8e8b203cd38eadaf",
+                    "firstToMove": "P1",
+                    "pieces": [
+                        {
+                            "r": 3,
+                            "c": 5,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 0,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 1,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 3,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 5,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 0,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 1,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 2,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 3,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 4,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 5,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        "hard": {
+            "seedHex": "bbc91513806c08be",
+            "kind": {
+                "type": "boss",
+                "winInMoves": null,
+                "surviveAiMoves": null,
+                "shapeRule": null,
+                "bestOf": 3
+            },
+            "width": 7,
+            "height": 6,
+            "connect": 4,
+            "mask": [
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX",
+                "XXXXXXX"
+            ],
+            "pieces": [
+                {
+                    "r": 4,
+                    "c": 0,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 4,
+                    "c": 1,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 4,
+                    "c": 6,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 0,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 1,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 2,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 4,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 6,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                }
+            ],
+            "targets": [],
+            "shapeRule": null,
+            "rules": {
+                "popOut": false,
+                "rotateEvery": null,
+                "fadeAfter": null,
+                "moveClockSec": null
+            },
+            "inventory": {
+                "P1": {
+                    "bomb": 1,
+                    "wild": 1
+                },
+                "P2": {
+                    "bomb": 1,
+                    "wild": 1
+                }
+            },
+            "firstToMove": "P1",
+            "rival": "queen",
+            "ai": {
+                "maxDepth": 2,
+                "nodeBudget": 500,
+                "blunderRate": 0,
+                "attack": 2,
+                "defense": 3,
+                "center": 1,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "stars": {
+                "two": 42,
+                "three": 34
+            },
+            "hints": 1,
+            "expectedMetrics": {
+                "humanWinRate": 0.25,
+                "solverMoves": 22
+            },
+            "bossRounds": [
+                {
+                    "seedHex": "bbc91513806c08be",
+                    "firstToMove": "P1",
+                    "pieces": [
+                        {
+                            "r": 4,
+                            "c": 0,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 1,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 6,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 0,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 1,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 2,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 4,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 6,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        }
+                    ]
+                },
+                {
+                    "seedHex": "873aab8094517a60",
+                    "firstToMove": "P2",
+                    "pieces": [
+                        {
+                            "r": 3,
+                            "c": 3,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 3,
+                            "c": 6,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 0,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 2,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 3,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 4,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 6,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 0,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 1,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 2,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 3,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 4,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 6,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        }
+                    ]
+                },
+                {
+                    "seedHex": "8677f4a6ee189945",
+                    "firstToMove": "P1",
+                    "pieces": [
+                        {
+                            "r": 2,
+                            "c": 3,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 3,
+                            "c": 1,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 3,
+                            "c": 3,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 1,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 3,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 0,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 1,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 2,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 3,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 4,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 5,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 6,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

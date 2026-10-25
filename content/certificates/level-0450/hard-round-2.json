@@ -1,0 +1,104 @@
+{
+    "levelId": "level-0450",
+    "difficulty": "hard",
+    "engineVersion": 2,
+    "revision": 2,
+    "seedHex": "952b8b694e70b100",
+    "steps": [
+        {
+            "move": "Drop(col=4, kind=NORMAL)",
+            "afterStateHash": "fffae5c94b0bdf70ef462e4104d3f9012512046ffe32fe97bb9417a676c0bfd0",
+            "rngHex": "a9546c89b085492a"
+        },
+        {
+            "move": "Drop(col=4, kind=NORMAL)",
+            "afterStateHash": "381f61121acb65a888086453f9c4c819e03aab01d3c9e07a6ccccc62bc3c19bb",
+            "rngHex": "a9546c89b085492a"
+        },
+        {
+            "move": "Drop(col=5, kind=NORMAL)",
+            "afterStateHash": "6d4c6b3728c49be73085bec3a7900980ce38292cd21678d51f7c63c8b2b1b821",
+            "rngHex": "478be6432fcfc53f"
+        },
+        {
+            "move": "Drop(col=5, kind=NORMAL)",
+            "afterStateHash": "becce8471f1b347c5320b29aef7244e803470b6e378395c7b95f4bd1b81a03b6",
+            "rngHex": "478be6432fcfc53f"
+        },
+        {
+            "move": "Drop(col=5, kind=NORMAL)",
+            "afterStateHash": "11030b9c59f3d033288882b81e93253debe2068d931da89310b381fc132cefb6",
+            "rngHex": "e5c35ffcaf1a4154"
+        },
+        {
+            "move": "Drop(col=2, kind=NORMAL)",
+            "afterStateHash": "1cc1adb957f00c19f310d82bdb177469d385bb3ee48564a0170a1321da451ed4",
+            "rngHex": "e5c35ffcaf1a4154"
+        },
+        {
+            "move": "Drop(col=3, kind=NORMAL)",
+            "afterStateHash": "1505e0d0749937395f6f0a22a7b3d130589ab0b7409814967fa2406f9305fd69",
+            "rngHex": "83fad9b62e64bd69"
+        },
+        {
+            "move": "Drop(col=3, kind=NORMAL)",
+            "afterStateHash": "160de5f9a54ac0e49f9fe983fcbbb94a7dc442cf5cd16a111ce6be47a2891642",
+            "rngHex": "83fad9b62e64bd69"
+        },
+        {
+            "move": "Drop(col=3, kind=NORMAL)",
+            "afterStateHash": "2b461bcb615937eb4d0fc1059450da03853e8f6244086de28458d978040ea604",
+            "rngHex": "2232536fadaf397e"
+        },
+        {
+            "move": "Drop(col=1, kind=NORMAL)",
+            "afterStateHash": "8a17159fc2745d2f66f71bc97cc4c47017f5edeb2da8b14858045f2968acf6dd",
+            "rngHex": "2232536fadaf397e"
+        },
+        {
+            "move": "Drop(col=2, kind=NORMAL)",
+            "afterStateHash": "a2e9ac61911f607176dd4a20038fde82b9e4020066e162c8cd26e446b73c0ed8",
+            "rngHex": "c069cd292cf9b593"
+        },
+        {
+            "move": "Drop(col=1, kind=NORMAL)",
+            "afterStateHash": "1531bba9155069a8eeb7b757c9fd84da590df87b2de0f83b5392e938283fc17c",
+            "rngHex": "c069cd292cf9b593"
+        },
+        {
+            "move": "Drop(col=2, kind=NORMAL)",
+            "afterStateHash": "aee69f8e059aa84e368d297a0912a9686afc430e1a748565b488059b21b0a93e",
+            "rngHex": "5ea146e2ac4431a8"
+        },
+        {
+            "move": "Drop(col=2, kind=NORMAL)",
+            "afterStateHash": "6cfa65aa8a790f2b6db0ff05cc8328461bcada2264afdecb060352bb7f08291a",
+            "rngHex": "5ea146e2ac4431a8"
+        },
+        {
+            "move": "Drop(col=1, kind=NORMAL)",
+            "afterStateHash": "5923f238d1188ebc4b9fa8f3a5f4775142aa7ae997ea8e9afad67fb7647296e0",
+            "rngHex": "fcd8c09c2b8eadbd"
+        },
+        {
+            "move": "Drop(col=3, kind=NORMAL)",
+            "afterStateHash": "83c0a5f4857f70ee6241975e6061f5fe736068153cee75ac7512cbd913a6d883",
+            "rngHex": "fcd8c09c2b8eadbd"
+        },
+        {
+            "move": "Drop(col=0, kind=NORMAL)",
+            "afterStateHash": "2fd7e4bef5745b5df7683fddb2ce5ead17fbaefc42d40c328321402451071348",
+            "rngHex": "9b103a55aad929d2"
+        },
+        {
+            "move": "Drop(col=0, kind=NORMAL)",
+            "afterStateHash": "3e3c319b3b8c5405ebc1b1c7e63b28365716d9b10b39bcd8a65a3671bc04c180",
+            "rngHex": "9b103a55aad929d2"
+        }
+    ],
+    "humanMoves": 9,
+    "aiNodes": 0,
+    "stars": 3,
+    "outcome": "win:P1",
+    "createdAt": "2026-10-13"
+}

@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "engineVersion": 2,
+  "lessons": [
+    {
+      "ordinal": 281,
+      "familyId": "laundromat-clear-the-rack",
+      "titleEn": "Clear the Rack",
+      "titlePt": "Esvaziar o estendal",
+      "kind": "duel",
+      "width": 7,
+      "height": 6,
+      "connect": 4,
+      "openingPairsMin": 6,
+      "openingPairsMax": 9
+    },
+    {
+      "ordinal": 282,
+      "familyId": "laundromat-spin-and-seek",
+      "titleEn": "Spin and Seek",
+      "titlePt": "Centrifugar e procurar",
+      "kind": "duel",
+      "width": 7,
+      "height": 6,
+      "connect": 4,
+      "openingPairsMin": 6,
+      "openingPairsMax": 9,
+      "popOut": true
+    },
+    {
+      "ordinal": 283,
+      "familyId": "laundromat-suds-sleuth",
+      "titleEn": "Suds Sleuth",
+      "titlePt": "Detective da espuma",
+      "kind": "puzzle",
+      "width": 7,
+      "height": 6,
+      "connect": 4,
+      "openingPairsMin": 10,
+      "openingPairsMax": 13,
+      "puzzleMoves": [
+        2,
+        3,
+        4
+      ],
+      "popOut": true
+    },
+    {
+      "ordinal": 284,
+      "familyId": "laundromat-sock-defense",
+      "titleEn": "Sock Defense",
+      "titlePt": "Defesa das meias",
+      "kind": "defense",
+      "width": 7,
+      "height": 6,
+      "connect": 4,
+      "openingPairsMin": 7,
+      "openingPairsMax": 10,
+      "surviveAiMoves": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "ordinal": 285,
+      "familyId": "laundromat-repeat-rinse",
+      "titleEn": "Repeat Rinse",
+      "titlePt": "Enxaguamento repetido",
+      "kind": "duel",
+      "width": 7,
+      "height": 6,
+      "connect": 4,
+      "openingPairsMin": 6,
+      "openingPairsMax": 9,
+      "popOut": true
+    },
+    {
+      "ordinal": 286,
+      "familyId": "laundromat-lather-logic",
+      "titleEn": "Lather Logic",
+      "titlePt": "Lógica da espuma",
+      "kind": "puzzle",
+      "width": 7,
+      "height": 6,
+      "connect": 4,
+      "openingPairsMin": 10,
+      "openingPairsMax": 13,
+      "puzzleMoves": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "ordinal": 287,
+      "familyId": "laundromat-drum-duel",
+      "titleEn": "Drum Duel",
+      "titlePt": "Duelo de tambores",
+      "kind": "duel",
+      "width": 7,
+      "height": 6,
+      "connect": 4,
+      "openingPairsMin": 6,
+      "openingPairsMax": 9
+    },
+    {
+      "ordinal": 288,
+      "familyId": "laundromat-suds-stand",
+      "titleEn": "Suds Stand",
+      "titlePt": "Resistência à espuma",
+      "kind": "defense",
+      "width": 7,
+      "height": 6,
+      "connect": 4,
+      "openingPairsMin": 7,
+      "openingPairsMax": 10,
+      "surviveAiMoves": [
+        4,
+        5,
+        6
+      ],
+      "popOut": true
+    },
+    {
+      "ordinal": 289,
+      "familyId": "laundromat-final-folddown",
+      "titleEn": "Final Fold-Down",
+      "titlePt": "Última dobra",
+      "kind": "puzzle",
+      "width": 7,
+      "height": 6,
+      "connect": 4,
+      "openingPairsMin": 6,
+      "openingPairsMax": 15,
+      "puzzleMoves": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "ordinal": 290,
+      "familyId": "laundromat-last-spin",
+      "titleEn": "One Last Spin",
+      "titlePt": "Mais uma volta",
+      "kind": "duel",
+      "width": 7,
+      "height": 6,
+      "connect": 4,
+      "openingPairsMin": 6,
+      "openingPairsMax": 9,
+      "popOut": true,
+      "isDoubleNeon": true
+    }
+  ]
+}

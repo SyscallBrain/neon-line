@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "engineVersion": 2,
+  "lessons": [
+    {"ordinal":511,"familyId":"ace-casino-combo","titleEn":"Neon Mirage","titlePt":"Miragem de néon","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":3,"openingPairsMax":4,"popOut":true,"fadeAfter":[5,3,2]},
+    {"ordinal":512,"familyId":"ace-casino-combo","titleEn":"The Wild Table","titlePt":"A mesa selvagem","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":3,"openingPairsMax":4,"popOut":true,"specialInventory":{"wild":1}},
+    {"ordinal":513,"familyId":"ace-casino-combo","titleEn":"House Bomb","titlePt":"Bomba da casa","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":4,"moveClockSec":10,"specialInventory":{"bomb":1}},
+    {"ordinal":514,"familyId":"ace-casino-combo","titleEn":"Locked Bet","titlePt":"Aposta bloqueada","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":6,"moveClockSec":15,"specialInventory":{"lock":1}},
+    {"ordinal":515,"familyId":"ace-casino-combo","titleEn":"Wild Countdown","titlePt":"Contagem selvagem","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":6,"moveClockSec":10,"specialInventory":{"wild":1}},
+    {"ordinal":516,"familyId":"ace-casino-combo","titleEn":"The Locked Vault","titlePt":"O cofre fechado","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"specialInventory":{"bomb":1,"lock":1}},
+    {"ordinal":517,"familyId":"ace-casino-combo","titleEn":"Wild Explosive","titlePt":"Explosão selvagem","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"specialInventory":{"bomb":1,"wild":1}},
+    {"ordinal":518,"familyId":"ace-casino-combo","titleEn":"Lockstep Roulette","titlePt":"Roleta em bloqueio","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"rotateEvery":6,"specialInventory":{"lock":1}},
+    {"ordinal":519,"familyId":"ace-casino-combo","titleEn":"Fading Wheel","titlePt":"Roleta que desvanece","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"rotateEvery":6,"fadeAfter":[5,3,2]},
+    {"ordinal":520,"familyId":"ace-casino-double-neon","titleEn":"Ghost Jackpot","titlePt":"Jackpot fantasma","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":3,"openingPairsMax":5,"fadeAfter":[5,3,2],"specialInventory":{"wild":1},"isDoubleNeon":true}
+  ]
+}

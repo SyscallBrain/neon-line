@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "engineVersion": 2,
+  "lessons": [
+    {"ordinal":261,"familyId":"laundromat-fresh-fold","titleEn":"Fresh Fold","titlePt":"Dobra fresca","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":9},
+    {"ordinal":262,"familyId":"laundromat-spin-again","titleEn":"Spin Again","titlePt":"Centrifugar de novo","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":9,"popOut":true},
+    {"ordinal":263,"familyId":"laundromat-suds-and-solutions","titleEn":"Suds and Solutions","titlePt":"Espuma e soluções","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":10,"openingPairsMax":13,"puzzleMoves":[2,3,4],"popOut":true,"sourceHardOrdinal":253},
+    {"ordinal":264,"familyId":"laundromat-sock-shelter","titleEn":"Sock Shelter","titlePt":"Abrigo da meia","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":10,"surviveAiMoves":[4,5,6]},
+    {"ordinal":265,"familyId":"laundromat-rinse-cycle","titleEn":"Rinse Cycle","titlePt":"Ciclo de enxaguamento","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":9,"popOut":true},
+    {"ordinal":266,"familyId":"laundromat-foam-forecast","titleEn":"Foam Forecast","titlePt":"Previsão de espuma","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":10,"openingPairsMax":13,"puzzleMoves":[2,3,4],"sourceHardOrdinal":256},
+    {"ordinal":267,"familyId":"laundromat-tumble-tactics","titleEn":"Tumble Tactics","titlePt":"Táticas de tambor","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":9},
+    {"ordinal":268,"familyId":"laundromat-bubble-balance","titleEn":"Bubble Balance","titlePt":"Equilíbrio de bolhas","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":10,"surviveAiMoves":[4,5,6],"popOut":true},
+    {"ordinal":269,"familyId":"laundromat-final-fold","titleEn":"Final Fold","titlePt":"Dobra final","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":10,"openingPairsMax":13,"puzzleMoves":[2,3,4],"sourceHardOrdinal":259},
+    {"ordinal":270,"familyId":"laundromat-eternal-spin","titleEn":"Eternal Spin","titlePt":"Centrifugação eterna","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":9,"popOut":true,"isDoubleNeon":true}
+  ]
+}

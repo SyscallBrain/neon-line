@@ -1,0 +1,6404 @@
+[
+    {
+        "familyId": "guided-first-line",
+        "titleEn": "Your first line",
+        "titlePt": "A tua primeira linha",
+        "revision": 3,
+        "kind": "puzzle",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "puzzle",
+            "opening-lesson"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                ".......",
+                ".......",
+                "111...."
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                ".......",
+                ".......",
+                ".......",
+                "111...."
+            ],
+            "hard": [
+                ".......",
+                ".......",
+                ".......",
+                ".......",
+                ".......",
+                "111...."
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "28aab06db432f255",
+            "medium": "9ec82c5abe1ecea2",
+            "hard": "475f46fd3ef8f23d"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 8,
+                "three": 4
+            },
+            "medium": {
+                "two": 7,
+                "three": 3
+            },
+            "hard": {
+                "two": 6,
+                "three": 2
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 1.0,
+                "solverMoves": 1
+            },
+            "medium": {
+                "humanWinRate": 1.0,
+                "solverMoves": 1
+            },
+            "hard": {
+                "humanWinRate": 1.0,
+                "solverMoves": 1
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        },
+        "winInMovesByDifficulty": {
+            "easy": 1,
+            "medium": 1,
+            "hard": 1
+        }
+    },
+    {
+        "familyId": "forced-tactical-win",
+        "titleEn": "Tactical challenge 2",
+        "titlePt": "Desafio tático 2",
+        "revision": 3,
+        "kind": "puzzle",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "puzzle",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                "1......",
+                "12.....",
+                "22.....",
+                "21...1.",
+                "2111212",
+                "1212221"
+            ],
+            "medium": [
+                "2......",
+                "2......",
+                "1...2.1",
+                "11..211",
+                "2221122",
+                "1122112"
+            ],
+            "hard": [
+                "..2....",
+                "..1...2",
+                "..1.1.1",
+                "211.2.1",
+                "12212.2",
+                "2212211"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "9586fcece09d844f",
+            "medium": "904c95d3f55fab0b",
+            "hard": "2378330b6ef665ca"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 9,
+                "three": 5
+            },
+            "medium": {
+                "two": 8,
+                "three": 4
+            },
+            "hard": {
+                "two": 8,
+                "three": 4
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 1.0,
+                "solverMoves": 2
+            },
+            "medium": {
+                "humanWinRate": 0.75,
+                "solverMoves": 2
+            },
+            "hard": {
+                "humanWinRate": 0.0,
+                "solverMoves": 3
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        },
+        "winInMovesByDifficulty": {
+            "easy": 2,
+            "medium": 2,
+            "hard": 3
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 3",
+        "titlePt": "Duelo no deserto 3",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                ".1..2..",
+                ".2121.2",
+                "2121211"
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                "..2....",
+                "..1....",
+                ".2121.1",
+                "2121221"
+            ],
+            "hard": [
+                ".......",
+                ".......",
+                ".......",
+                "......1",
+                ".2.12.2",
+                "2111221"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "93025452e1eccd07",
+            "medium": "467686bb0ff0b372",
+            "hard": "03e4d9e88e33df1f"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 11,
+                "three": 7
+            },
+            "medium": {
+                "two": 10,
+                "three": 6
+            },
+            "hard": {
+                "two": 10,
+                "three": 6
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.9375,
+                "solverMoves": 4
+            },
+            "medium": {
+                "humanWinRate": 0.6875,
+                "solverMoves": 4
+            },
+            "hard": {
+                "humanWinRate": 0.25,
+                "solverMoves": 5
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 4",
+        "titlePt": "Duelo no deserto 4",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                "2......",
+                "11...12",
+                "122..21"
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                ".......",
+                "......1",
+                "2..21.2",
+                "1212112"
+            ],
+            "hard": [
+                ".......",
+                "..2....",
+                "..1....",
+                "2.1...2",
+                "112...2",
+                "211..21"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "c1116690226e11cc",
+            "medium": "86e3c16fb3eaa036",
+            "hard": "bbff35723fb7b2ea"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 17,
+                "three": 13
+            },
+            "medium": {
+                "two": 19,
+                "three": 15
+            },
+            "hard": {
+                "two": 18,
+                "three": 14
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.875,
+                "solverMoves": 10
+            },
+            "medium": {
+                "humanWinRate": 0.625,
+                "solverMoves": 13
+            },
+            "hard": {
+                "humanWinRate": 0.4375,
+                "solverMoves": 13
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 5",
+        "titlePt": "Duelo no deserto 5",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                ".1.....",
+                ".22....",
+                "21112.."
+            ],
+            "medium": [
+                ".....2.",
+                ".....1.",
+                ".....1.",
+                ".....21",
+                ".....22",
+                "2..1211"
+            ],
+            "hard": [
+                "..2....",
+                "..1....",
+                "..1..2.",
+                "..2..1.",
+                "..2..1.",
+                ".122.1."
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "658a6910b13100b0",
+            "medium": "ff75e23cedad9cda",
+            "hard": "850c3e8601d0257c"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 18,
+                "three": 14
+            },
+            "medium": {
+                "two": 14,
+                "three": 10
+            },
+            "hard": {
+                "two": 18,
+                "three": 14
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.9375,
+                "solverMoves": 11
+            },
+            "medium": {
+                "humanWinRate": 0.6875,
+                "solverMoves": 8
+            },
+            "hard": {
+                "humanWinRate": 0.375,
+                "solverMoves": 13
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "forced-tactical-win",
+        "titleEn": "Tactical challenge 6",
+        "titlePt": "Desafio tático 6",
+        "revision": 3,
+        "kind": "puzzle",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "puzzle",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                "...12..",
+                ".1.21..",
+                "221122.",
+                "2112112"
+            ],
+            "medium": [
+                ".2.....",
+                ".1.....",
+                ".1..1..",
+                ".21.2..",
+                ".121122",
+                "2111222"
+            ],
+            "hard": [
+                "2.2....",
+                "2.2....",
+                "1.1.1..",
+                "1.2.1..",
+                "1211212",
+                "2212121"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "9c2e503f7358251f",
+            "medium": "7cef15ad11683b18",
+            "hard": "482ba27c1f2fec83"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 9,
+                "three": 5
+            },
+            "medium": {
+                "two": 8,
+                "three": 4
+            },
+            "hard": {
+                "two": 8,
+                "three": 4
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.875,
+                "solverMoves": 2
+            },
+            "medium": {
+                "humanWinRate": 0.5625,
+                "solverMoves": 2
+            },
+            "hard": {
+                "humanWinRate": 0.0625,
+                "solverMoves": 3
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        },
+        "winInMovesByDifficulty": {
+            "easy": 2,
+            "medium": 2,
+            "hard": 3
+        }
+    },
+    {
+        "familyId": "forced-tactical-win",
+        "titleEn": "Tactical challenge 7",
+        "titlePt": "Desafio tático 7",
+        "revision": 3,
+        "kind": "puzzle",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "puzzle",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                "...1...",
+                "...2...",
+                "...2.2.",
+                "1..121.",
+                "2111212",
+                "2221112"
+            ],
+            "medium": [
+                ".......",
+                "..2....",
+                "1.2....",
+                "211..12",
+                "2212121",
+                "2112211"
+            ],
+            "hard": [
+                "..2..2.",
+                "..1..1.",
+                "2.2..12",
+                "122.112",
+                "111.121",
+                "221.212"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "23eb4b45769d5eb3",
+            "medium": "25d82581ea6b8909",
+            "hard": "c4261326216fd8f2"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 9,
+                "three": 5
+            },
+            "medium": {
+                "two": 8,
+                "three": 4
+            },
+            "hard": {
+                "two": 8,
+                "three": 4
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 1.0,
+                "solverMoves": 2
+            },
+            "medium": {
+                "humanWinRate": 1.0,
+                "solverMoves": 2
+            },
+            "hard": {
+                "humanWinRate": 0.0,
+                "solverMoves": 3
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        },
+        "winInMovesByDifficulty": {
+            "easy": 2,
+            "medium": 2,
+            "hard": 3
+        }
+    },
+    {
+        "familyId": "forced-tactical-win",
+        "titleEn": "Tactical challenge 8",
+        "titlePt": "Desafio tático 8",
+        "revision": 3,
+        "kind": "puzzle",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "puzzle",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                "...2...",
+                "...1.1.",
+                "..21.2.",
+                ".211.2.",
+                ".11221.",
+                "2111222"
+            ],
+            "medium": [
+                "2......",
+                "2..1...",
+                "1..1...",
+                "1.22..2",
+                "11212.1",
+                "2211212"
+            ],
+            "hard": [
+                ".2.....",
+                ".1.....",
+                ".22....",
+                ".11...1",
+                ".11.2.2",
+                "2122211"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "223e932c3f187214",
+            "medium": "2203919249871803",
+            "hard": "abc468601123baed"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 9,
+                "three": 5
+            },
+            "medium": {
+                "two": 8,
+                "three": 4
+            },
+            "hard": {
+                "two": 8,
+                "three": 4
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 1.0,
+                "solverMoves": 2
+            },
+            "medium": {
+                "humanWinRate": 1.0,
+                "solverMoves": 2
+            },
+            "hard": {
+                "humanWinRate": 0.0,
+                "solverMoves": 3
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        },
+        "winInMovesByDifficulty": {
+            "easy": 2,
+            "medium": 2,
+            "hard": 3
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 9",
+        "titlePt": "Duelo no deserto 9",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                "...2...",
+                "...1...",
+                "...1...",
+                "..2211.",
+                "2211122"
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                "......2",
+                "1.2...1",
+                "221..11",
+                "2212112"
+            ],
+            "hard": [
+                ".......",
+                ".......",
+                "..2....",
+                "..1..1.",
+                "..2..1.",
+                "2112122"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "222b92dabc008d28",
+            "medium": "604864b213cb0816",
+            "hard": "10e98887771537c4"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 11,
+                "three": 7
+            },
+            "medium": {
+                "two": 10,
+                "three": 6
+            },
+            "hard": {
+                "two": 17,
+                "three": 13
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 1.0,
+                "solverMoves": 4
+            },
+            "medium": {
+                "humanWinRate": 0.75,
+                "solverMoves": 4
+            },
+            "hard": {
+                "humanWinRate": 0.3125,
+                "solverMoves": 12
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 10",
+        "titlePt": "Duelo no deserto 10",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                "......2",
+                ".1....1",
+                "12.2..1",
+                "2122112"
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                "2.....1",
+                "1.....2",
+                "2..1.21",
+                "1.22121"
+            ],
+            "hard": [
+                "2......",
+                "2......",
+                "1.....1",
+                "2...1.2",
+                "2...2.1",
+                "1...121"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "15b544da0572a3ac",
+            "medium": "33898697ecd4e600",
+            "hard": "1f4e91e632dc0afd"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 19,
+                "three": 15
+            },
+            "medium": {
+                "two": 14,
+                "three": 10
+            },
+            "hard": {
+                "two": 15,
+                "three": 11
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.8125,
+                "solverMoves": 12
+            },
+            "medium": {
+                "humanWinRate": 0.3125,
+                "solverMoves": 8
+            },
+            "hard": {
+                "humanWinRate": 0.1875,
+                "solverMoves": 10
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 11",
+        "titlePt": "Duelo no deserto 11",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                ".2...12",
+                ".1...12",
+                "21.2121"
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                ".......",
+                ".2..1.2",
+                ".1..2.1",
+                ".1..122"
+            ],
+            "hard": [
+                ".......",
+                "2......",
+                "2.....1",
+                "1..1.22",
+                "12.2111",
+                "1122122"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "01186966f40650a5",
+            "medium": "750dfaa6136a4afc",
+            "hard": "ecfd3e072597215d"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 13,
+                "three": 9
+            },
+            "medium": {
+                "two": 21,
+                "three": 17
+            },
+            "hard": {
+                "two": 15,
+                "three": 11
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 1.0,
+                "solverMoves": 6
+            },
+            "medium": {
+                "humanWinRate": 0.6875,
+                "solverMoves": 15
+            },
+            "hard": {
+                "humanWinRate": 0.375,
+                "solverMoves": 10
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "forced-tactical-win",
+        "titleEn": "Tactical challenge 12",
+        "titlePt": "Desafio tático 12",
+        "revision": 3,
+        "kind": "puzzle",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "puzzle",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                "...2...",
+                ".1.1...",
+                ".211.12",
+                ".221.22",
+                "2112211"
+            ],
+            "medium": [
+                "......1",
+                "22....1",
+                "11....2",
+                "22.2.21",
+                "12.1112",
+                "21.2211"
+            ],
+            "hard": [
+                ".......",
+                "..1....",
+                "..1..2.",
+                "..2..1.",
+                "1211.22",
+                "1122212"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "86bff084593825e6",
+            "medium": "c162debfb4134949",
+            "hard": "1590ab0835ed7837"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 9,
+                "three": 5
+            },
+            "medium": {
+                "two": 8,
+                "three": 4
+            },
+            "hard": {
+                "two": 8,
+                "three": 4
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 1.0,
+                "solverMoves": 2
+            },
+            "medium": {
+                "humanWinRate": 0.875,
+                "solverMoves": 2
+            },
+            "hard": {
+                "humanWinRate": 0.0,
+                "solverMoves": 3
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        },
+        "winInMovesByDifficulty": {
+            "easy": 2,
+            "medium": 2,
+            "hard": 3
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 13",
+        "titlePt": "Duelo no deserto 13",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                "22.....",
+                "11..1..",
+                "122.1.2"
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                ".....2.",
+                ".....2.",
+                ".2.1211",
+                "1122121"
+            ],
+            "hard": [
+                ".......",
+                ".....2.",
+                ".....1.",
+                ".1..11.",
+                "12..21.",
+                "2122122"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "a30f160a5d0ccdb1",
+            "medium": "40f5ad67c0d38ce0",
+            "hard": "f9b82f965cabe947"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 13,
+                "three": 9
+            },
+            "medium": {
+                "two": 18,
+                "three": 14
+            },
+            "hard": {
+                "two": 17,
+                "three": 13
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.9375,
+                "solverMoves": 6
+            },
+            "medium": {
+                "humanWinRate": 0.625,
+                "solverMoves": 12
+            },
+            "hard": {
+                "humanWinRate": 0.3125,
+                "solverMoves": 12
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 14",
+        "titlePt": "Duelo no deserto 14",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                "......1",
+                "......1",
+                "......1",
+                "......2",
+                "......1",
+                "2.2.122"
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                ".....2.",
+                "...1.2.",
+                ".1.2.1.",
+                ".212112"
+            ],
+            "hard": [
+                ".......",
+                ".......",
+                ".....2.",
+                ".2...1.",
+                ".2.1211",
+                "21.1212"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "90f6f2992253e58b",
+            "medium": "08af03795e4f7d0e",
+            "hard": "fae0457da631a1cf"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 22,
+                "three": 18
+            },
+            "medium": {
+                "two": 19,
+                "three": 15
+            },
+            "hard": {
+                "two": 10,
+                "three": 6
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.9375,
+                "solverMoves": 15
+            },
+            "medium": {
+                "humanWinRate": 0.5625,
+                "solverMoves": 13
+            },
+            "hard": {
+                "humanWinRate": 0.3125,
+                "solverMoves": 5
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 15",
+        "titlePt": "Duelo no deserto 15",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                ".......",
+                "..21...",
+                "2211..."
+            ],
+            "medium": [
+                ".......",
+                "2......",
+                "2......",
+                "1......",
+                "2...1..",
+                "11122.."
+            ],
+            "hard": [
+                ".......",
+                ".......",
+                ".......",
+                "1......",
+                "2..2.11",
+                "1122122"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "eee90de1b6c84871",
+            "medium": "4b0328460a96512a",
+            "hard": "70000536b9139d5e"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 24,
+                "three": 20
+            },
+            "medium": {
+                "two": 21,
+                "three": 17
+            },
+            "hard": {
+                "two": 17,
+                "three": 13
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.9375,
+                "solverMoves": 17
+            },
+            "medium": {
+                "humanWinRate": 0.6875,
+                "solverMoves": 15
+            },
+            "hard": {
+                "humanWinRate": 0.5,
+                "solverMoves": 12
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "forced-tactical-win",
+        "titleEn": "Tactical challenge 16",
+        "titlePt": "Desafio tático 16",
+        "revision": 3,
+        "kind": "puzzle",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "puzzle",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                "...2...",
+                "..11...",
+                ".122..2",
+                "12121.2",
+                "1122121"
+            ],
+            "medium": [
+                ".......",
+                "....2..",
+                "..2.121",
+                "..2.212",
+                "..11221",
+                "1.12211"
+            ],
+            "hard": [
+                ".2..1..",
+                ".2..22.",
+                ".1..11.",
+                "22..221",
+                "112.122",
+                "1121112"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "2609bacef64a55ff",
+            "medium": "717a7202523fb412",
+            "hard": "735172db2bfa7491"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 9,
+                "three": 5
+            },
+            "medium": {
+                "two": 8,
+                "three": 4
+            },
+            "hard": {
+                "two": 8,
+                "three": 4
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 1.0,
+                "solverMoves": 2
+            },
+            "medium": {
+                "humanWinRate": 1.0,
+                "solverMoves": 2
+            },
+            "hard": {
+                "humanWinRate": 0.0,
+                "solverMoves": 3
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        },
+        "winInMovesByDifficulty": {
+            "easy": 2,
+            "medium": 2,
+            "hard": 3
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 17",
+        "titlePt": "Duelo no deserto 17",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                "...2...",
+                ".1.212.",
+                "12.112."
+            ],
+            "medium": [
+                ".......",
+                "1......",
+                "2......",
+                "1......",
+                "21....2",
+                "11212.2"
+            ],
+            "hard": [
+                "......1",
+                "......1",
+                "...2..1",
+                "2.11.22",
+                "2.22.11",
+                "1.12212"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "779b63ef5f9d001a",
+            "medium": "651d37d6467f66b9",
+            "hard": "46a0ef5532edd785"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 20,
+                "three": 16
+            },
+            "medium": {
+                "two": 16,
+                "three": 12
+            },
+            "hard": {
+                "two": 16,
+                "three": 12
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.9375,
+                "solverMoves": 13
+            },
+            "medium": {
+                "humanWinRate": 0.75,
+                "solverMoves": 10
+            },
+            "hard": {
+                "humanWinRate": 0.3125,
+                "solverMoves": 11
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 18",
+        "titlePt": "Duelo no deserto 18",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                ".......",
+                "2...2..",
+                "1.1.12."
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                ".......",
+                ".....1.",
+                "1221.21",
+                "2111222"
+            ],
+            "hard": [
+                ".......",
+                ".1.....",
+                ".1.....",
+                "12.....",
+                "21..22.",
+                "122112."
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "68e7f7d8d56b9943",
+            "medium": "5db523508fa4376a",
+            "hard": "61fba436dea43c14"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 21,
+                "three": 17
+            },
+            "medium": {
+                "two": 18,
+                "three": 14
+            },
+            "hard": {
+                "two": 16,
+                "three": 12
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 1.0,
+                "solverMoves": 14
+            },
+            "medium": {
+                "humanWinRate": 0.75,
+                "solverMoves": 12
+            },
+            "hard": {
+                "humanWinRate": 0.25,
+                "solverMoves": 11
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 19",
+        "titlePt": "Duelo no deserto 19",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".....2.",
+                ".1..21.",
+                ".2.212.",
+                "211121."
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                "..1....",
+                "..2....",
+                "2.21..1",
+                "1.12122"
+            ],
+            "hard": [
+                ".......",
+                "...1...",
+                "...2...",
+                "...1.2.",
+                "1..2.1.",
+                "1221122"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "cca0fb4a2704006e",
+            "medium": "8905924b67f4b97f",
+            "hard": "89e037236c8f6807"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 18,
+                "three": 14
+            },
+            "medium": {
+                "two": 16,
+                "three": 12
+            },
+            "hard": {
+                "two": 18,
+                "three": 14
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.875,
+                "solverMoves": 11
+            },
+            "medium": {
+                "humanWinRate": 0.8125,
+                "solverMoves": 10
+            },
+            "hard": {
+                "humanWinRate": 0.4375,
+                "solverMoves": 13
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 20",
+        "titlePt": "Duelo no deserto 20",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                ".......",
+                "..2....",
+                "112.1.2"
+            ],
+            "medium": [
+                ".......",
+                "1......",
+                "22.....",
+                "21.....",
+                "12.....",
+                "21...1."
+            ],
+            "hard": [
+                ".......",
+                "....2..",
+                "....1.1",
+                "....2.2",
+                "..221.2",
+                "2111211"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "2506a9282e551e6a",
+            "medium": "4a5123d4d9223553",
+            "hard": "aa9b5640fa1fafb9"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 21,
+                "three": 17
+            },
+            "medium": {
+                "two": 22,
+                "three": 18
+            },
+            "hard": {
+                "two": 15,
+                "three": 11
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.625,
+                "solverMoves": 14
+            },
+            "medium": {
+                "humanWinRate": 0.375,
+                "solverMoves": 16
+            },
+            "hard": {
+                "humanWinRate": 0.25,
+                "solverMoves": 10
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "forced-tactical-win",
+        "titleEn": "Tactical challenge 21",
+        "titlePt": "Desafio tático 21",
+        "revision": 3,
+        "kind": "puzzle",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "puzzle",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                "2......",
+                "1......",
+                "1.2....",
+                "2.11...",
+                "2.2212.",
+                "1.21112"
+            ],
+            "medium": [
+                "..1....",
+                "..22.2.",
+                "..12.1.",
+                "..11.2.",
+                ".12221.",
+                "2122111"
+            ],
+            "hard": [
+                "..2....",
+                "..2.2..",
+                ".22.1..",
+                ".11.2..",
+                "112.1..",
+                "1212112"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "2feab35c49c183d1",
+            "medium": "eca59a96f5e97f52",
+            "hard": "e56cf77b06368752"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 9,
+                "three": 5
+            },
+            "medium": {
+                "two": 8,
+                "three": 4
+            },
+            "hard": {
+                "two": 8,
+                "three": 4
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 1.0,
+                "solverMoves": 2
+            },
+            "medium": {
+                "humanWinRate": 1.0,
+                "solverMoves": 2
+            },
+            "hard": {
+                "humanWinRate": 0.0625,
+                "solverMoves": 3
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        },
+        "winInMovesByDifficulty": {
+            "easy": 2,
+            "medium": 2,
+            "hard": 3
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 22",
+        "titlePt": "Duelo no deserto 22",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                "......2",
+                "......1",
+                "....1.2",
+                ".1.21.2"
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                "..11..2",
+                "..22.12",
+                ".121.21",
+                "2211.21"
+            ],
+            "hard": [
+                ".......",
+                ".......",
+                "......1",
+                ".21...1",
+                "211...2",
+                "212.122"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "ce22b27693eca2bf",
+            "medium": "8deb2979e926745c",
+            "hard": "ab8c885bfabc9ef3"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 15,
+                "three": 11
+            },
+            "medium": {
+                "two": 13,
+                "three": 9
+            },
+            "hard": {
+                "two": 17,
+                "three": 13
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.9375,
+                "solverMoves": 8
+            },
+            "medium": {
+                "humanWinRate": 0.75,
+                "solverMoves": 7
+            },
+            "hard": {
+                "humanWinRate": 0.3125,
+                "solverMoves": 12
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 23",
+        "titlePt": "Duelo no deserto 23",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                "...1...",
+                "...2...",
+                "22.1..1"
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                "......1",
+                "......2",
+                ".21...1",
+                "212.2.1"
+            ],
+            "hard": [
+                "...2...",
+                "...2...",
+                "...2.2.",
+                ".1.1.1.",
+                "21.2.11",
+                "12.2112"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "2c589c42ee5826eb",
+            "medium": "56aeae8b02d3d66f",
+            "hard": "27d04d73277b7671"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 13,
+                "three": 9
+            },
+            "medium": {
+                "two": 19,
+                "three": 15
+            },
+            "hard": {
+                "two": 16,
+                "three": 12
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.9375,
+                "solverMoves": 6
+            },
+            "medium": {
+                "humanWinRate": 0.6875,
+                "solverMoves": 13
+            },
+            "hard": {
+                "humanWinRate": 0.3125,
+                "solverMoves": 11
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 24",
+        "titlePt": "Duelo no deserto 24",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                ".....2.",
+                "....11.",
+                "...212."
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                ".......",
+                "....1..",
+                ".21.22.",
+                "2121112"
+            ],
+            "hard": [
+                ".......",
+                ".......",
+                ".......",
+                "...1...",
+                "1221..2",
+                "2212.11"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "2007192d0f267230",
+            "medium": "51c16dc5686811f2",
+            "hard": "8dfdcc506710f9af"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 11,
+                "three": 7
+            },
+            "medium": {
+                "two": 19,
+                "three": 15
+            },
+            "hard": {
+                "two": 19,
+                "three": 15
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.9375,
+                "solverMoves": 4
+            },
+            "medium": {
+                "humanWinRate": 0.625,
+                "solverMoves": 13
+            },
+            "hard": {
+                "humanWinRate": 0.4375,
+                "solverMoves": 14
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "forced-tactical-win",
+        "titleEn": "Tactical challenge 25",
+        "titlePt": "Desafio tático 25",
+        "revision": 3,
+        "kind": "puzzle",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "puzzle",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                "2......",
+                "112....",
+                "222....",
+                "221..11",
+                "1112112",
+                "2122121"
+            ],
+            "medium": [
+                "......2",
+                "....2.1",
+                "2...2.2",
+                "11..1.1",
+                "21122.2",
+                "12112.1"
+            ],
+            "hard": [
+                "......1",
+                "......2",
+                ".....11",
+                "....211",
+                "2.21122",
+                "1122212"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "e3e9347c5ce4ad6e",
+            "medium": "3e65edc94753d9e3",
+            "hard": "76d9363d86071baa"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 9,
+                "three": 5
+            },
+            "medium": {
+                "two": 8,
+                "three": 4
+            },
+            "hard": {
+                "two": 8,
+                "three": 4
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 1.0,
+                "solverMoves": 2
+            },
+            "medium": {
+                "humanWinRate": 1.0,
+                "solverMoves": 2
+            },
+            "hard": {
+                "humanWinRate": 0.0625,
+                "solverMoves": 3
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        },
+        "winInMovesByDifficulty": {
+            "easy": 2,
+            "medium": 2,
+            "hard": 3
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 26",
+        "titlePt": "Duelo no deserto 26",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                ".2.1...",
+                ".21212.",
+                "1112212"
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                ".......",
+                ".2.....",
+                ".212...",
+                ".112121"
+            ],
+            "hard": [
+                ".......",
+                "...1...",
+                "...1...",
+                "2..2...",
+                "22112..",
+                "1221112"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "9a1d98c20af17fb2",
+            "medium": "137076f17221b5a8",
+            "hard": "16fdaf1b34ab1f99"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 10,
+                "three": 6
+            },
+            "medium": {
+                "two": 14,
+                "three": 10
+            },
+            "hard": {
+                "two": 17,
+                "three": 13
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.875,
+                "solverMoves": 3
+            },
+            "medium": {
+                "humanWinRate": 0.75,
+                "solverMoves": 8
+            },
+            "hard": {
+                "humanWinRate": 0.3125,
+                "solverMoves": 12
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 27",
+        "titlePt": "Duelo no deserto 27",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                ".......",
+                "22.1...",
+                "1221121"
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                ".2.....",
+                "21.....",
+                "22..21.",
+                "112.11."
+            ],
+            "hard": [
+                ".......",
+                ".......",
+                "....2..",
+                "....1..",
+                "21..211",
+                "1121222"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "28374e14a540c770",
+            "medium": "7e46eeef68d3e41e",
+            "hard": "44f8e252f7e7c220"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 12,
+                "three": 8
+            },
+            "medium": {
+                "two": 21,
+                "three": 17
+            },
+            "hard": {
+                "two": 18,
+                "three": 14
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.9375,
+                "solverMoves": 5
+            },
+            "medium": {
+                "humanWinRate": 0.5625,
+                "solverMoves": 15
+            },
+            "hard": {
+                "humanWinRate": 0.25,
+                "solverMoves": 13
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 28",
+        "titlePt": "Duelo no deserto 28",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".2.....",
+                ".1.....",
+                ".2..1..",
+                ".1.12..",
+                "1221212"
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                ".......",
+                "1......",
+                "2..21.2",
+                "1121221"
+            ],
+            "hard": [
+                ".......",
+                ".......",
+                ".....1.",
+                ".....2.",
+                "1....12",
+                "1121222"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "8746e793cf332368",
+            "medium": "38c4d4208299745e",
+            "hard": "234628c60f27dcf9"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 19,
+                "three": 15
+            },
+            "medium": {
+                "two": 12,
+                "three": 8
+            },
+            "hard": {
+                "two": 19,
+                "three": 15
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 1.0,
+                "solverMoves": 12
+            },
+            "medium": {
+                "humanWinRate": 0.625,
+                "solverMoves": 6
+            },
+            "hard": {
+                "humanWinRate": 0.5,
+                "solverMoves": 14
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "forced-tactical-win",
+        "titleEn": "Tactical challenge 29",
+        "titlePt": "Desafio tático 29",
+        "revision": 3,
+        "kind": "puzzle",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "puzzle",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                "....2..",
+                "2...2..",
+                "2...111",
+                "1...122",
+                "2112121"
+            ],
+            "medium": [
+                "...2.2.",
+                "...2.1.",
+                ".1.1.12",
+                "12.1.22",
+                "2212.11",
+                "1221211"
+            ],
+            "hard": [
+                ".......",
+                "..2....",
+                "1.2....",
+                "1.1....",
+                "22121.2",
+                "2112211"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "1b56284899509730",
+            "medium": "e3c973d303334d2f",
+            "hard": "ed3d4c522d16bdd1"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 9,
+                "three": 5
+            },
+            "medium": {
+                "two": 8,
+                "three": 4
+            },
+            "hard": {
+                "two": 9,
+                "three": 5
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.9375,
+                "solverMoves": 2
+            },
+            "medium": {
+                "humanWinRate": 0.8125,
+                "solverMoves": 2
+            },
+            "hard": {
+                "humanWinRate": 0.0,
+                "solverMoves": 4
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        },
+        "winInMovesByDifficulty": {
+            "easy": 2,
+            "medium": 2,
+            "hard": 4
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 30",
+        "titlePt": "Duelo no deserto 30",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                ".......",
+                "2.2....",
+                "211..1."
+            ],
+            "medium": [
+                ".......",
+                "......2",
+                "......1",
+                "....2.2",
+                "..1.2.1",
+                "1.2.112"
+            ],
+            "hard": [
+                ".......",
+                ".......",
+                ".......",
+                ".1...1.",
+                ".12..12",
+                "221.221"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "c37aec2d305d5e8d",
+            "medium": "047daf27f44e41b9",
+            "hard": "08b73f77ff218f6a"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 21,
+                "three": 17
+            },
+            "medium": {
+                "two": 18,
+                "three": 14
+            },
+            "hard": {
+                "two": 19,
+                "three": 15
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.625,
+                "solverMoves": 14
+            },
+            "medium": {
+                "humanWinRate": 0.375,
+                "solverMoves": 12
+            },
+            "hard": {
+                "humanWinRate": 0.1875,
+                "solverMoves": 14
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 31",
+        "titlePt": "Duelo no deserto 31",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".2.....",
+                ".1.....",
+                ".2.1.1.",
+                ".1.2.2."
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                ".......",
+                "2..2...",
+                "1..1.12",
+                "1..1.22"
+            ],
+            "hard": [
+                ".......",
+                ".......",
+                ".1.....",
+                ".2....1",
+                "22..1.1",
+                "12.21.2"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "960f2e1e798f57b7",
+            "medium": "b4a8a96d4c23e952",
+            "hard": "44aa1abf0bbb0e3f"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 11,
+                "three": 7
+            },
+            "medium": {
+                "two": 12,
+                "three": 8
+            },
+            "hard": {
+                "two": 16,
+                "three": 12
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 1.0,
+                "solverMoves": 4
+            },
+            "medium": {
+                "humanWinRate": 0.6875,
+                "solverMoves": 6
+            },
+            "hard": {
+                "humanWinRate": 0.5,
+                "solverMoves": 11
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 32",
+        "titlePt": "Duelo no deserto 32",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                ".......",
+                "121....",
+                "12212.."
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                "..2....",
+                "..2.1..",
+                "1.1.2..",
+                "12211.2"
+            ],
+            "hard": [
+                ".......",
+                ".......",
+                ".......",
+                "...1.21",
+                "2..2.12",
+                "21.1.12"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "f68ae9e501e6a1c8",
+            "medium": "b7340635de80e1dd",
+            "hard": "144bf170fbeafabc"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 12,
+                "three": 8
+            },
+            "medium": {
+                "two": 19,
+                "three": 15
+            },
+            "hard": {
+                "two": 13,
+                "three": 9
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 1.0,
+                "solverMoves": 5
+            },
+            "medium": {
+                "humanWinRate": 0.5625,
+                "solverMoves": 13
+            },
+            "hard": {
+                "humanWinRate": 0.5,
+                "solverMoves": 8
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "forced-tactical-win",
+        "titleEn": "Tactical challenge 33",
+        "titlePt": "Desafio tático 33",
+        "revision": 3,
+        "kind": "puzzle",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "puzzle",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".....1.",
+                ".22..1.",
+                ".11..21",
+                "2212212",
+                "1221211"
+            ],
+            "medium": [
+                ".2...2.",
+                ".2...22",
+                ".1..111",
+                "11..211",
+                "2121122",
+                "1212212"
+            ],
+            "hard": [
+                "...2...",
+                "...1.1.",
+                "..21.2.",
+                ".112.1.",
+                ".21112.",
+                "2212212"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "45f81fbe5a80800a",
+            "medium": "fae35c638bc4452a",
+            "hard": "11f0b5afddc0fad2"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 9,
+                "three": 5
+            },
+            "medium": {
+                "two": 8,
+                "three": 4
+            },
+            "hard": {
+                "two": 9,
+                "three": 5
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.9375,
+                "solverMoves": 2
+            },
+            "medium": {
+                "humanWinRate": 1.0,
+                "solverMoves": 2
+            },
+            "hard": {
+                "humanWinRate": 0.0,
+                "solverMoves": 4
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        },
+        "winInMovesByDifficulty": {
+            "easy": 2,
+            "medium": 2,
+            "hard": 4
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 34",
+        "titlePt": "Duelo no deserto 34",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".1.....",
+                ".2.....",
+                "21...1.",
+                "1221212"
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                ".......",
+                "...12..",
+                ".1.22..",
+                "21121.."
+            ],
+            "hard": [
+                "......2",
+                "......2",
+                "......1",
+                "1.....1",
+                "11....2",
+                "21221.2"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "c0eb2980970f44e6",
+            "medium": "f07dc108b4ffcc0d",
+            "hard": "5eee4876a55ea670"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 10,
+                "three": 6
+            },
+            "medium": {
+                "two": 19,
+                "three": 15
+            },
+            "hard": {
+                "two": 16,
+                "three": 12
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 1.0,
+                "solverMoves": 3
+            },
+            "medium": {
+                "humanWinRate": 0.6875,
+                "solverMoves": 13
+            },
+            "hard": {
+                "humanWinRate": 0.375,
+                "solverMoves": 11
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 35",
+        "titlePt": "Duelo no deserto 35",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".1.....",
+                "11.....",
+                "12.1.2.",
+                "2122212"
+            ],
+            "medium": [
+                "....2..",
+                "....1..",
+                "...22.1",
+                "...12.2",
+                "...1211",
+                "12.2121"
+            ],
+            "hard": [
+                ".......",
+                ".......",
+                ".......",
+                ".....1.",
+                "..1.212",
+                "2221121"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "43e17239837c1386",
+            "medium": "475c33c06cdbe49f",
+            "hard": "031e2e27f3dca1d7"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 10,
+                "three": 6
+            },
+            "medium": {
+                "two": 17,
+                "three": 13
+            },
+            "hard": {
+                "two": 18,
+                "three": 14
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 1.0,
+                "solverMoves": 3
+            },
+            "medium": {
+                "humanWinRate": 0.625,
+                "solverMoves": 11
+            },
+            "hard": {
+                "humanWinRate": 0.4375,
+                "solverMoves": 13
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 36",
+        "titlePt": "Duelo no deserto 36",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                "..2....",
+                "2.1..12",
+                "1.21.12"
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                ".....1.",
+                ".....22",
+                "2....11",
+                "21.1221"
+            ],
+            "hard": [
+                ".......",
+                ".....2.",
+                "....12.",
+                "...221.",
+                "2211211",
+                "2121112"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "17f0eed40ace0e23",
+            "medium": "a4db9c24151820ce",
+            "hard": "df35b2e0abecac2b"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 15,
+                "three": 11
+            },
+            "medium": {
+                "two": 19,
+                "three": 15
+            },
+            "hard": {
+                "two": 13,
+                "three": 9
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.9375,
+                "solverMoves": 8
+            },
+            "medium": {
+                "humanWinRate": 0.6875,
+                "solverMoves": 13
+            },
+            "hard": {
+                "humanWinRate": 0.4375,
+                "solverMoves": 8
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "forced-tactical-win",
+        "titleEn": "Tactical challenge 37",
+        "titlePt": "Desafio tático 37",
+        "revision": 3,
+        "kind": "puzzle",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "puzzle",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                "..2..21",
+                ".11..12",
+                ".212212",
+                "2112211"
+            ],
+            "medium": [
+                "1......",
+                "2..2...",
+                "2..1..2",
+                "1..1..1",
+                "22.1122",
+                "1112122"
+            ],
+            "hard": [
+                "......2",
+                "....2.2",
+                "1...2.2",
+                "2...111",
+                "1...211",
+                "1.21122"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "174ee4de38a32def",
+            "medium": "380db11e8154cdc7",
+            "hard": "5444c51ca7f96343"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 9,
+                "three": 5
+            },
+            "medium": {
+                "two": 8,
+                "three": 4
+            },
+            "hard": {
+                "two": 9,
+                "three": 5
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 1.0,
+                "solverMoves": 2
+            },
+            "medium": {
+                "humanWinRate": 1.0,
+                "solverMoves": 2
+            },
+            "hard": {
+                "humanWinRate": 0.0,
+                "solverMoves": 4
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        },
+        "winInMovesByDifficulty": {
+            "easy": 2,
+            "medium": 2,
+            "hard": 4
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 38",
+        "titlePt": "Duelo no deserto 38",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                "..2....",
+                "..1..2.",
+                ".121.21",
+                ".221112"
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                "1......",
+                "2...1..",
+                "1...2..",
+                "2221121"
+            ],
+            "hard": [
+                ".......",
+                "..1...2",
+                "..2...2",
+                "..1...1",
+                ".22.1.1",
+                "12212.1"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "bd18202bf6a851d6",
+            "medium": "f3b8d0fba4fd4867",
+            "hard": "5d5df6250c0d64a3"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 19,
+                "three": 15
+            },
+            "medium": {
+                "two": 18,
+                "three": 14
+            },
+            "hard": {
+                "two": 15,
+                "three": 11
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 1.0,
+                "solverMoves": 12
+            },
+            "medium": {
+                "humanWinRate": 0.8125,
+                "solverMoves": 12
+            },
+            "hard": {
+                "humanWinRate": 0.25,
+                "solverMoves": 10
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 39",
+        "titlePt": "Duelo no deserto 39",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                "1.....2",
+                "1..1..2",
+                "22.12.1"
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                "21...1.",
+                "12...2.",
+                "21...1.",
+                "21.122."
+            ],
+            "hard": [
+                ".......",
+                ".......",
+                ".......",
+                ".......",
+                ".12.122",
+                "1212211"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "d20a25cb200afa60",
+            "medium": "901c375bfbb03804",
+            "hard": "d61e2099fc6e2fed"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 13,
+                "three": 9
+            },
+            "medium": {
+                "two": 13,
+                "three": 9
+            },
+            "hard": {
+                "two": 19,
+                "three": 15
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.9375,
+                "solverMoves": 6
+            },
+            "medium": {
+                "humanWinRate": 0.75,
+                "solverMoves": 7
+            },
+            "hard": {
+                "humanWinRate": 0.375,
+                "solverMoves": 14
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 40",
+        "titlePt": "Duelo no deserto 40",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                "2......",
+                "1......",
+                "1.2..21"
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                ".......",
+                "..1....",
+                "2.1.2..",
+                "112.212"
+            ],
+            "hard": [
+                "....1..",
+                "....1..",
+                "....1..",
+                "...12..",
+                "1.22122",
+                "2112221"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "5d499e5b2fc8cb6b",
+            "medium": "544881772d888422",
+            "hard": "54ec8e2efa92d73d"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 25,
+                "three": 21
+            },
+            "medium": {
+                "two": 12,
+                "three": 8
+            },
+            "hard": {
+                "two": 14,
+                "three": 10
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.6875,
+                "solverMoves": 18
+            },
+            "medium": {
+                "humanWinRate": 0.5,
+                "solverMoves": 6
+            },
+            "hard": {
+                "humanWinRate": 0.3125,
+                "solverMoves": 9
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "forced-tactical-win",
+        "titleEn": "Tactical challenge 41",
+        "titlePt": "Desafio tático 41",
+        "revision": 3,
+        "kind": "puzzle",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "puzzle",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".....1.",
+                ".....2.",
+                ".....12",
+                ".....11",
+                ".12.122",
+                "2112122"
+            ],
+            "medium": [
+                ".......",
+                ".....2.",
+                "122..2.",
+                "221..12",
+                "211..12",
+                "1211211"
+            ],
+            "hard": [
+                "...2...",
+                "..21...",
+                ".111...",
+                ".212.2.",
+                ".22112.",
+                "2121211"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "61b679fd3a186d0a",
+            "medium": "8250082d752ed68d",
+            "hard": "71a86e5b0530449b"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 9,
+                "three": 5
+            },
+            "medium": {
+                "two": 8,
+                "three": 4
+            },
+            "hard": {
+                "two": 9,
+                "three": 5
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 1.0,
+                "solverMoves": 2
+            },
+            "medium": {
+                "humanWinRate": 0.75,
+                "solverMoves": 2
+            },
+            "hard": {
+                "humanWinRate": 0.0,
+                "solverMoves": 4
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        },
+        "winInMovesByDifficulty": {
+            "easy": 2,
+            "medium": 2,
+            "hard": 4
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 42",
+        "titlePt": "Duelo no deserto 42",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                "22.....",
+                "11.....",
+                "12...12"
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                ".......",
+                "......2",
+                "1211.22",
+                "1212121"
+            ],
+            "hard": [
+                ".......",
+                ".......",
+                ".......",
+                "......2",
+                ".2.1.21",
+                "1221121"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "438e6b85f9c6b98f",
+            "medium": "f38f573633a76e7c",
+            "hard": "60e5b76710ad7469"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 10,
+                "three": 6
+            },
+            "medium": {
+                "two": 10,
+                "three": 6
+            },
+            "hard": {
+                "two": 16,
+                "three": 12
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.9375,
+                "solverMoves": 3
+            },
+            "medium": {
+                "humanWinRate": 0.5625,
+                "solverMoves": 4
+            },
+            "hard": {
+                "humanWinRate": 0.25,
+                "solverMoves": 11
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 43",
+        "titlePt": "Duelo no deserto 43",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                ".......",
+                ".1..2.2",
+                "2121112"
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                ".......",
+                "....1..",
+                "2..12..",
+                "1.22121"
+            ],
+            "hard": [
+                ".......",
+                ".......",
+                "..2..1.",
+                "..1.212",
+                "..21221",
+                "..22111"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "3df7b1b1684c416d",
+            "medium": "accc325f08b32ff2",
+            "hard": "85d400a0e1c78e97"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 12,
+                "three": 8
+            },
+            "medium": {
+                "two": 21,
+                "three": 17
+            },
+            "hard": {
+                "two": 15,
+                "three": 11
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.9375,
+                "solverMoves": 5
+            },
+            "medium": {
+                "humanWinRate": 0.8125,
+                "solverMoves": 15
+            },
+            "hard": {
+                "humanWinRate": 0.5,
+                "solverMoves": 10
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 44",
+        "titlePt": "Duelo no deserto 44",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                "..1...2",
+                "2.2..12",
+                "1212.11"
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                ".......",
+                "..2.21.",
+                "2.1.112",
+                "112.122"
+            ],
+            "hard": [
+                ".......",
+                "12.....",
+                "21.....",
+                "21...2.",
+                "12...1.",
+                "122.112"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "6df980a7c8592838",
+            "medium": "8dd41fdd9f97b07b",
+            "hard": "44c3c59e16dcd873"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 13,
+                "three": 9
+            },
+            "medium": {
+                "two": 10,
+                "three": 6
+            },
+            "hard": {
+                "two": 18,
+                "three": 14
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.9375,
+                "solverMoves": 6
+            },
+            "medium": {
+                "humanWinRate": 0.625,
+                "solverMoves": 4
+            },
+            "hard": {
+                "humanWinRate": 0.3125,
+                "solverMoves": 13
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "forced-tactical-win",
+        "titleEn": "Tactical challenge 45",
+        "titlePt": "Desafio tático 45",
+        "revision": 3,
+        "kind": "puzzle",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "puzzle",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                "..2.2..",
+                ".11.11.",
+                ".21.122",
+                "2112122"
+            ],
+            "medium": [
+                ".2...2.",
+                ".2...2.",
+                ".11..11",
+                ".221112",
+                "1122212",
+                "1112122"
+            ],
+            "hard": [
+                "2.....2",
+                "1....11",
+                "2....22",
+                "1....11",
+                "2..1.22",
+                "1112221"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "c798bc411595bb45",
+            "medium": "db8b458633fff2ca",
+            "hard": "5deac4724be3cf56"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 9,
+                "three": 5
+            },
+            "medium": {
+                "two": 8,
+                "three": 4
+            },
+            "hard": {
+                "two": 9,
+                "three": 5
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.875,
+                "solverMoves": 2
+            },
+            "medium": {
+                "humanWinRate": 1.0,
+                "solverMoves": 2
+            },
+            "hard": {
+                "humanWinRate": 0.0625,
+                "solverMoves": 4
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        },
+        "winInMovesByDifficulty": {
+            "easy": 2,
+            "medium": 2,
+            "hard": 4
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 46",
+        "titlePt": "Duelo no deserto 46",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                ".......",
+                "1......",
+                "21.1.22"
+            ],
+            "medium": [
+                ".......",
+                ".....12",
+                ".....21",
+                ".....12",
+                ".12..12",
+                "1122.12"
+            ],
+            "hard": [
+                ".......",
+                ".......",
+                ".1..1..",
+                ".1..2..",
+                "22..12.",
+                "221121."
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "820dbe9565414ccd",
+            "medium": "587ad7cda6ce3477",
+            "hard": "264dcf1676f005e5"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 11,
+                "three": 7
+            },
+            "medium": {
+                "two": 11,
+                "three": 7
+            },
+            "hard": {
+                "two": 10,
+                "three": 6
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 1.0,
+                "solverMoves": 4
+            },
+            "medium": {
+                "humanWinRate": 0.75,
+                "solverMoves": 5
+            },
+            "hard": {
+                "humanWinRate": 0.375,
+                "solverMoves": 5
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 47",
+        "titlePt": "Duelo no deserto 47",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                "...2...",
+                "...1...",
+                ".2.1...",
+                "11.22.."
+            ],
+            "medium": [
+                ".......",
+                "...2..1",
+                "...2..1",
+                "2..1..2",
+                "21.2.12",
+                "1121.12"
+            ],
+            "hard": [
+                ".......",
+                ".......",
+                "....1..",
+                "...12..",
+                "..221.2",
+                "1211212"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "6cd41b23e28df499",
+            "medium": "5b8f3cb3c03b9159",
+            "hard": "6ea4bc45d7737c98"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 19,
+                "three": 15
+            },
+            "medium": {
+                "two": 17,
+                "three": 13
+            },
+            "hard": {
+                "two": 19,
+                "three": 15
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 1.0,
+                "solverMoves": 12
+            },
+            "medium": {
+                "humanWinRate": 0.8125,
+                "solverMoves": 11
+            },
+            "hard": {
+                "humanWinRate": 0.5,
+                "solverMoves": 14
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 48",
+        "titlePt": "Duelo no deserto 48",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                ".......",
+                "...12..",
+                "2..121."
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                "..1...2",
+                "..2...1",
+                "..212.1",
+                "2.12121"
+            ],
+            "hard": [
+                ".......",
+                ".......",
+                ".......",
+                ".....22",
+                "21.2.11",
+                "2121121"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "f61b76e81fa9bad9",
+            "medium": "98cf95d1c7f3af82",
+            "hard": "c65378ad0792db58"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 13,
+                "three": 9
+            },
+            "medium": {
+                "two": 18,
+                "three": 14
+            },
+            "hard": {
+                "two": 16,
+                "three": 12
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.9375,
+                "solverMoves": 6
+            },
+            "medium": {
+                "humanWinRate": 0.5625,
+                "solverMoves": 12
+            },
+            "hard": {
+                "humanWinRate": 0.4375,
+                "solverMoves": 11
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert duel 49",
+        "titlePt": "Duelo no deserto 49",
+        "revision": 3,
+        "kind": "duel",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                ".1.....",
+                "12...2.",
+                "121..2."
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                ".......",
+                ".......",
+                ".1..121",
+                "22.1122"
+            ],
+            "hard": [
+                ".......",
+                ".......",
+                "....2..",
+                "....1..",
+                "22..1..",
+                "2112121"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "cdbff6f360f98713",
+            "medium": "750653ac4dc92771",
+            "hard": "2614cc69ad5d19ea"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 16,
+                "three": 12
+            },
+            "medium": {
+                "two": 17,
+                "three": 13
+            },
+            "hard": {
+                "two": 20,
+                "three": 16
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.875,
+                "solverMoves": 9
+            },
+            "medium": {
+                "humanWinRate": 0.5625,
+                "solverMoves": 11
+            },
+            "hard": {
+                "humanWinRate": 0.25,
+                "solverMoves": 15
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        }
+    },
+    {
+        "familyId": "balanced-midgame-duel",
+        "titleEn": "Desert boss",
+        "titlePt": "Chefe do deserto",
+        "revision": 4,
+        "kind": "boss",
+        "rival": "sparky",
+        "tags": [
+            "fundamentals",
+            "duel",
+            "balanced-opening"
+        ],
+        "openingsByDifficulty": {
+            "easy": [
+                ".......",
+                ".......",
+                ".......",
+                ".......",
+                ".2112..",
+                "21221.1"
+            ],
+            "medium": [
+                ".......",
+                ".......",
+                "...2...",
+                "..211..",
+                "2.1122.",
+                "1221112"
+            ],
+            "hard": [
+                ".......",
+                ".......",
+                ".......",
+                ".......",
+                "2.1.212",
+                "1121122"
+            ]
+        },
+        "seedByDifficulty": {
+            "easy": "a23fd1d2f7d424f6",
+            "medium": "8e2dd1af74acc681",
+            "hard": "c18897d4ab78e8ec"
+        },
+        "starsByDifficulty": {
+            "easy": {
+                "two": 35,
+                "three": 27
+            },
+            "medium": {
+                "two": 36,
+                "three": 28
+            },
+            "hard": {
+                "two": 40,
+                "three": 32
+            }
+        },
+        "metricsByDifficulty": {
+            "easy": {
+                "humanWinRate": 0.75,
+                "solverMoves": 19
+            },
+            "medium": {
+                "humanWinRate": 0.5,
+                "solverMoves": 26
+            },
+            "hard": {
+                "humanWinRate": 0.25,
+                "solverMoves": 30
+            }
+        },
+        "aiByDifficulty": {
+            "easy": {
+                "maxDepth": 2,
+                "nodeBudget": 1000,
+                "blunderRate": 180,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 1,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "medium": {
+                "maxDepth": 4,
+                "nodeBudget": 4000,
+                "blunderRate": 0,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "hard": {
+                "maxDepth": 6,
+                "nodeBudget": 12000,
+                "blunderRate": 0,
+                "attack": 6,
+                "defense": 6,
+                "center": 4,
+                "trap": 5,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            }
+        },
+        "bossRoundsByDifficulty": {
+            "easy": [
+                {
+                    "seedHex": "a23fd1d2f7d424f6",
+                    "firstToMove": "P1",
+                    "pieces": [
+                        {
+                            "r": 4,
+                            "c": 1,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 2,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 3,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 4,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 0,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 1,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 2,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 3,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 4,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 6,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        }
+                    ]
+                },
+                {
+                    "seedHex": "3b12152a9664570e",
+                    "firstToMove": "P2",
+                    "pieces": [
+                        {
+                            "r": 2,
+                            "c": 5,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 3,
+                            "c": 5,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 0,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 2,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 4,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 5,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 6,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 0,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 2,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 4,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 5,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 6,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        }
+                    ]
+                },
+                {
+                    "seedHex": "1a42c3d03e6d44e7",
+                    "firstToMove": "P1",
+                    "pieces": [
+                        {
+                            "r": 3,
+                            "c": 5,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 0,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 3,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 5,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 6,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 0,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 1,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 3,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 5,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 6,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        }
+                    ]
+                }
+            ],
+            "medium": [
+                {
+                    "seedHex": "8e2dd1af74acc681",
+                    "firstToMove": "P1",
+                    "pieces": [
+                        {
+                            "r": 2,
+                            "c": 3,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 3,
+                            "c": 2,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 3,
+                            "c": 3,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 3,
+                            "c": 4,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 0,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 2,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 3,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 4,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 5,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 0,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 1,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 2,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 3,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 4,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 5,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 6,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        }
+                    ]
+                },
+                {
+                    "seedHex": "a2a2d651cb866550",
+                    "firstToMove": "P2",
+                    "pieces": [
+                        {
+                            "r": 2,
+                            "c": 6,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 3,
+                            "c": 5,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 3,
+                            "c": 6,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 1,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 3,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 5,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 6,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 1,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 2,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 3,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 5,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 6,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        }
+                    ]
+                },
+                {
+                    "seedHex": "116dc6aef79b4870",
+                    "firstToMove": "P1",
+                    "pieces": [
+                        {
+                            "r": 1,
+                            "c": 0,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 2,
+                            "c": 0,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 2,
+                            "c": 6,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 3,
+                            "c": 0,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 3,
+                            "c": 3,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 3,
+                            "c": 6,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 0,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 3,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 5,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 6,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 0,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 1,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 2,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 3,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 5,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 6,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        }
+                    ]
+                }
+            ],
+            "hard": [
+                {
+                    "seedHex": "c18897d4ab78e8ec",
+                    "firstToMove": "P1",
+                    "pieces": [
+                        {
+                            "r": 4,
+                            "c": 0,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 2,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 4,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 5,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 6,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 0,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 1,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 2,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 3,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 4,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 5,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 6,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        }
+                    ]
+                },
+                {
+                    "seedHex": "2bf89bf8d78d76c0",
+                    "firstToMove": "P2",
+                    "pieces": [
+                        {
+                            "r": 3,
+                            "c": 2,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 1,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 2,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 5,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 6,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 1,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 2,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 3,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 5,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 6,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        }
+                    ]
+                },
+                {
+                    "seedHex": "a56a179f7a7f1188",
+                    "firstToMove": "P1",
+                    "pieces": [
+                        {
+                            "r": 2,
+                            "c": 4,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 3,
+                            "c": 2,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 3,
+                            "c": 4,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 2,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 3,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 4,
+                            "c": 4,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 1,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 2,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 3,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 4,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 5,
+                            "owner": "P2",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        },
+                        {
+                            "r": 5,
+                            "c": 6,
+                            "owner": "P1",
+                            "kind": "normal",
+                            "placedAtPly": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]

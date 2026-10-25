@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "engineVersion": 2,
+  "lessons": [
+    {"ordinal":521,"familyId":"ace-casino-combo","titleEn":"Fading Countdown","titlePt":"Contagem decrescente","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":3,"openingPairsMax":4,"fadeAfter":[5,3,2],"moveClockSec":10},
+    {"ordinal":522,"familyId":"ace-casino-combo","titleEn":"Wild Pop","titlePt":"Pop selvagem","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":3,"openingPairsMax":4,"popOut":true,"specialInventory":{"wild":1}},
+    {"ordinal":523,"familyId":"ace-casino-combo","titleEn":"Locked Charges","titlePt":"Cargas bloqueadas","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":4,"specialInventory":{"bomb":1,"lock":1}},
+    {"ordinal":524,"familyId":"ace-casino-combo","titleEn":"Fading Roulette","titlePt":"Roleta que se apaga","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":6,"rotateEvery":6,"fadeAfter":[5,3,2]},
+    {"ordinal":525,"familyId":"ace-casino-combo","titleEn":"Wild Timer","titlePt":"Relógio selvagem","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":6,"moveClockSec":15,"specialInventory":{"wild":1}},
+    {"ordinal":526,"familyId":"ace-casino-combo","titleEn":"Fading Pop","titlePt":"Pop a desaparecer","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"popOut":true,"fadeAfter":[5,3,2]},
+    {"ordinal":527,"familyId":"ace-casino-combo","titleEn":"Bomb and Wild","titlePt":"Bomba selvagem","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"specialInventory":{"bomb":1,"wild":1}},
+    {"ordinal":528,"familyId":"ace-casino-combo","titleEn":"Locked Rotation","titlePt":"Rotação bloqueada","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"rotateEvery":6,"specialInventory":{"lock":1}},
+    {"ordinal":529,"familyId":"ace-casino-combo","titleEn":"Locked Clock","titlePt":"Relógio bloqueado","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"moveClockSec":10,"specialInventory":{"lock":1}},
+    {"ordinal":530,"familyId":"ace-casino-double-neon","titleEn":"Phantom Vault","titlePt":"Cofre fantasma","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":3,"openingPairsMax":5,"specialInventory":{"wild":1,"lock":1},"isDoubleNeon":true}
+  ]
+}

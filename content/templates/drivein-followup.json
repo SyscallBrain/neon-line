@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "engineVersion": 2,
+  "lessons": [
+    {"ordinal":211,"familyId":"drivein-late-show","titleEn":"Late Show","titlePt":"Sessão tardia","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7},
+    {"ordinal":212,"familyId":"drivein-snack-bar-shuffle","titleEn":"Snack Bar Shuffle","titlePt":"Corrida ao balcão","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"popOut":true},
+    {"ordinal":213,"familyId":"drivein-jump-cut","titleEn":"Jump Cut","titlePt":"Corte brusco","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":10,"openingPairsMax":13,"puzzleMoves":[2,3,4],"popOut":true},
+    {"ordinal":214,"familyId":"drivein-aisle-patrol","titleEn":"Aisle Patrol","titlePt":"Vigia da plateia","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":10,"surviveAiMoves":[4,5,6]},
+    {"ordinal":215,"familyId":"drivein-reel-change","titleEn":"Reel Change","titlePt":"Mudança de bobina","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":8,"popOut":true},
+    {"ordinal":216,"familyId":"drivein-three-scene-twist","titleEn":"Three-Scene Twist","titlePt":"Reviravolta em três cenas","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":10,"openingPairsMax":13,"puzzleMoves":[2,3,4]},
+    {"ordinal":217,"familyId":"drivein-ticket-rush","titleEn":"Ticket Rush","titlePt":"Corrida aos bilhetes","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":8},
+    {"ordinal":218,"familyId":"drivein-balcony-guard","titleEn":"Balcony Guard","titlePt":"Guarda do balcão","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":10,"surviveAiMoves":[4,5,6],"popOut":true},
+    {"ordinal":219,"familyId":"drivein-last-take","titleEn":"Last Take","titlePt":"Última tomada","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":10,"openingPairsMax":13,"puzzleMoves":[2,3,4]},
+    {"ordinal":220,"familyId":"drivein-premiere-night","titleEn":"Premiere Night","titlePt":"Noite de estreia","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":8,"popOut":true,"isDoubleNeon":true}
+  ]
+}

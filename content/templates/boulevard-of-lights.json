@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "engineVersion": 2,
+  "lessons": [
+    {"ordinal":551,"familyId":"boulevard-first-lights","titleEn":"Queen's First Light","titlePt":"A primeira luz da Rainha","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":3,"openingPairsMax":4,"moveClockSec":15},
+    {"ordinal":552,"familyId":"boulevard-queen's-turn","titleEn":"Avenue Turnabout","titlePt":"Viragem na avenida","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":3,"openingPairsMax":5,"popOut":true},
+    {"ordinal":553,"familyId":"boulevard-spotlight-puzzle","titleEn":"Starline Puzzle","titlePt":"Puzzle da linha de estrelas","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":6,"puzzleMoves":[2,3,4],"sourceHardOrdinal":279},
+    {"ordinal":554,"familyId":"boulevard-vanishing-defense","titleEn":"Fading Headlights","titlePt":"Faróis que desaparecem","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":6,"surviveAiMoves":[4,5,6],"fadeAfter":[5,3,2]},
+    {"ordinal":555,"familyId":"boulevard-wild-duel","titleEn":"Wild Boulevard","titlePt":"Avenida selvagem","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"rotateEvery":6,"specialInventory":{"wild":1}},
+    {"ordinal":556,"familyId":"boulevard-star-puzzle","titleEn":"Queen's Exit","titlePt":"Saída da Rainha","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":6,"puzzleMoves":[2,3,4],"sourceHardOrdinal":219},
+    {"ordinal":557,"familyId":"boulevard-locked-duel","titleEn":"Crown and Key","titlePt":"Coroa e chave","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"rotateEvery":6,"specialInventory":{"lock":1}},
+    {"ordinal":558,"familyId":"boulevard-rotating-defense","titleEn":"Round the Roundabout","titlePt":"À volta da rotunda","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"surviveAiMoves":[4,5,6],"popOut":true,"rotateEvery":6},
+    {"ordinal":559,"familyId":"boulevard-neon-puzzle","titleEn":"Neon Star Puzzle","titlePt":"Puzzle da estrela néon","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"puzzleMoves":[2,3,4],"sourceHardOrdinal":279,"moveClockSec":10},
+    {"ordinal":560,"familyId":"boulevard-double-neon","titleEn":"All Lights Ahead","titlePt":"Todas as luzes acesas","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":3,"openingPairsMax":5,"specialInventory":{"wild":1,"lock":1},"isDoubleNeon":true}
+  ]
+}

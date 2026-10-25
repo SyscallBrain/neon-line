@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "engineVersion": 2,
+  "lessons": [
+    {"ordinal":471,"familyId":"night-fair-duel","titleEn":"Under the Big Top","titlePt":"Sob a grande tenda","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":3,"openingPairsMax":3},
+    {"ordinal":472,"familyId":"night-fair-duel","titleEn":"Midway Morning","titlePt":"Manhã no recinto","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":3,"openingPairsMax":4},
+    {"ordinal":473,"familyId":"night-fair-duel","titleEn":"The Balloon Seller","titlePt":"O vendedor de balões","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":3,"openingPairsMax":4},
+    {"ordinal":474,"familyId":"night-fair-duel","titleEn":"Three Bright Arcs","titlePt":"Três arcos de luz","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":4,"openingPairsMax":6},
+    {"ordinal":475,"familyId":"night-fair-duel","titleEn":"The Prize Booth","titlePt":"A banca dos prémios","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":4,"openingPairsMax":6},
+    {"ordinal":476,"familyId":"night-fair-duel","titleEn":"Tilt-a-Whirl","titlePt":"O carrossel giratório","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":4,"openingPairsMax":6},
+    {"ordinal":477,"familyId":"night-fair-duel","titleEn":"The Glass Maze","titlePt":"O labirinto de espelhos","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":5,"openingPairsMax":7},
+    {"ordinal":478,"familyId":"night-fair-duel","titleEn":"Last Call for Tickets","titlePt":"Última chamada para bilhetes","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":5,"openingPairsMax":7},
+    {"ordinal":479,"familyId":"night-fair-duel","titleEn":"Midnight Departure","titlePt":"Partida à meia-noite","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":6,"openingPairsMax":8},
+    {"ordinal":480,"familyId":"night-fair-double-neon","titleEn":"The Fair Goes Dark","titlePt":"A feira apaga-se","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":3,"openingPairsMax":5,"isDoubleNeon":true}
+  ]
+}

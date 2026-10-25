@@ -1,0 +1,317 @@
+{
+    "schemaVersion": 1,
+    "engineVersion": 2,
+    "id": "level-0151",
+    "ordinal": 151,
+    "stopId": "stop-04",
+    "titlePt": "Primeiro lançamento",
+    "titleEn": "First Frame",
+    "familyId": "bowling-first-frame",
+    "learningTags": [
+        "bowling",
+        "duel"
+    ],
+    "revision": 1,
+    "isDoubleNeon": false,
+    "tutorial": {
+        "steps": [
+            {
+                "textKey": "tut_151_small_board",
+                "highlightCols": [
+                    2
+                ],
+                "forcedCol": 2
+            }
+        ]
+    },
+    "variants": {
+        "easy": {
+            "seedHex": "4218fb5315121777",
+            "kind": {
+                "type": "duel",
+                "winInMoves": null,
+                "surviveAiMoves": null,
+                "shapeRule": null,
+                "bestOf": null
+            },
+            "width": 5,
+            "height": 4,
+            "connect": 4,
+            "mask": [
+                "XXXXX",
+                "XXXXX",
+                "XXXXX",
+                "XXXXX"
+            ],
+            "pieces": [
+                {
+                    "r": 2,
+                    "c": 1,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 2,
+                    "c": 2,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 2,
+                    "c": 3,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 3,
+                    "c": 0,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 3,
+                    "c": 1,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 3,
+                    "c": 2,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 3,
+                    "c": 3,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 3,
+                    "c": 4,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                }
+            ],
+            "targets": [],
+            "shapeRule": null,
+            "rules": {
+                "popOut": false,
+                "rotateEvery": null,
+                "fadeAfter": null,
+                "moveClockSec": null
+            },
+            "inventory": {},
+            "firstToMove": "P1",
+            "rival": "strike",
+            "ai": {
+                "maxDepth": 2,
+                "nodeBudget": 2000,
+                "blunderRate": 180,
+                "attack": 5,
+                "defense": 3,
+                "center": 4,
+                "trap": 2,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "stars": {
+                "two": 9,
+                "three": 4
+            },
+            "hints": 3,
+            "expectedMetrics": {
+                "humanWinRate": 1.0,
+                "solverMoves": 2
+            },
+            "bossRounds": []
+        },
+        "medium": {
+            "seedHex": "f7856d846ecaec11",
+            "kind": {
+                "type": "duel",
+                "winInMoves": null,
+                "surviveAiMoves": null,
+                "shapeRule": null,
+                "bestOf": null
+            },
+            "width": 5,
+            "height": 4,
+            "connect": 4,
+            "mask": [
+                "XXXXX",
+                "XXXXX",
+                "XXXXX",
+                "XXXXX"
+            ],
+            "pieces": [
+                {
+                    "r": 1,
+                    "c": 1,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 2,
+                    "c": 1,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 2,
+                    "c": 4,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 3,
+                    "c": 1,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 3,
+                    "c": 3,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 3,
+                    "c": 4,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                }
+            ],
+            "targets": [],
+            "shapeRule": null,
+            "rules": {
+                "popOut": false,
+                "rotateEvery": null,
+                "fadeAfter": null,
+                "moveClockSec": null
+            },
+            "inventory": {},
+            "firstToMove": "P1",
+            "rival": "strike",
+            "ai": {
+                "maxDepth": 3,
+                "nodeBudget": 8000,
+                "blunderRate": 20,
+                "attack": 6,
+                "defense": 3,
+                "center": 5,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "stars": {
+                "two": 14,
+                "three": 9
+            },
+            "hints": 2,
+            "expectedMetrics": {
+                "humanWinRate": 0.0,
+                "solverMoves": 7
+            },
+            "bossRounds": []
+        },
+        "hard": {
+            "seedHex": "b702d98a37da535e",
+            "kind": {
+                "type": "duel",
+                "winInMoves": null,
+                "surviveAiMoves": null,
+                "shapeRule": null,
+                "bestOf": null
+            },
+            "width": 5,
+            "height": 4,
+            "connect": 4,
+            "mask": [
+                "XXXXX",
+                "XXXXX",
+                "XXXXX",
+                "XXXXX"
+            ],
+            "pieces": [
+                {
+                    "r": 3,
+                    "c": 0,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 3,
+                    "c": 2,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 3,
+                    "c": 3,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 3,
+                    "c": 4,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                }
+            ],
+            "targets": [],
+            "shapeRule": null,
+            "rules": {
+                "popOut": false,
+                "rotateEvery": null,
+                "fadeAfter": null,
+                "moveClockSec": null
+            },
+            "inventory": {},
+            "firstToMove": "P1",
+            "rival": "strike",
+            "ai": {
+                "maxDepth": 4,
+                "nodeBudget": 20000,
+                "blunderRate": 0,
+                "attack": 8,
+                "defense": 3,
+                "center": 6,
+                "trap": 4,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "stars": {
+                "two": 14,
+                "three": 9
+            },
+            "hints": 1,
+            "expectedMetrics": {
+                "humanWinRate": 0.5625,
+                "solverMoves": 7
+            },
+            "bossRounds": []
+        }
+    }
+}

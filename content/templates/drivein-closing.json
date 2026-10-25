@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "engineVersion": 2,
+  "lessons": [
+    {"ordinal":241,"familyId":"drivein-premiere-rush","titleEn":"Premiere Rush","titlePt":"Corrida de estreia","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":8},
+    {"ordinal":242,"familyId":"drivein-popcorn-encore","titleEn":"Popcorn Encore","titlePt":"Repetição de pipocas","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":8,"popOut":true},
+    {"ordinal":243,"familyId":"drivein-focus-pull","titleEn":"Focus Pull","titlePt":"Foco no fotograma","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":10,"openingPairsMax":13,"puzzleMoves":[2,3,4],"popOut":true},
+    {"ordinal":244,"familyId":"drivein-late-seating","titleEn":"Late Seating","titlePt":"Lugares tardios","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":10,"surviveAiMoves":[4,5,6]},
+    {"ordinal":245,"familyId":"drivein-projectors-cut","titleEn":"Projector's Cut","titlePt":"Corte do projetor","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":9,"popOut":true},
+    {"ordinal":246,"familyId":"drivein-suspense-reel","titleEn":"Suspense Reel","titlePt":"Bobina de suspense","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":10,"openingPairsMax":13,"puzzleMoves":[2,3,4]},
+    {"ordinal":247,"familyId":"drivein-final-credits","titleEn":"Final Credits","titlePt":"Créditos finais","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":9},
+    {"ordinal":248,"familyId":"drivein-midnight-screening","titleEn":"Midnight Screening","titlePt":"Sessão da meia-noite","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":10,"surviveAiMoves":[4,5,6],"popOut":true},
+    {"ordinal":249,"familyId":"drivein-closing-night","titleEn":"Closing Night","titlePt":"Noite de estreia","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":10,"openingPairsMax":13,"puzzleMoves":[2,3,4],"sourceHardOrdinal":219}
+  ]
+}

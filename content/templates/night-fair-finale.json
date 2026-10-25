@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "engineVersion": 2,
+  "lessons": [
+    {"ordinal":491,"familyId":"night-fair-duel","titleEn":"Lanterns at Dawn","titlePt":"Lanternas ao amanhecer","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":3,"openingPairsMax":3},
+    {"ordinal":492,"familyId":"night-fair-duel","titleEn":"One More Round","titlePt":"Só mais uma volta","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":3,"openingPairsMax":4},
+    {"ordinal":493,"familyId":"night-fair-duel","titleEn":"The Quiet Midway","titlePt":"O recinto silencioso","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":3,"openingPairsMax":4},
+    {"ordinal":494,"familyId":"night-fair-duel","titleEn":"Roda’s Challenge","titlePt":"O desafio da Roda","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":4,"openingPairsMax":6},
+    {"ordinal":495,"familyId":"night-fair-duel","titleEn":"The Ferris Wheel Stops","titlePt":"A roda-gigante para","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":4,"openingPairsMax":6},
+    {"ordinal":496,"familyId":"night-fair-duel","titleEn":"Last Ride Together","titlePt":"A última volta juntos","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":4,"openingPairsMax":6},
+    {"ordinal":497,"familyId":"night-fair-duel","titleEn":"First Light","titlePt":"Primeira luz","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":5,"openingPairsMax":7},
+    {"ordinal":498,"familyId":"night-fair-duel","titleEn":"The Gate Opens","titlePt":"O portão abre","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":5,"openingPairsMax":7},
+    {"ordinal":499,"familyId":"night-fair-duel","titleEn":"A Road Beyond the Fair","titlePt":"Uma estrada para lá da feira","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":6,"openingPairsMax":8},
+    {"ordinal":500,"familyId":"night-fair-double-neon","titleEn":"Dawn of the Road","titlePt":"Amanhecer na estrada","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":3,"openingPairsMax":5,"isDoubleNeon":true}
+  ]
+}

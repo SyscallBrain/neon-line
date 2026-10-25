@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "engineVersion": 2,
+  "lessons": [
+    {"ordinal":251,"familyId":"laundromat-bubble-burst","titleEn":"Bubble Burst","titlePt":"Bolha rebentada","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":8},
+    {"ordinal":252,"familyId":"laundromat-spin-cycle","titleEn":"Spin Cycle","titlePt":"Ciclo de centrifugação","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":8,"popOut":true},
+    {"ordinal":253,"familyId":"laundromat-suds-solver","titleEn":"Suds Solver","titlePt":"Enigma de espuma","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":10,"openingPairsMax":13,"puzzleMoves":[2,3,4],"popOut":true,"sourceHardOrdinal":243},
+    {"ordinal":254,"familyId":"laundromat-sock-rescue","titleEn":"Sock Rescue","titlePt":"Resgate da meia","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":10,"surviveAiMoves":[4,5,6]},
+    {"ordinal":255,"familyId":"laundromat-rinse-repeat","titleEn":"Rinse and Repeat","titlePt":"Enxaguar e repetir","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":9,"popOut":true},
+    {"ordinal":256,"familyId":"laundromat-lost-load","titleEn":"Lost in the Load","titlePt":"Perdido na roupa","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":10,"openingPairsMax":13,"puzzleMoves":[2,3,4],"sourceHardOrdinal":226},
+    {"ordinal":257,"familyId":"laundromat-soap-suds-shuffle","titleEn":"Soap Suds Shuffle","titlePt":"Dança da espuma","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":9},
+    {"ordinal":258,"familyId":"laundromat-spinout","titleEn":"Spinout","titlePt":"Centrifugação","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":10,"surviveAiMoves":[4,5,6],"popOut":true,"sourceOrdinals":[248,248,248],"sourceHardOrdinal":248},
+    {"ordinal":259,"familyId":"laundromat-final-rinse","titleEn":"Final Rinse","titlePt":"Último enxaguamento","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":10,"openingPairsMax":13,"puzzleMoves":[2,3,4],"sourceHardOrdinal":229},
+    {"ordinal":260,"familyId":"laundromat-full-cycle","titleEn":"Full Cycle","titlePt":"Ciclo completo","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":9,"popOut":true,"isDoubleNeon":true}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "engineVersion": 2,
+  "lessons": [
+    {"ordinal":561,"familyId":"boulevard-prism-run","titleEn":"Prism Run","titlePt":"Corrida de prismas","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":5,"moveClockSec":15},
+    {"ordinal":562,"familyId":"boulevard-turning-tide","titleEn":"Turning Tide","titlePt":"Maré de viragem","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":6,"popOut":true},
+    {"ordinal":563,"familyId":"boulevard-prism-puzzle","titleEn":"Prism in Check","titlePt":"Prisma em xeque","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":6,"puzzleMoves":[2,3,4],"sourceHardOrdinal":279},
+    {"ordinal":564,"familyId":"boulevard-fading-lane","titleEn":"Fading Lane","titlePt":"Faixa fugidia","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":6,"surviveAiMoves":[4,5,6],"fadeAfter":[5,3,2]},
+    {"ordinal":565,"familyId":"boulevard-wild-current","titleEn":"Wild Current","titlePt":"Corrente selvagem","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"rotateEvery":6,"specialInventory":{"wild":1}},
+    {"ordinal":566,"familyId":"boulevard-keyed-puzzle","titleEn":"The Queen's Key","titlePt":"A chave da Rainha","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":6,"puzzleMoves":[2,3,4],"sourceHardOrdinal":219,"moveClockSec":10},
+    {"ordinal":567,"familyId":"boulevard-locked-lane","titleEn":"Locked Lane","titlePt":"Faixa bloqueada","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"rotateEvery":6,"specialInventory":{"lock":1}},
+    {"ordinal":568,"familyId":"boulevard-roundabout-defense","titleEn":"Last Turn at the Roundabout","titlePt":"Última volta na rotunda","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"surviveAiMoves":[4,5,6],"popOut":true,"rotateEvery":6},
+    {"ordinal":569,"familyId":"boulevard-afterglow-puzzle","titleEn":"Afterglow Puzzle","titlePt":"Puzzle do resplendor","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"puzzleMoves":[2,3,4],"sourceHardOrdinal":279,"moveClockSec":10},
+    {"ordinal":570,"familyId":"boulevard-double-neon-return","titleEn":"The Avenue Shines On","titlePt":"A avenida continua a brilhar","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":3,"openingPairsMax":5,"specialInventory":{"wild":1,"bomb":1},"isDoubleNeon":true}
+  ]
+}

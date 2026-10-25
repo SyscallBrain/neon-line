@@ -1,0 +1,13 @@
+default_platform(:android)
+
+platform :android do
+  desc "Run the project's complete local verification"
+  lane :verify do
+    sh("bash ../tools/verify.sh")
+  end
+
+  desc "Build, verify and checksum the signed release APK (signing properties from ~/.gradle/gradle.properties)"
+  lane :build_release do
+    sh("bash ../tools/release.sh")
+  end
+end

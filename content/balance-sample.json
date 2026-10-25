@@ -1,0 +1,172 @@
+{
+    "samples": [
+        {
+            "level": "level-0011",
+            "difficulty": "easy",
+            "games": 12,
+            "wins": 11,
+            "averageMoves": 12.916666666666666
+        },
+        {
+            "level": "level-0011",
+            "difficulty": "medium",
+            "games": 12,
+            "wins": 4,
+            "averageMoves": 14.916666666666666
+        },
+        {
+            "level": "level-0011",
+            "difficulty": "hard",
+            "games": 12,
+            "wins": 3,
+            "averageMoves": 7.833333333333333
+        },
+        {
+            "level": "level-0012",
+            "difficulty": "easy",
+            "games": 12,
+            "wins": 12,
+            "averageMoves": 2.0
+        },
+        {
+            "level": "level-0012",
+            "difficulty": "medium",
+            "games": 12,
+            "wins": 11,
+            "averageMoves": 2.0
+        },
+        {
+            "level": "level-0012",
+            "difficulty": "hard",
+            "games": 12,
+            "wins": 0,
+            "averageMoves": 3.0
+        },
+        {
+            "level": "level-0024",
+            "difficulty": "easy",
+            "games": 12,
+            "wins": 12,
+            "averageMoves": 13.083333333333334
+        },
+        {
+            "level": "level-0024",
+            "difficulty": "medium",
+            "games": 12,
+            "wins": 5,
+            "averageMoves": 13.916666666666666
+        },
+        {
+            "level": "level-0024",
+            "difficulty": "hard",
+            "games": 12,
+            "wins": 4,
+            "averageMoves": 13.333333333333334
+        },
+        {
+            "level": "level-0025",
+            "difficulty": "easy",
+            "games": 12,
+            "wins": 12,
+            "averageMoves": 2.0
+        },
+        {
+            "level": "level-0025",
+            "difficulty": "medium",
+            "games": 12,
+            "wins": 11,
+            "averageMoves": 2.0
+        },
+        {
+            "level": "level-0025",
+            "difficulty": "hard",
+            "games": 12,
+            "wins": 1,
+            "averageMoves": 3.0
+        },
+        {
+            "level": "level-0036",
+            "difficulty": "easy",
+            "games": 12,
+            "wins": 10,
+            "averageMoves": 12.25
+        },
+        {
+            "level": "level-0036",
+            "difficulty": "medium",
+            "games": 12,
+            "wins": 8,
+            "averageMoves": 13.666666666666666
+        },
+        {
+            "level": "level-0036",
+            "difficulty": "hard",
+            "games": 12,
+            "wins": 8,
+            "averageMoves": 9.5
+        },
+        {
+            "level": "level-0037",
+            "difficulty": "easy",
+            "games": 12,
+            "wins": 12,
+            "averageMoves": 2.0
+        },
+        {
+            "level": "level-0037",
+            "difficulty": "medium",
+            "games": 12,
+            "wins": 11,
+            "averageMoves": 2.0
+        },
+        {
+            "level": "level-0037",
+            "difficulty": "hard",
+            "games": 12,
+            "wins": 0,
+            "averageMoves": 4.0
+        },
+        {
+            "level": "level-0049",
+            "difficulty": "easy",
+            "games": 12,
+            "wins": 10,
+            "averageMoves": 13.083333333333334
+        },
+        {
+            "level": "level-0049",
+            "difficulty": "medium",
+            "games": 12,
+            "wins": 6,
+            "averageMoves": 13.083333333333334
+        },
+        {
+            "level": "level-0049",
+            "difficulty": "hard",
+            "games": 12,
+            "wins": 4,
+            "averageMoves": 11.0
+        },
+        {
+            "level": "level-0050",
+            "difficulty": "easy",
+            "games": 12,
+            "wins": 9,
+            "averageMoves": 32.833333333333336
+        },
+        {
+            "level": "level-0050",
+            "difficulty": "medium",
+            "games": 12,
+            "wins": 6,
+            "averageMoves": 31.333333333333332
+        },
+        {
+            "level": "level-0050",
+            "difficulty": "hard",
+            "games": 12,
+            "wins": 3,
+            "averageMoves": 35.083333333333336
+        }
+    ]
+}

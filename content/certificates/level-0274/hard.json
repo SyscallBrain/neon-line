@@ -1,0 +1,59 @@
+{
+    "levelId": "level-0274",
+    "difficulty": "hard",
+    "engineVersion": 2,
+    "revision": 1,
+    "seedHex": "bedc1fd043b7ff90",
+    "steps": [
+        {
+            "move": "Drop(col=6, kind=NORMAL)",
+            "afterStateHash": "08a21f7a844395cc754372dba6d1b3568990d1c2649fb8e5849801c08eef053e",
+            "rngHex": "20eb66693cfd8385"
+        },
+        {
+            "move": "Drop(col=3, kind=NORMAL)",
+            "afterStateHash": "2fe72ef089b2c3857d67dd953eab86836192457ec474fac0369e5d5d9cde5b0c",
+            "rngHex": "bf22e022bc47ff9a"
+        },
+        {
+            "move": "Drop(col=3, kind=NORMAL)",
+            "afterStateHash": "730091a2f2cfe7d7adbc81d89ff72eaa29aa944c39167477b6f8977d8743a12a",
+            "rngHex": "bf22e022bc47ff9a"
+        },
+        {
+            "move": "Drop(col=2, kind=NORMAL)",
+            "afterStateHash": "21483f09b23c4fcd8d242cb0bb60c6699a242a059eb1cefc98ba2ef4446a7ac6",
+            "rngHex": "5d5a59dc3b927baf"
+        },
+        {
+            "move": "Drop(col=3, kind=NORMAL)",
+            "afterStateHash": "791258e5e9a160199c510e833b2387b8c00f2a5c60fedd197a06c83520f1a6e1",
+            "rngHex": "5d5a59dc3b927baf"
+        },
+        {
+            "move": "Drop(col=2, kind=NORMAL)",
+            "afterStateHash": "555244fc8750896c0fa89f96a81a954957a80304bdf4dafd3c41bd4e177673be",
+            "rngHex": "fb91d395badcf7c4"
+        },
+        {
+            "move": "Drop(col=2, kind=NORMAL)",
+            "afterStateHash": "ed24311c4b3ee8f07b5441fd624fc6022f7a1a2d1976e0c660f83a4f4426b937",
+            "rngHex": "fb91d395badcf7c4"
+        },
+        {
+            "move": "Drop(col=0, kind=NORMAL)",
+            "afterStateHash": "7b12ee98df14be44a007b0f2ef0b3769f8b850d8ad5b9c3cc56ff6f454449b1d",
+            "rngHex": "99c94d4f3a2773d9"
+        },
+        {
+            "move": "Drop(col=0, kind=NORMAL)",
+            "afterStateHash": "bec6ea1c1127ee235600f6953230fff18cfec1dba09d45344ff522aa153ffba2",
+            "rngHex": "99c94d4f3a2773d9"
+        }
+    ],
+    "humanMoves": 5,
+    "aiNodes": 0,
+    "stars": 3,
+    "outcome": "win:P1",
+    "createdAt": "2026-10-13"
+}

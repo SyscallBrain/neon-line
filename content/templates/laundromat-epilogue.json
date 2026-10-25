@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "engineVersion": 2,
+  "lessons": [
+    {"ordinal":291,"familyId":"laundromat-spin-cycle-showdown","titleEn":"Spin Cycle Showdown","titlePt":"Duelo do ciclo de centrifugação","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":9},
+    {"ordinal":292,"familyId":"laundromat-lint-trap","titleEn":"Lint Trap","titlePt":"Armadilha de cotão","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":10,"openingPairsMax":13,"puzzleMoves":[2,3,4],"popOut":true},
+    {"ordinal":293,"familyId":"laundromat-keep-the-load","titleEn":"Keep the Load","titlePt":"Aguenta a carga","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":10,"surviveAiMoves":[4,5,6]},
+    {"ordinal":294,"familyId":"laundromat-rinse-rivalry","titleEn":"Rinse Rivalry","titlePt":"Rivalidade ao enxaguar","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":9},
+    {"ordinal":295,"familyId":"laundromat-suds-sequence","titleEn":"Suds Sequence","titlePt":"Sequência de espuma","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":10,"openingPairsMax":13,"puzzleMoves":[2,3,4],"popOut":true},
+    {"ordinal":296,"familyId":"laundromat-full-basket","titleEn":"Full Basket","titlePt":"Cesto cheio","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":10,"surviveAiMoves":[4,5,6]},
+    {"ordinal":297,"familyId":"laundromat-final-fold","titleEn":"Final Fold","titlePt":"Última dobra","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":9},
+    {"ordinal":298,"familyId":"laundromat-centrifuge-code","titleEn":"Centrifuge Code","titlePt":"Código da centrífuga","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":10,"openingPairsMax":15,"puzzleMoves":[2,3,4],"popOut":true},
+    {"ordinal":299,"familyId":"laundromat-last-rinse","titleEn":"Last Rinse","titlePt":"Último enxaguamento","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":10,"surviveAiMoves":[4,5,6]}
+  ]
+}

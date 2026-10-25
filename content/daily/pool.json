@@ -1,0 +1,240 @@
+{
+    "version": 1,
+    "engineVersion": 2,
+    "entries": [
+        {
+            "levelId": "level-0002",
+            "ordinal": 2,
+            "difficulty": "easy",
+            "sha256": "1b75c7d431f4ccbdda5a02a9e85bf5e125c862af09c29cc4d6baf879ab9d85dc"
+        },
+        {
+            "levelId": "level-0006",
+            "ordinal": 6,
+            "difficulty": "easy",
+            "sha256": "c3b388223c4ab0523bfd5f8af8958df868835e916fc17fe5f40dbb65a9f0eb8c"
+        },
+        {
+            "levelId": "level-0007",
+            "ordinal": 7,
+            "difficulty": "easy",
+            "sha256": "4d6f2de33d5fcb7fd79f8fd868cdcc0dff67ce870da885abcafd943b373dbd0b"
+        },
+        {
+            "levelId": "level-0008",
+            "ordinal": 8,
+            "difficulty": "easy",
+            "sha256": "f2ee9bde4106808d9af8e6996110ce620522b4e28f13be39dc4f32a4ac034058"
+        },
+        {
+            "levelId": "level-0012",
+            "ordinal": 12,
+            "difficulty": "easy",
+            "sha256": "931a88ee26bf8d4ac14c0849eaaf33dd66452fbfad24ef669897d7c45cc1636f"
+        },
+        {
+            "levelId": "level-0016",
+            "ordinal": 16,
+            "difficulty": "easy",
+            "sha256": "72181613b48df18278b04e97fae975620230b88003dec8720f765128a21f8b8b"
+        },
+        {
+            "levelId": "level-0021",
+            "ordinal": 21,
+            "difficulty": "easy",
+            "sha256": "69c88e309be6ca08e6b8d6e2e9f8b8e91294fe9aac356cb1219661d32282444e"
+        },
+        {
+            "levelId": "level-0025",
+            "ordinal": 25,
+            "difficulty": "easy",
+            "sha256": "a86751cfa24ff443058d2f8effcbf1ae96f982a7a2db55e5fc36621f5601defb"
+        },
+        {
+            "levelId": "level-0029",
+            "ordinal": 29,
+            "difficulty": "easy",
+            "sha256": "abf4b8cf28b2033959ac0def39c2b16a42ff9a88d93d5994504693ea95006643"
+        },
+        {
+            "levelId": "level-0033",
+            "ordinal": 33,
+            "difficulty": "easy",
+            "sha256": "d6d92936746e533182c29e653ed58e02979a7bfb5c25e09f90eb8aa84c580066"
+        },
+        {
+            "levelId": "level-0037",
+            "ordinal": 37,
+            "difficulty": "easy",
+            "sha256": "aa34d965b677fdeefde6de0599abd31e5d7b1bce1b6bf27e4b165ee0ff82799b"
+        },
+        {
+            "levelId": "level-0041",
+            "ordinal": 41,
+            "difficulty": "easy",
+            "sha256": "b2689a61a70f5fcadd11257b1074fc0a42c77c7e640c4b4f0fb494207c7835dd"
+        },
+        {
+            "levelId": "level-0045",
+            "ordinal": 45,
+            "difficulty": "easy",
+            "sha256": "5a6df608adc5a842f34a11080651cf8c4e2ddbeb66cbcb1362f4e9ff9fb60b51"
+        },
+        {
+            "levelId": "level-0002",
+            "ordinal": 2,
+            "difficulty": "hard",
+            "sha256": "1b75c7d431f4ccbdda5a02a9e85bf5e125c862af09c29cc4d6baf879ab9d85dc"
+        },
+        {
+            "levelId": "level-0006",
+            "ordinal": 6,
+            "difficulty": "hard",
+            "sha256": "c3b388223c4ab0523bfd5f8af8958df868835e916fc17fe5f40dbb65a9f0eb8c"
+        },
+        {
+            "levelId": "level-0007",
+            "ordinal": 7,
+            "difficulty": "hard",
+            "sha256": "4d6f2de33d5fcb7fd79f8fd868cdcc0dff67ce870da885abcafd943b373dbd0b"
+        },
+        {
+            "levelId": "level-0008",
+            "ordinal": 8,
+            "difficulty": "hard",
+            "sha256": "f2ee9bde4106808d9af8e6996110ce620522b4e28f13be39dc4f32a4ac034058"
+        },
+        {
+            "levelId": "level-0012",
+            "ordinal": 12,
+            "difficulty": "hard",
+            "sha256": "931a88ee26bf8d4ac14c0849eaaf33dd66452fbfad24ef669897d7c45cc1636f"
+        },
+        {
+            "levelId": "level-0016",
+            "ordinal": 16,
+            "difficulty": "hard",
+            "sha256": "72181613b48df18278b04e97fae975620230b88003dec8720f765128a21f8b8b"
+        },
+        {
+            "levelId": "level-0021",
+            "ordinal": 21,
+            "difficulty": "hard",
+            "sha256": "69c88e309be6ca08e6b8d6e2e9f8b8e91294fe9aac356cb1219661d32282444e"
+        },
+        {
+            "levelId": "level-0025",
+            "ordinal": 25,
+            "difficulty": "hard",
+            "sha256": "a86751cfa24ff443058d2f8effcbf1ae96f982a7a2db55e5fc36621f5601defb"
+        },
+        {
+            "levelId": "level-0029",
+            "ordinal": 29,
+            "difficulty": "hard",
+            "sha256": "abf4b8cf28b2033959ac0def39c2b16a42ff9a88d93d5994504693ea95006643"
+        },
+        {
+            "levelId": "level-0033",
+            "ordinal": 33,
+            "difficulty": "hard",
+            "sha256": "d6d92936746e533182c29e653ed58e02979a7bfb5c25e09f90eb8aa84c580066"
+        },
+        {
+            "levelId": "level-0037",
+            "ordinal": 37,
+            "difficulty": "hard",
+            "sha256": "aa34d965b677fdeefde6de0599abd31e5d7b1bce1b6bf27e4b165ee0ff82799b"
+        },
+        {
+            "levelId": "level-0041",
+            "ordinal": 41,
+            "difficulty": "hard",
+            "sha256": "b2689a61a70f5fcadd11257b1074fc0a42c77c7e640c4b4f0fb494207c7835dd"
+        },
+        {
+            "levelId": "level-0045",
+            "ordinal": 45,
+            "difficulty": "hard",
+            "sha256": "5a6df608adc5a842f34a11080651cf8c4e2ddbeb66cbcb1362f4e9ff9fb60b51"
+        },
+        {
+            "levelId": "level-0002",
+            "ordinal": 2,
+            "difficulty": "medium",
+            "sha256": "1b75c7d431f4ccbdda5a02a9e85bf5e125c862af09c29cc4d6baf879ab9d85dc"
+        },
+        {
+            "levelId": "level-0006",
+            "ordinal": 6,
+            "difficulty": "medium",
+            "sha256": "c3b388223c4ab0523bfd5f8af8958df868835e916fc17fe5f40dbb65a9f0eb8c"
+        },
+        {
+            "levelId": "level-0007",
+            "ordinal": 7,
+            "difficulty": "medium",
+            "sha256": "4d6f2de33d5fcb7fd79f8fd868cdcc0dff67ce870da885abcafd943b373dbd0b"
+        },
+        {
+            "levelId": "level-0008",
+            "ordinal": 8,
+            "difficulty": "medium",
+            "sha256": "f2ee9bde4106808d9af8e6996110ce620522b4e28f13be39dc4f32a4ac034058"
+        },
+        {
+            "levelId": "level-0012",
+            "ordinal": 12,
+            "difficulty": "medium",
+            "sha256": "931a88ee26bf8d4ac14c0849eaaf33dd66452fbfad24ef669897d7c45cc1636f"
+        },
+        {
+            "levelId": "level-0016",
+            "ordinal": 16,
+            "difficulty": "medium",
+            "sha256": "72181613b48df18278b04e97fae975620230b88003dec8720f765128a21f8b8b"
+        },
+        {
+            "levelId": "level-0021",
+            "ordinal": 21,
+            "difficulty": "medium",
+            "sha256": "69c88e309be6ca08e6b8d6e2e9f8b8e91294fe9aac356cb1219661d32282444e"
+        },
+        {
+            "levelId": "level-0025",
+            "ordinal": 25,
+            "difficulty": "medium",
+            "sha256": "a86751cfa24ff443058d2f8effcbf1ae96f982a7a2db55e5fc36621f5601defb"
+        },
+        {
+            "levelId": "level-0029",
+            "ordinal": 29,
+            "difficulty": "medium",
+            "sha256": "abf4b8cf28b2033959ac0def39c2b16a42ff9a88d93d5994504693ea95006643"
+        },
+        {
+            "levelId": "level-0033",
+            "ordinal": 33,
+            "difficulty": "medium",
+            "sha256": "d6d92936746e533182c29e653ed58e02979a7bfb5c25e09f90eb8aa84c580066"
+        },
+        {
+            "levelId": "level-0037",
+            "ordinal": 37,
+            "difficulty": "medium",
+            "sha256": "aa34d965b677fdeefde6de0599abd31e5d7b1bce1b6bf27e4b165ee0ff82799b"
+        },
+        {
+            "levelId": "level-0041",
+            "ordinal": 41,
+            "difficulty": "medium",
+            "sha256": "b2689a61a70f5fcadd11257b1074fc0a42c77c7e640c4b4f0fb494207c7835dd"
+        },
+        {
+            "levelId": "level-0045",
+            "ordinal": 45,
+            "difficulty": "medium",
+            "sha256": "5a6df608adc5a842f34a11080651cf8c4e2ddbeb66cbcb1362f4e9ff9fb60b51"
+        }
+    ]
+}

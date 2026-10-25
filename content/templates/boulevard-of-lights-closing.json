@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "engineVersion": 2,
+  "lessons": [
+    {"ordinal":581,"familyId":"boulevard-crown-of-dawn","titleEn":"Crown of Dawn","titlePt":"Coroa do amanhecer","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":6,"moveClockSec":15},
+    {"ordinal":582,"familyId":"boulevard-tidal-crossing","titleEn":"Tidal Crossing","titlePt":"Travessia das marés","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":6,"popOut":true},
+    {"ordinal":583,"familyId":"boulevard-lantern-trap","titleEn":"Lantern Trap","titlePt":"Armadilha dos candeeiros","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":6,"puzzleMoves":[2,3,4],"sourceHardOrdinal":279},
+    {"ordinal":584,"familyId":"boulevard-fading-arc","titleEn":"The Fading Arc","titlePt":"Arco fugidio","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":6,"surviveAiMoves":[4,5,6],"fadeAfter":[5,3,2]},
+    {"ordinal":585,"familyId":"boulevard-wild-orbit","titleEn":"Wild Orbit","titlePt":"Órbita selvagem","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"rotateEvery":6,"specialInventory":{"wild":1}},
+    {"ordinal":586,"familyId":"boulevard-queen-crossing","titleEn":"Queen's Crossing","titlePt":"Travessia da Rainha","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":6,"puzzleMoves":[2,3,4],"sourceHardOrdinal":219,"mirrorSourceHard":true,"moveClockSec":10},
+    {"ordinal":587,"familyId":"boulevard-locked-orbit","titleEn":"Locked Orbit","titlePt":"Órbita bloqueada","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"rotateEvery":6,"specialInventory":{"lock":1}},
+    {"ordinal":588,"familyId":"boulevard-roundabout-defense","titleEn":"Roundabout Stand","titlePt":"Defesa na rotunda","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"surviveAiMoves":[4,5,6],"popOut":true,"rotateEvery":6},
+    {"ordinal":589,"familyId":"boulevard-afterglow-puzzle","titleEn":"Afterglow Puzzle","titlePt":"Puzzle do resplendor","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"puzzleMoves":[2,3,4],"sourceHardOrdinal":279,"moveClockSec":10},
+    {"ordinal":590,"familyId":"boulevard-double-neon-finale","titleEn":"Avenue of Double Neon","titlePt":"Avenida de Duplo Néon","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":3,"openingPairsMax":5,"specialInventory":{"wild":1,"lock":1},"isDoubleNeon":true}
+  ]
+}

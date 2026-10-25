@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "engineVersion": 2,
+  "lessons": [
+    {"ordinal":271,"familyId":"laundromat-clean-sweep","titleEn":"Clean Sweep","titlePt":"Lavagem completa","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":9},
+    {"ordinal":272,"familyId":"laundromat-spin-control","titleEn":"Spin Control","titlePt":"Controlo do tambor","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":9,"popOut":true},
+    {"ordinal":273,"familyId":"laundromat-suds-sprint","titleEn":"Suds Sprint","titlePt":"Corrida de espuma","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":10,"openingPairsMax":13,"puzzleMoves":[2,3,4],"popOut":true,"sourceHardOrdinal":263},
+    {"ordinal":274,"familyId":"laundromat-sock-standoff","titleEn":"Sock Standoff","titlePt":"Impasse das meias","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":10,"surviveAiMoves":[4,5,6]},
+    {"ordinal":275,"familyId":"laundromat-rinse-rivalry","titleEn":"Rinse Rivalry","titlePt":"Rivalidade no enxaguamento","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":9,"popOut":true},
+    {"ordinal":276,"familyId":"laundromat-foam-finder","titleEn":"Foam Finder","titlePt":"Caça à espuma","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":10,"openingPairsMax":13,"puzzleMoves":[2,3,4],"sourceHardOrdinal":266},
+    {"ordinal":277,"familyId":"laundromat-tumble-turnaround","titleEn":"Tumble Turnaround","titlePt":"Reviravolta no tambor","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":9},
+    {"ordinal":278,"familyId":"laundromat-bubble-barrage","titleEn":"Bubble Barrage","titlePt":"Enxurrada de bolhas","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":10,"surviveAiMoves":[4,5,6],"popOut":true},
+    {"ordinal":279,"familyId":"laundromat-last-load","titleEn":"Last Load","titlePt":"Última carga","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":10,"openingPairsMax":13,"puzzleMoves":[2,3,4]},
+    {"ordinal":280,"familyId":"laundromat-spin-cycle-finale","titleEn":"Spin Cycle Finale","titlePt":"Final do ciclo de centrifugação","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":9,"popOut":true,"isDoubleNeon":true}
+  ]
+}

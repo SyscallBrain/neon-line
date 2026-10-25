@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "engineVersion": 2,
+  "lessons": [
+    {"ordinal":371,"familyId":"karaoke-duel","titleEn":"Second Spotlight","titlePt":"Segundo holofote","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":12,"fadeAfter":[5,3,2],"isDoubleNeon":false},
+    {"ordinal":372,"familyId":"karaoke-puzzle","titleEn":"Borrowed Beat","titlePt":"Ritmo emprestado","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":12,"fadeAfter":[5,3,2],"isDoubleNeon":false,"puzzleMoves":[2,3,4],"popOut":true},
+    {"ordinal":373,"familyId":"karaoke-defense","titleEn":"Keep the Lights","titlePt":"Mantém as luzes","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":12,"fadeAfter":[5,3,2],"isDoubleNeon":false,"surviveAiMoves":[4,5,6]},
+    {"ordinal":374,"familyId":"karaoke-duel","titleEn":"Backbeat Mirror","titlePt":"Espelho do contratempo","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":12,"fadeAfter":[5,3,2],"isDoubleNeon":false},
+    {"ordinal":375,"familyId":"karaoke-puzzle","titleEn":"Turning Chorus","titlePt":"Refrão a girar","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":12,"fadeAfter":[5,3,2],"isDoubleNeon":false,"puzzleMoves":[2,3,4],"rotateEvery":6},
+    {"ordinal":376,"familyId":"karaoke-duel","titleEn":"Pop the Spotlight","titlePt":"Salta o holofote","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":12,"fadeAfter":[5,3,2],"isDoubleNeon":false,"popOut":true},
+    {"ordinal":377,"familyId":"karaoke-defense","titleEn":"Hold the Note","titlePt":"Segura a nota","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":12,"fadeAfter":[5,3,2],"isDoubleNeon":false,"surviveAiMoves":[4,5,6]},
+    {"ordinal":378,"familyId":"karaoke-puzzle","titleEn":"Spinning Finale","titlePt":"Finale em rotação","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":12,"fadeAfter":[5,3,2],"isDoubleNeon":false,"puzzleMoves":[2,3,4],"rotateEvery":6},
+    {"ordinal":379,"familyId":"karaoke-duel","titleEn":"Diva's Reflection","titlePt":"Reflexo da Diva","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":12,"fadeAfter":[5,3,2],"isDoubleNeon":false},
+    {"ordinal":380,"familyId":"karaoke-duel","titleEn":"Neon Curtain Call","titlePt":"Despedida em néon","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":12,"fadeAfter":[5,3,2],"isDoubleNeon":true}
+  ]
+}

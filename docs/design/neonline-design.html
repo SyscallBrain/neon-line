@@ -1,0 +1,550 @@
+<title>NeonLine · Propostas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&family=Tilt+Neon&family=Audiowide&family=Chakra+Petch:wght@500;600;700&family=Unbounded:wght@500;700;800&display=swap">
+<style>
+/* Layout: página de estúdio escura — cabeçalho com tabuleiro jogável, 4 direções com telemóveis, depois o caderno de jogabilidade com escolhas e resumo copiável. */
+:root{
+  --ink:#0D0C14; --panel:#16141F; --panel2:#1E1B2A; --line:#2E2A40; --text:#ECE8F6; --muted:#9A93B3;
+  --acc:#FF6FB0; --good:#9ECE6A; --warn:#FFB547;
+  --f-display:"Bricolage Grotesque","Figtree",system-ui,sans-serif;
+  --f-body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:dark;
+}
+html,body{background:var(--ink);color:var(--text)}
+body{font-family:var(--f-body);font-size:15px;line-height:1.55;padding-inline:16px;padding-block:0 80px}
+.wrap{max-width:1180px;margin:0 auto}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;letter-spacing:-.01em}
+p{margin:0}
+.muted{color:var(--muted)}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);font-weight:600}
+button{font:inherit;cursor:pointer;color:inherit}
+:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+
+/* ---------- hero ---------- */
+.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px;align-items:start;padding-block:48px 28px}
+.hero h1{font-family:"Tilt Neon",var(--f-display);font-weight:400;font-size:clamp(56px,9vw,104px);line-height:.95;color:#FFE9F3;
+  text-shadow:0 0 6px #FF4F9A,0 0 22px #FF4F9Aaa,0 0 48px #FF4F9A55}
+.hero h1 span{color:#FFF3DC;text-shadow:0 0 6px #FFB547,0 0 22px #FFB547aa,0 0 48px #FFB54755}
+.hero .lede{font-size:17px;max-width:58ch;margin-top:18px;color:#CFC9E3}
+.dna{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:26px}
+.dna div{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 16px;min-width:0}
+.dna h3{font-size:14px;font-family:var(--f-body);font-weight:700;margin-bottom:6px}
+.dna ul{margin:0;padding-left:18px;color:var(--muted);font-size:13.5px}
+
+/* ---------- demo ---------- */
+.demo-card{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:16px;display:flex;flex-direction:column;gap:12px}
+.demo-top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.seg{display:flex;gap:6px;flex-wrap:wrap}
+.seg button{border:1px solid var(--line);background:var(--panel2);color:var(--muted);padding:6px 11px;border-radius:999px;font-size:13px;font-weight:600}
+.seg button[aria-pressed="true"]{color:var(--ink);background:var(--acc);border-color:var(--acc)}
+.demo-foot{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;font-size:13px}
+.demo-foot .newg{border:1px solid var(--line);background:var(--panel2);padding:7px 14px;border-radius:999px;font-weight:600}
+
+/* game surface, themed through --t-* vars */
+.game{border-radius:18px;padding:14px;background:var(--t-bg);color:var(--t-fg);font-family:var(--t-body);position:relative;overflow:hidden;transition:background .4s}
+.game::before{content:"";position:absolute;inset:0;background:var(--t-deco);pointer-events:none;opacity:.9}
+.game>*{position:relative}
+.ghud{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px}
+.who{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:600}
+.who .dot{width:16px;height:16px;border-radius:50%}
+.who small{display:block;font-weight:500;color:var(--t-muted);font-size:11px}
+.status{font-family:var(--t-display);font-size:15px;text-align:center;letter-spacing:.02em;min-height:1.4em}
+.board{--cols:7;--rows:6;position:relative;display:grid;grid-template-columns:repeat(var(--cols),1fr);gap:var(--t-gap);padding:var(--t-gap);
+  background:var(--t-frame);border:var(--t-frame-border);border-radius:var(--t-radius);box-shadow:var(--t-frame-shadow);
+  overflow:hidden;touch-action:manipulation;user-select:none;-webkit-user-select:none;max-width:100%;backdrop-filter:var(--t-blur)}
+.cell{position:relative;aspect-ratio:1;border-radius:var(--t-hole-radius);background:var(--t-hole);box-shadow:var(--t-hole-shadow);cursor:pointer}
+.board.locked .cell{cursor:default}
+.disc{position:absolute;inset:7%;border-radius:var(--t-hole-radius);--pc:var(--t-p1)}
+.disc.p2{--pc:var(--t-p2)}
+.disc.drop{animation:fall var(--dur,.45s) cubic-bezier(.45,0,.9,.6) both}
+@keyframes fall{0%{transform:translateY(var(--from))}72%{transform:translateY(0)}84%{transform:translateY(-14%)}100%{transform:translateY(0)}}
+.disc.win{animation:winpulse 1s ease-in-out infinite}
+@keyframes winpulse{50%{filter:brightness(1.6) saturate(1.2);transform:scale(1.07)}}
+.board.over .disc:not(.win){opacity:.35;transition:opacity .5s}
+.who .pdisc{--pc:var(--t-p1)}.who .pdisc.p2{--pc:var(--t-p2)}
+.ghost{position:absolute;inset:7%;border-radius:var(--t-hole-radius);opacity:.28;pointer-events:none;--pc:var(--t-p1)}
+
+/* theme A · Estrada Néon — anéis de tubo */
+.t-a .disc,.t-a .ghost,.t-a .pdisc{background:radial-gradient(circle,transparent 46%,var(--pc) 50%,var(--pc) 62%,transparent 66%);
+  box-shadow:0 0 10px var(--pc),inset 0 0 10px var(--pc)}
+/* theme B · Synthwave 84 — fichas sólidas com reflexo */
+.t-b .disc,.t-b .ghost,.t-b .pdisc{background:radial-gradient(circle at 35% 30%,#fff9 0 8%,transparent 22%),linear-gradient(160deg,var(--pc),color-mix(in srgb,var(--pc) 45%,#1a0030));
+  box-shadow:0 0 14px color-mix(in srgb,var(--pc) 70%,transparent),inset 0 -4px 0 #0004}
+/* theme C · Circuito LED — LEDs quadrados */
+.t-c .disc,.t-c .ghost,.t-c .pdisc{background:radial-gradient(circle,#fff 0 10%,var(--pc) 32%,color-mix(in srgb,var(--pc) 40%,#000) 100%);
+  box-shadow:0 0 12px var(--pc);border:1px solid color-mix(in srgb,var(--pc) 60%,#fff)}
+/* theme D · Aurora de Vidro — vidro translúcido */
+.t-d .disc,.t-d .ghost,.t-d .pdisc{background:radial-gradient(circle at 30% 25%,#ffffffb0 0 6%,transparent 30%),radial-gradient(circle at 50% 60%,color-mix(in srgb,var(--pc) 85%,transparent),color-mix(in srgb,var(--pc) 35%,transparent));
+  box-shadow:0 0 18px color-mix(in srgb,var(--pc) 55%,transparent),inset 0 0 0 1px #ffffff40;backdrop-filter:blur(2px)}
+
+/* ---------- sections ---------- */
+.sec{padding-block:44px 8px}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;margin-bottom:22px}
+.sec-head h2{font-size:clamp(28px,4vw,40px);font-weight:800}
+.sec-head p{max-width:60ch;color:var(--muted)}
+
+.dir{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:22px;display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:26px;margin-bottom:22px}
+.dir.rec-dir{border-color:color-mix(in srgb,var(--acc) 60%,var(--line))}
+.dir-info{display:flex;flex-direction:column;gap:12px;min-width:0}
+.dir-info .tag{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.dir-info h3{font-size:28px;line-height:1.05}
+.dir-info p{color:#CFC9E3;font-size:14.5px}
+.badge{align-self:flex-start;font-size:12px;font-weight:700;padding:3px 10px;border-radius:999px;background:var(--acc);color:var(--ink)}
+.sw{display:flex;gap:6px;flex-wrap:wrap}
+.sw span{width:34px;height:34px;border-radius:9px;border:1px solid #ffffff22;position:relative}
+.sw span[title]:hover::after{content:attr(title);position:absolute;top:110%;left:0;font-size:11px;white-space:nowrap;color:var(--muted)}
+.spec{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:13px;margin:0}
+.spec dt{color:var(--muted)}
+.spec dd{margin:0}
+.pick{margin-top:auto;border:1px solid var(--line);background:var(--panel2);padding:9px 14px;border-radius:12px;font-weight:700;text-align:left}
+.pick[aria-pressed="true"]{background:var(--acc);border-color:var(--acc);color:var(--ink)}
+.phones{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px;align-items:start;min-width:0}
+
+/* phone mockup */
+.phone{--w:100%;max-width:250px;width:100%;justify-self:center;aspect-ratio:9/19;border-radius:28px;border:6px solid #050508;background:var(--t-bg);color:var(--t-fg);font-family:var(--t-body);
+  position:relative;overflow:hidden;box-shadow:0 10px 30px #0008;display:flex;flex-direction:column;font-size:11px}
+.phone::before{content:"";position:absolute;inset:0;background:var(--t-deco);pointer-events:none}
+.phone>*{position:relative}
+.ph-cap{font-size:12px;color:var(--muted);text-align:center;margin-top:6px}
+.sbar{display:flex;justify-content:space-between;padding:8px 14px 4px;font-size:9.5px;color:var(--t-muted);font-variant-numeric:tabular-nums}
+.ph-body{flex:1;display:flex;flex-direction:column;gap:9px;padding:6px 12px 10px;min-height:0}
+.logo{font-family:var(--t-display);font-size:30px;line-height:1;text-align:center;margin-top:18px;color:var(--t-fg);text-shadow:var(--t-logo-glow)}
+.logo-sub{text-align:center;color:var(--t-muted);font-size:10px;letter-spacing:.16em;text-transform:uppercase}
+.cta{background:var(--t-acc);color:var(--t-on-acc);border-radius:var(--t-btn-radius);padding:10px;text-align:center;font-weight:700;font-family:var(--t-display);font-size:12.5px;box-shadow:0 0 18px color-mix(in srgb,var(--t-acc) 50%,transparent)}
+.cta small{display:block;font-family:var(--t-body);font-weight:500;font-size:9.5px;opacity:.8}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+.tile{background:var(--t-surface);border:1px solid var(--t-line);border-radius:var(--t-btn-radius);padding:8px;display:flex;flex-direction:column;gap:2px}
+.tile b{font-size:11px}
+.tile span{color:var(--t-muted);font-size:9.5px}
+.tile.wide{grid-column:span 2;flex-direction:row;justify-content:space-between;align-items:center}
+.pbar{height:5px;border-radius:5px;background:var(--t-line);overflow:hidden}
+.pbar i{display:block;height:100%;background:linear-gradient(90deg,var(--t-p1),var(--t-p2))}
+.tabbar{margin-top:auto;display:flex;justify-content:space-around;border-top:1px solid var(--t-line);padding-top:7px;color:var(--t-muted);font-size:9px}
+.tabbar .on{color:var(--t-acc);font-weight:700}
+.dhead{display:flex;justify-content:space-between;align-items:center}
+.dhead b{font-family:var(--t-display);font-size:15px}
+.dhead span{color:var(--t-muted);font-size:10px}
+.path{flex:1;display:flex;flex-direction:column-reverse;gap:9px;padding:6px 0}
+.node{display:flex;align-items:center;gap:8px}
+.node:nth-child(4n+2){padding-left:36px}.node:nth-child(4n+3){padding-left:72px}.node:nth-child(4n){padding-left:36px}
+.nd{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:10.5px;border:2px solid var(--t-p1);background:var(--t-surface);font-variant-numeric:tabular-nums}
+.node.cur .nd{background:var(--t-acc);color:var(--t-on-acc);border-color:var(--t-acc);box-shadow:0 0 14px var(--t-acc)}
+.node.lock .nd{border-color:var(--t-line);color:var(--t-muted)}
+.node.boss .nd{width:40px;height:40px;border-color:var(--t-p2);box-shadow:0 0 14px var(--t-p2)}
+.node small{color:var(--t-muted);font-size:9.5px}
+.stars{color:var(--t-star);letter-spacing:1px;font-size:10px}
+.rival{display:flex;align-items:center;gap:8px;background:var(--t-surface);border:1px solid var(--t-line);border-radius:var(--t-btn-radius);padding:7px}
+.av{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-family:var(--t-display);font-size:12px;color:var(--t-on-acc);background:var(--t-p2);flex:none}
+.rival b{display:block;font-size:11px}
+.rival span{color:var(--t-muted);font-size:9.5px}
+.goalchip{display:flex;justify-content:space-between;align-items:center;font-size:10.5px}
+.goalchip b{font-family:var(--t-display);font-size:18px;font-variant-numeric:tabular-nums}
+.mboard{display:grid;grid-template-columns:repeat(7,1fr);gap:3px;padding:4px;background:var(--t-frame);border:var(--t-frame-border);border-radius:calc(var(--t-radius)*.6);box-shadow:var(--t-frame-shadow)}
+.mboard i{aspect-ratio:1;border-radius:var(--t-hole-radius);background:var(--t-hole);position:relative;display:block}
+.mboard .pdisc{position:absolute;inset:8%;border-radius:var(--t-hole-radius);--pc:var(--t-p1)}
+.mboard .pdisc.p2{--pc:var(--t-p2)}
+.mboard .pdisc.hint{animation:winpulse 1.2s infinite}
+.tools{display:flex;justify-content:space-around;margin-top:auto;color:var(--t-muted);font-size:9.5px;text-align:center}
+.tools div b{display:block;font-size:15px;color:var(--t-fg);font-family:var(--t-display)}
+
+/* ---------- caderno ---------- */
+.nb{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,520px),1fr));gap:18px}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:18px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.box h3{font-size:19px}
+.box>p{color:var(--muted);font-size:13.5px}
+.opts{display:flex;flex-direction:column;gap:8px}
+.opt{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:start;text-align:left;background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.opt .ck{width:18px;height:18px;border-radius:5px;border:2px solid var(--muted);margin-top:2px;display:grid;place-items:center;font-size:12px;color:var(--ink);font-weight:800}
+.opt.radio .ck{border-radius:50%}
+.opt[aria-pressed="true"]{border-color:var(--acc);background:color-mix(in srgb,var(--acc) 12%,var(--panel2))}
+.opt[aria-pressed="true"] .ck{background:var(--acc);border-color:var(--acc)}
+.opt[aria-pressed="true"] .ck::after{content:"✓"}
+.opt b{font-size:14px;font-weight:700}
+.opt .rec{font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--good);margin-left:6px}
+.opt span.d{display:block;color:var(--muted);font-size:13px;margin-top:2px}
+.summary{margin-top:28px;background:var(--panel);border:1px solid color-mix(in srgb,var(--acc) 50%,var(--line));border-radius:20px;padding:20px;display:flex;flex-direction:column;gap:12px}
+.summary .row{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.summary button{border:none;background:var(--acc);color:var(--ink);font-weight:700;padding:10px 18px;border-radius:12px}
+.summary button.ghostb{background:var(--panel2);color:var(--text);border:1px solid var(--line)}
+#sumtext{width:100%;min-height:260px;background:var(--ink);color:var(--text);border:1px solid var(--line);border-radius:12px;padding:12px;font:13px/1.5 ui-monospace,"JetBrains Mono",monospace;resize:vertical;box-sizing:border-box}
+
+@media (max-width:900px){
+  .hero{grid-template-columns:1fr;gap:28px}
+  .dir{grid-template-columns:1fr}
+}
+@media (max-width:480px){ .dna{grid-template-columns:1fr} }
+@media (prefers-reduced-motion:reduce){
+  .disc.drop,.disc.win,.mboard .pdisc.hint{animation:none}
+}
+</style>
+
+<div class="wrap">
+  <header class="hero">
+    <div>
+      <p class="eyebrow">Proposta de design · 13 out 2026</p>
+      <h1>Neon<span>Line</span></h1>
+      <p class="lede">Um quatro em linha offline para Android com o ADN do Block Night e do NightCrush: campanha longa, três dificuldades por nível, modos livres e nada de internet. Aqui tens quatro direções visuais e um caderno de ideias de jogabilidade. Joga contra a IA no tabuleiro ao lado, troca de tema, escolhe um design, marca as opções e copia o resumo no fundo da página.</p>
+      <div class="dna">
+        <div><h3>Vem da série</h3><ul>
+          <li>600 níveis × Fácil, Médio, Difícil</li>
+          <li>Cada variante com certificado de solução</li>
+          <li>Desafio diário pela data do telemóvel</li>
+          <li>Sem INTERNET, anúncios ou contas</li>
+          <li>Inglês e português, exportar progresso</li>
+        </ul></div>
+        <div><h3>Novo no NeonLine</h3><ul>
+          <li>Rivais de IA com personalidade, um por paragem</li>
+          <li>Quebra-cabeças "ganha em N jogadas" provados por solver</li>
+          <li>Duelo a dois no mesmo telemóvel</li>
+          <li>Variantes: Pop Out, Cinco em linha, gravidade que roda</li>
+          <li>Análise da jogada decisiva no fim de cada partida</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <div class="demo-card">
+      <div class="demo-top">
+        <div class="seg" id="themeSeg" role="group" aria-label="Tema">
+          <button data-t="a" aria-pressed="true">A · Estrada Néon</button>
+          <button data-t="b" aria-pressed="false">B · Synthwave</button>
+          <button data-t="c" aria-pressed="false">C · Circuito</button>
+          <button data-t="d" aria-pressed="false">D · Aurora</button>
+        </div>
+      </div>
+      <div class="game t-a" id="game">
+        <div class="ghud">
+          <div class="who"><span class="dot pdisc" id="youDot"></span><div>Tu<small>começas</small></div></div>
+          <div class="status" id="status">A tua vez</div>
+          <div class="who" style="text-align:right"><div><span id="rivalName">Rival</span><small id="rivalLvl">Médio</small></div><span class="dot pdisc p2" id="rivDot"></span></div>
+        </div>
+        <div class="board" id="board" aria-label="Tabuleiro 7 por 6. Toca numa coluna ou usa as teclas 1 a 7."></div>
+      </div>
+      <div class="demo-foot">
+        <div class="seg" id="diffSeg" role="group" aria-label="Dificuldade">
+          <button data-d="1" aria-pressed="false">Fácil</button>
+          <button data-d="2" aria-pressed="true">Médio</button>
+          <button data-d="3" aria-pressed="false">Difícil</button>
+        </div>
+        <button class="newg" id="newGame">Novo jogo</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="sec" id="designs">
+    <div class="sec-head">
+      <div><p class="eyebrow">Direções visuais</p><h2>Quatro maneiras de acender o tabuleiro</h2></div>
+      <p>Cada direção mostra o início, o mapa de uma paragem e um nível a meio. Como no NightCrush, as três que não escolheres podem entrar no jogo como temas desbloqueáveis.</p>
+    </div>
+    <div id="dirs"></div>
+  </section>
+
+  <section class="sec" id="caderno">
+    <div class="sec-head">
+      <div><p class="eyebrow">Caderno de jogabilidade</p><h2>O que entra no jogo</h2></div>
+      <p>As opções a verde são as que eu recomendo e já vêm marcadas. Desmarca o que não quiseres e marca o resto. O resumo atualiza sozinho.</p>
+    </div>
+    <div class="nb" id="nb"></div>
+
+    <div class="summary">
+      <div class="row">
+        <div><h3>Resumo das escolhas</h3><p class="muted" id="sumline">Design por escolher.</p></div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="ghostb" id="showsum">Ver resumo</button><button id="copysum">Copiar escolhas</button></div>
+      </div>
+      <textarea id="sumtext" hidden readonly aria-label="Resumo das escolhas"></textarea>
+    </div>
+  </section>
+</div>
+
+<script>
+/* ================= temas ================= */
+const THEMES={
+  a:{key:'a',name:'Estrada Néon',tag:'A · Letreiros de estrada',
+    blurb:'Uma estrada no deserto à noite, ligada por letreiros de néon: posto 24 horas, diner, motel, bowling, drive-in, até à avenida das luzes. Cada paragem é um capítulo da campanha, com o seu letreiro e o seu rival. As peças são anéis de tubo aceso, rosa contra âmbar, e a linha vencedora acende como um letreiro com o zumbido elétrico.',
+    fonts:'Tilt Neon + Figtree', pieces:'Anéis de tubo: Rosa e Âmbar', mood:'Quente, road trip, noite longa',
+    sw:[['#0F0B16','Asfalto'],['#1E1528','Berma'],['#FF4F9A','Rosa'],['#FFB547','Âmbar'],['#6FE3FF','Azul de tubo'],['#FFEAF3','Texto']],
+    v:{bg:'linear-gradient(180deg,#0F0B16 0%,#170F22 70%,#22122A 100%)',deco:'radial-gradient(1px 1px at 12% 8%,#fff8,transparent),radial-gradient(1px 1px at 70% 5%,#fff6,transparent),radial-gradient(1px 1px at 88% 14%,#fff5,transparent),radial-gradient(1px 1px at 35% 12%,#fff4,transparent),repeating-linear-gradient(180deg,transparent 0 26px,#FFB54722 26px 40px) 50% 0/3px 100% no-repeat',
+      fg:'#FFEAF3',muted:'#B58FA8',surface:'#1E1528',line:'#3A2840',acc:'#FF4F9A','on-acc':'#2A0614',p1:'#FF4F9A',p2:'#FFB547',star:'#FFB547',
+      frame:'#170F1F','frame-border':'2px solid #6FE3FF','frame-shadow':'0 0 12px #6FE3FF88,inset 0 0 12px #6FE3FF44',radius:'22px',gap:'6px',
+      hole:'#09060D','hole-shadow':'inset 0 2px 6px #000','hole-radius':'50%',blur:'none','btn-radius':'14px',
+      display:'"Tilt Neon","Figtree",sans-serif',body:'"Figtree",system-ui,sans-serif','logo-glow':'0 0 6px #FF4F9A,0 0 18px #FF4F9A'},
+    rival:['Flamingo','Defensiva, fecha todas as colunas'],district:'Motel Flamingo',rec:true},
+  b:{key:'b',name:'Synthwave 84',tag:'B · Arcada retro',
+    blurb:'Uma máquina de arcada dos anos 80: pôr do sol magenta, grelha em perspetiva até ao horizonte e cromado. As fichas são sólidas e brilhantes, magenta contra ciano. É a direção mais "jogo" das quatro, com pontuações grandes e letras de arcada.',
+    fonts:'Audiowide + Figtree', pieces:'Fichas sólidas: Magenta e Ciano', mood:'Energético, arcada, ruidoso',
+    sw:[['#0B0420','Fundo'],['#2A0845','Céu'],['#FF2BD6','Magenta'],['#00E5FF','Ciano'],['#FFD166','Sol'],['#F5E9FF','Texto']],
+    v:{bg:'linear-gradient(180deg,#0B0420 0%,#2A0845 58%,#47104F 100%)',deco:'linear-gradient(transparent 62%,#FF2BD622 62.4%,transparent 63%),repeating-linear-gradient(90deg,transparent 0 30px,#FF2BD618 30px 31px)',
+      fg:'#F5E9FF',muted:'#B49BD0',surface:'#24103E',line:'#3F2363',acc:'#FFD166','on-acc':'#2A0845',p1:'#FF2BD6',p2:'#00E5FF',star:'#FFD166',
+      frame:'linear-gradient(180deg,#5B2AA8,#2E1170)','frame-border':'2px solid #B07CFF','frame-shadow':'0 8px 0 #1A0640,0 0 26px #FF2BD655',radius:'16px',gap:'6px',
+      hole:'#12062A','hole-shadow':'inset 0 3px 6px #000c','hole-radius':'50%',blur:'none','btn-radius':'8px',
+      display:'"Audiowide","Figtree",sans-serif',body:'"Figtree",system-ui,sans-serif','logo-glow':'0 0 10px #FF2BD6,3px 3px 0 #00E5FF'},
+    rival:['VECTOR-9','Agressivo, ataca pelo centro'],district:'Arcada Rossio'},
+  c:{key:'c',name:'Circuito LED',tag:'C · Placa de circuito',
+    blurb:'O tabuleiro é uma placa de circuito vista de perto: pistas de cobre, furos quadrados e LEDs a acender. Muito limpo e técnico, com números monoespaçados e uma IA que "calcula" à vista. Combina bem com o lado de quebra-cabeça e de análise de jogadas.',
+    fonts:'Chakra Petch + Figtree', pieces:'LEDs: Vermelho e Azul', mood:'Frio, preciso, técnico',
+    sw:[['#06090C','Fundo'],['#0F1A1E','Placa'],['#FF3B5C','LED vermelho'],['#3D8BFF','LED azul'],['#D9A441','Cobre'],['#E2F1EE','Texto']],
+    v:{bg:'#06090C',deco:'linear-gradient(90deg,transparent 18%,#D9A44118 18% 18.6%,transparent 18.6%),linear-gradient(0deg,transparent 30%,#D9A44114 30% 30.5%,transparent 30.5% 74%,#D9A44114 74% 74.5%,transparent 74.5%)',
+      fg:'#E2F1EE',muted:'#86A09C',surface:'#0F1A1E',line:'#22343A',acc:'#3D8BFF','on-acc':'#020A18',p1:'#FF3B5C',p2:'#3D8BFF',star:'#D9A441',
+      frame:'#0F1A1E','frame-border':'1px solid #D9A44166','frame-shadow':'inset 0 0 0 4px #06090C,inset 0 0 0 5px #D9A44133',radius:'6px',gap:'7px',
+      hole:'#05080A','hole-shadow':'inset 0 0 0 1px #D9A44155','hole-radius':'28%',blur:'none','btn-radius':'4px',
+      display:'"Chakra Petch","Figtree",sans-serif',body:'"Figtree",system-ui,sans-serif','logo-glow':'0 0 10px #3D8BFF'},
+    rival:['K-0RE','Calculista, prepara armadilhas duplas'],district:'Setor 01'},
+  d:{key:'d',name:'Aurora de Vidro',tag:'D · Vidro e aurora',
+    blurb:'Um céu de aurora boreal visto através de vidro fosco. O tabuleiro é uma lâmina translúcida e as peças parecem gotas de vidro colorido que deixam passar a luz. É a mais calma das quatro, boa para o modo Zen e para sessões longas.',
+    fonts:'Unbounded + Figtree', pieces:'Vidro: Violeta e Menta', mood:'Calmo, suave, elegante',
+    sw:[['#090A1C','Fundo'],['#1A1C3A','Vidro'],['#B98CFF','Violeta'],['#5FF5C8','Menta'],['#FF9EC7','Aurora rosa'],['#EEF0FF','Texto']],
+    v:{bg:'#090A1C',deco:'radial-gradient(60% 40% at 20% 10%,#5FF5C833,transparent),radial-gradient(50% 40% at 85% 25%,#B98CFF40,transparent),radial-gradient(60% 40% at 50% 100%,#FF9EC722,transparent)',
+      fg:'#EEF0FF',muted:'#A3A6CC',surface:'#ffffff0d',line:'#ffffff1f',acc:'#5FF5C8','on-acc':'#06261E',p1:'#B98CFF',p2:'#5FF5C8',star:'#FFE08A',
+      frame:'#ffffff10','frame-border':'1px solid #ffffff30','frame-shadow':'0 20px 40px #0006,inset 0 1px 0 #ffffff40',radius:'26px',gap:'7px',
+      hole:'#05061466','hole-shadow':'inset 0 2px 8px #0008','hole-radius':'50%',blur:'blur(10px)','btn-radius':'18px',
+      display:'"Unbounded","Figtree",sans-serif',body:'"Figtree",system-ui,sans-serif','logo-glow':'0 0 24px #B98CFF88'},
+    rival:['Boreal','Imprevisível, muda de estilo a meio'],district:'Fiorde'}
+};
+function applyTheme(el,t){
+  el.classList.remove('t-a','t-b','t-c','t-d'); el.classList.add('t-'+t.key);
+  for(const [k,v] of Object.entries(t.v)) el.style.setProperty('--t-'+k,v);
+}
+const store={get(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+
+/* ================= motor do demo ================= */
+const COLS=7,ROWS=6;
+const game=document.getElementById('game'),boardEl=document.getElementById('board'),statusEl=document.getElementById('status');
+let grid,turn,over,busy,depth=4,moves=0,curTheme='a';
+const cells=[];
+for(let r=0;r<ROWS;r++)for(let c=0;c<COLS;c++){
+  const d=document.createElement('div');d.className='cell';d.dataset.c=c;
+  d.addEventListener('click',()=>human(c));
+  d.addEventListener('mouseenter',()=>showGhost(c));
+  boardEl.appendChild(d);cells.push(d);
+}
+boardEl.addEventListener('mouseleave',()=>showGhost(-1));
+const cellAt=(r,c)=>cells[r*COLS+c];
+function lowest(g,c){for(let r=ROWS-1;r>=0;r--)if(!g[r][c])return r;return -1}
+function winLine(g,r,c){
+  const p=g[r][c];if(!p)return null;
+  for(const [dr,dc] of [[0,1],[1,0],[1,1],[1,-1]]){
+    const line=[[r,c]];
+    for(const s of [1,-1]){let rr=r+dr*s,cc=c+dc*s;while(rr>=0&&rr<ROWS&&cc>=0&&cc<COLS&&g[rr][cc]===p){line.push([rr,cc]);rr+=dr*s;cc+=dc*s}}
+    if(line.length>=4)return line;
+  }
+  return null;
+}
+function full(g){return g[0].every(x=>x)}
+function scoreWindow(w,p){const o=3-p;const cp=w.filter(x=>x===p).length,co=w.filter(x=>x===o).length,ce=w.filter(x=>!x).length;
+  if(cp===4)return 1000;if(cp===3&&ce===1)return 6;if(cp===2&&ce===2)return 2;if(co===3&&ce===1)return -5;return 0}
+function evalBoard(g,p){let s=0;
+  for(let r=0;r<ROWS;r++)if(g[r][3]===p)s+=3;
+  for(let r=0;r<ROWS;r++)for(let c=0;c<COLS;c++)for(const [dr,dc] of [[0,1],[1,0],[1,1],[-1,1]]){
+    const er=r+3*dr,ec=c+3*dc;if(er<0||er>=ROWS||ec>=COLS)continue;
+    const w=[0,1,2,3].map(i=>g[r+i*dr][c+i*dc]);s+=scoreWindow(w,p)}
+  return s}
+const ORDER=[3,2,4,1,5,0,6];
+function negamax(g,d,a,b,p){
+  let best=-Infinity,any=false;
+  for(const c of ORDER){const r=lowest(g,c);if(r<0)continue;any=true;
+    g[r][c]=p;let v;
+    if(winLine(g,r,c))v=10000+d;else if(d===0)v=evalBoard(g,p)-evalBoard(g,3-p);else v=-negamax(g,d-1,-b,-a,3-p);
+    g[r][c]=0;if(v>best)best=v;if(v>a)a=v;if(a>=b)break}
+  return any?best:0}
+function aiMove(){
+  const g=grid.map(r=>r.slice());let best=-Infinity,cands=[];
+  for(const c of ORDER){const r=lowest(g,c);if(r<0)continue;g[r][c]=2;
+    let v=winLine(g,r,c)?100000:-negamax(g,depth-1,-Infinity,Infinity,1);g[r][c]=0;
+    if(depth===1)v+=Math.random()*40-20;/* Fácil erra de propósito */
+    if(v>best){best=v;cands=[c]}else if(v===best)cands.push(c)}
+  return cands[Math.floor(Math.random()*cands.length)];
+}
+function place(c,p){
+  const r=lowest(grid,c);if(r<0)return null;grid[r][c]=p;moves++;
+  const d=document.createElement('div');d.className='disc drop'+(p===2?' p2':'');
+  d.style.setProperty('--from',`-${(r+1)*118}%`);d.style.setProperty('--dur',(0.28+r*0.05)+'s');
+  cellAt(r,c).appendChild(d);
+  try{navigator.vibrate&&navigator.vibrate(12)}catch(e){}
+  return r;
+}
+function finish(line,p){
+  over=true;boardEl.classList.add('over','locked');showGhost(-1);
+  if(line){line.forEach(([r,c])=>cellAt(r,c).querySelector('.disc').classList.add('win'));
+    const yours=Math.ceil(moves/2);
+    statusEl.textContent=p===1?`Ganhaste em ${yours} jogadas`:`${THEMES[curTheme].rival[0]} ganhou`}
+  else statusEl.textContent='Empate · tabuleiro cheio';
+}
+function human(c){
+  if(over||busy||turn!==1)return;
+  const r=place(c,1);if(r==null)return;showGhost(-1);
+  const w=winLine(grid,r,c);if(w)return finish(w,1);if(full(grid))return finish(null);
+  turn=2;busy=true;boardEl.classList.add('locked');statusEl.textContent=`${THEMES[curTheme].rival[0]} a pensar…`;
+  setTimeout(()=>{const ac=aiMove();const ar=place(ac,2);busy=false;turn=1;boardEl.classList.remove('locked');
+    const w2=winLine(grid,ar,ac);if(w2)return finish(w2,2);if(full(grid))return finish(null);statusEl.textContent='A tua vez'},520);
+}
+let ghostEl=null;
+function showGhost(c){
+  if(ghostEl){ghostEl.remove();ghostEl=null}
+  if(c<0||over||busy||turn!==1)return;const r=lowest(grid,c);if(r<0)return;
+  ghostEl=document.createElement('div');ghostEl.className='ghost';cellAt(r,c).appendChild(ghostEl);
+}
+function newGame(){
+  grid=Array.from({length:ROWS},()=>Array(COLS).fill(0));turn=1;over=false;busy=false;moves=0;
+  cells.forEach(x=>x.innerHTML='');boardEl.classList.remove('over','locked');statusEl.textContent='A tua vez';
+}
+document.addEventListener('keydown',e=>{if(e.target.closest('textarea,input'))return;const n=+e.key;if(n>=1&&n<=7)human(n-1)});
+document.getElementById('newGame').onclick=newGame;
+function setTheme(k){curTheme=k;applyTheme(game,THEMES[k]);
+  document.querySelectorAll('#themeSeg button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.t===k));
+  document.getElementById('rivalName').textContent=THEMES[k].rival[0];
+  if(!over&&!busy)statusEl.textContent='A tua vez'}
+document.querySelectorAll('#themeSeg button').forEach(b=>b.onclick=()=>setTheme(b.dataset.t));
+const DIFF={1:"Fácil",2:"Médio",3:"Difícil"},DEPTH={1:1,2:4,3:6};
+document.querySelectorAll('#diffSeg button').forEach(b=>b.onclick=()=>{
+  depth=DEPTH[b.dataset.d];document.getElementById('rivalLvl').textContent=DIFF[b.dataset.d];
+  document.querySelectorAll('#diffSeg button').forEach(x=>x.setAttribute('aria-pressed',x===b));newGame()});
+
+/* ================= telemóveis ================= */
+const POS=[ /* posição de exemplo, linha de cima primeiro; h = jogada sugerida */
+  '.......','.......','..2....','..12h..','..211..','.21122.'];
+function mini(){return POS.map(row=>[...row].map(ch=>ch==='.'?'<i></i>':ch==='h'?'<i><span class="pdisc hint" style="opacity:.55"></span></i>':`<i><span class="pdisc${ch==='2'?' p2':''}"></span></i>`).join('')).join('')}
+function phoneHome(t){return `<div class="phone"><div class="sbar"><span>21:47</span><span>▮▮▮ 84%</span></div><div class="ph-body">
+  <div class="logo">NeonLine</div><div class="logo-sub">quatro em linha</div>
+  <div class="tile wide" style="margin-top:8px"><div><b>${t.district}</b><span style="display:block">Paragem 3 de 12 · 112 ★</span></div><b>37/50</b></div>
+  <div class="pbar"><i style="width:74%"></i></div>
+  <div class="cta">Continuar<small>Nível 137 · ${t.district}</small></div>
+  <div class="tiles">
+    <div class="tile"><b>Desafio diário</b><span>Ganha em 5</span></div>
+    <div class="tile"><b>Duelo a dois</b><span>Mesmo telemóvel</span></div>
+    <div class="tile"><b>Jogo livre</b><span>Regras à escolha</span></div>
+    <div class="tile"><b>Puzzle rush</b><span>Recorde 14</span></div>
+  </div>
+  <div class="tabbar"><span class="on">Jogar</span><span>Rivais</span><span>Estatísticas</span><span>Definições</span></div>
+</div></div><p class="ph-cap">Início</p>`}
+function phoneMap(t){
+  const nodes=[[133,'★★★','Ganha em 4'],[134,'★★☆','Duelo'],[135,'★★★','Defende 8'],[136,'★☆☆','Só diagonais'],[137,'','Duelo · 6×5','cur'],[138,'','Pop Out','lock'],[139,'','Ganha em 6','lock']];
+  return `<div class="phone"><div class="sbar"><span>21:48</span><span>▮▮▮ 84%</span></div><div class="ph-body">
+  <div class="dhead"><b>${t.district}</b><span>Fácil · Médio · <u>Difícil</u></span></div>
+  <div class="rival"><div class="av">${t.rival[0][0]}</div><div><b>Chefe: ${t.rival[0]}</b><span>${t.rival[1]}</span></div></div>
+  <div class="path">${nodes.map(([n,s,k,cl])=>`<div class="node ${cl||''}"><div class="nd">${n-100}</div><div><span class="stars">${s||'&nbsp;'}</span><small style="display:block">${k}</small></div></div>`).join('')}
+  <div class="node boss lock" style="padding-left:20px"><div class="nd">${t.rival[0][0]}</div><div><small style="display:block">Nível 50 · chefe</small></div></div></div>
+</div></div><p class="ph-cap">Mapa da paragem</p>`}
+function phoneGame(t){return `<div class="phone"><div class="sbar"><span>21:49</span><span>▮▮▮ 83%</span></div><div class="ph-body">
+  <div class="dhead"><b>Nível 37</b><span>${t.district} · Médio</span></div>
+  <div class="rival"><div class="av">${t.rival[0][0]}</div><div style="flex:1"><b>${t.rival[0]}</b><span>${t.rival[1]}</span></div></div>
+  <div class="goalchip"><span>Ganha em<br>até 6 jogadas</span><b>4</b></div>
+  <div class="pbar"><i style="width:40%"></i></div>
+  <div class="mboard">${mini()}</div>
+  <div style="text-align:center;font-family:var(--t-display);font-size:13px;margin-top:4px">A tua vez</div>
+  <div class="tools"><div><b>💡</b>Dica ×2</div><div><b>↶</b>Desfazer</div><div><b>Ⅱ</b>Pausa</div></div>
+</div></div><p class="ph-cap">Nível a meio, com dica</p>`}
+let chosenDesign=store.get('nl-design')||'a';
+function renderDirs(){
+  const host=document.getElementById('dirs');host.innerHTML='';
+  for(const t of Object.values(THEMES)){
+    const el=document.createElement('article');el.className='dir'+(t.rec?' rec-dir':'');
+    el.innerHTML=`<div class="dir-info"><span class="tag">${t.tag}</span>${t.rec?'<span class="badge">Escolhido pelo Tiago</span>':''}<h3>${t.name}</h3><p>${t.blurb}</p>
+      <div class="sw">${t.sw.map(([c,n])=>`<span style="background:${c}" title="${n} ${c}"></span>`).join('')}</div>
+      <dl class="spec"><dt>Letra</dt><dd>${t.fonts}</dd><dt>Peças</dt><dd>${t.pieces}</dd><dt>Ambiente</dt><dd>${t.mood}</dd><dt>Rival tipo</dt><dd>${t.rival[0]}</dd></dl>
+      <button class="pick" data-k="${t.key}" aria-pressed="${chosenDesign===t.key}">${chosenDesign===t.key?'Escolhido ✓':'Escolher este design'}</button></div>
+      <div class="phones"><div>${phoneHome(t)}</div><div>${phoneMap(t)}</div><div>${phoneGame(t)}</div></div>`;
+    el.querySelectorAll('.phone').forEach(p=>applyTheme(p,t));
+    el.querySelector('.pick').onclick=()=>{chosenDesign=t.key;store.set('nl-design',t.key);renderDirs();setTheme(t.key);updateSummary()};
+    host.appendChild(el);
+  }
+}
+
+/* ================= caderno ================= */
+const GROUPS=[
+ {id:'levels',title:'Quantidade de níveis',type:'single',desc:'Cada nível existe em Fácil, Médio e Difícil, com progresso separado, como no Block Night.',opts:[
+   ['600 níveis em 12 paragens de 50','1 800 variantes certificadas. Igual ao resto da série.',1],
+   ['360 níveis em 12 paragens de 30','Campanha mais curta e mais fácil de afinar.'],
+   ['900 níveis em 15 paragens de 60','Mais conteúdo, mais tempo de geração e de calibração.']]},
+ {id:'types',title:'Tipos de nível na campanha',type:'multi',desc:'Num quatro em linha um "nível" tem de ser mais do que outra partida. Estas são as formas de variar. As estrelas dão-se por ganhar em menos jogadas.',opts:[
+   ['Duelo contra um rival','Partida contra a IA da paragem. A IA é determinística por nível, por isso o certificado é a sequência de jogadas que a vence.',1],
+   ['Quebra-cabeça "Ganha em N"','Posição já montada. Encontra a vitória forçada em N jogadas. O solver prova que existe e que é a mais curta.',1],
+   ['Defesa "Aguenta N jogadas"','Começas em desvantagem e tens de sobreviver até o tabuleiro encher ou passarem N jogadas.',1],
+   ['Objetivo de forma','Só contam linhas diagonais, ou a linha tem de passar por uma casa marcada.',1],
+   ['Tabuleiros especiais','Tamanhos de 5×4 a 9×7, casas bloqueadas, colunas mais curtas.',1],
+   ['Chefe no fim de cada paragem','Nível 50 contra o rival principal, numa melhor de três.',1]]},
+ {id:'rules',title:'Variantes de regras',type:'multi',desc:'Usadas em níveis da campanha e escolhíveis no jogo livre.',opts:[
+   ['Clássico 7×6','A regra base, sempre incluída.',1],
+   ['Pop Out','Em vez de jogar, podes retirar uma peça tua da linha de baixo.',1],
+   ['Cinco em linha','Tabuleiro 9×7 e é preciso alinhar cinco.',1],
+   ['Gravidade que roda','A cada 6 jogadas o tabuleiro roda 90° e as peças voltam a cair.'],
+   ['Peças especiais','Bomba (limpa à volta), Curinga (conta para os dois), Bloqueio (tranca uma coluna uma jogada).'],
+   ['Néon que se apaga','As peças apagam-se 3 jogadas depois de caírem. Tens de lembrar onde estão.'],
+   ['Relógio por jogada','10 segundos por jogada. Se o tempo acabar, joga numa coluna ao acaso.']]},
+ {id:'ai',title:'Inteligência artificial',type:'multi',desc:'O quatro em linha 7×6 está resolvido: quem começa no centro ganha sempre com jogo perfeito. Dá para ter uma IA imbatível com um livro de aberturas.',opts:[
+   ['Três dificuldades por nível','Fácil, Médio e Difícil mudam a profundidade da IA, as dicas e as jogadas permitidas para as estrelas.',1],
+   ['Rivais com personalidade','Um rival por paragem com estilo próprio: agressivo, paciente, armadilheiro, espelho, caótico.',1],
+   ['Modo Perfeito no jogo livre','IA com solver completo e livro de aberturas. Só se empata ou ganha começando no centro.',1],
+   ['Rating local','Um número tipo Elo calculado contra a IA, guardado no telemóvel.']]},
+ {id:'modes',title:'Modos fora da campanha',type:'multi',desc:'Tudo offline.',opts:[
+   ['Desafio diário','Um quebra-cabeça por dia e dificuldade, escolhido pela data. Igual ao Block Night.',1],
+   ['Duelo a dois','Dois jogadores no mesmo telemóvel, com o tabuleiro a rodar para quem joga.',1],
+   ['Jogo livre','Contra a IA com tamanho, regra e dificuldade à escolha.',1],
+   ['Puzzle rush','Resolve o máximo de "Ganha em N" em 3 minutos. Três erros e acaba.',1],
+   ['Torneio','Escada de 8 rivais seguidos, sem desfazer.'],
+   ['Treino de aberturas','Aprende as primeiras jogadas certas e vê porque o centro ganha.']]},
+ {id:'help',title:'Ajuda e aprendizagem',type:'multi',desc:'Para quem quer melhorar e não só passar níveis.',opts:[
+   ['Análise da jogada decisiva','No fim da partida mostra a jogada onde perdeste a vantagem e qual era a certa.',1],
+   ['Dicas limitadas','Duas dicas por nível. A dica acende a coluna certa durante um segundo.',1],
+   ['Desfazer só no Fácil','No Médio e no Difícil cada jogada conta.',1],
+   ['Tutorial nos primeiros níveis','Os primeiros 10 níveis ensinam ameaças, ameaças duplas e o valor do centro.',1],
+   ['Repetição da partida','Revê qualquer partida jogada a jogada.']]},
+ {id:'prog',title:'Progressão',type:'multi',desc:'Sem compras e sem moeda que dê vantagem no tabuleiro.',opts:[
+   ['Estrelas por nível','1 estrela por ganhar, 2 ou 3 por ganhar em poucas jogadas.',1],
+   ['Letreiros que acendem','No início, cada paragem concluída acende o seu letreiro ao longo da estrada.',1],
+   ['Temas desbloqueáveis','Os designs que não escolheres desbloqueiam com estrelas.',1],
+   ['Conquistas e estatísticas','Por dificuldade, com recordes dos modos livres.',1],
+   ['Galeria de rivais','Cada rival vencido entra na galeria com a sua ficha e estilo.',1],
+   ['Série de vitórias','Contador de vitórias seguidas na campanha, só para mostrar.']]},
+ {id:'feel',title:'Sensação',type:'multi',desc:'É o que faz um quatro em linha parecer um jogo e não um tabuleiro.',opts:[
+   ['Queda com ressalto','A peça cai com velocidade real, ressalta e o telemóvel vibra ao bater.',1],
+   ['Linha vencedora acende','As quatro peças acendem uma a uma como um letreiro, com zumbido elétrico.',1],
+   ['Néon que treme','O letreiro da paragem pisca de vez em quando, como os verdadeiros.',1],
+   ['Música por paragem','Uma faixa ambiente curta por paragem, gerada como os sons da série.']]},
+ {id:'a11y',title:'Acessibilidade e definições',type:'multi',desc:'Iguais às da série, mais o que o quatro em linha precisa.',opts:[
+   ['Símbolos nas peças','Cada jogador tem também uma forma (anel e losango), para não depender só da cor.',1],
+   ['Paletas para daltonismo','Pares de cores alternativos testados para os três tipos.',1],
+   ['Movimento reduzido','Sem queda animada nem tremor.',1],
+   ['TalkBack no tabuleiro','Anuncia colunas, peças e ameaças.',1],
+   ['Exportar e importar progresso','Pelo seletor de ficheiros do sistema, como nos outros jogos.',1]]}
+];
+const saved=store.get('nl-opts')||{};
+const sel={};
+GROUPS.forEach(g=>{sel[g.id]=saved[g.id]||g.opts.map((o,i)=>o[2]?i:-1).filter(i=>i>=0)});
+function renderNB(){
+  const host=document.getElementById('nb');host.innerHTML='';
+  GROUPS.forEach(g=>{
+    const box=document.createElement('div');box.className='box';
+    box.innerHTML=`<h3>${g.title}</h3><p>${g.desc}</p><div class="opts"></div>`;
+    const os=box.querySelector('.opts');
+    g.opts.forEach((o,i)=>{const b=document.createElement('button');b.className='opt'+(g.type==='single'?' radio':'');
+      b.setAttribute('aria-pressed',sel[g.id].includes(i));
+      b.innerHTML=`<span class="ck"></span><span><b>${o[0]}</b>${o[2]?'<span class="rec">recomendado</span>':''}<span class="d">${o[1]}</span></span>`;
+      b.onclick=()=>{if(g.type==='single')sel[g.id]=[i];else sel[g.id]=sel[g.id].includes(i)?sel[g.id].filter(x=>x!==i):[...sel[g.id],i].sort((a,b)=>a-b);
+        store.set('nl-opts',sel);renderNB();updateSummary()};
+      os.appendChild(b)});
+    host.appendChild(box)});
+}
+function summaryText(){
+  const t=chosenDesign?THEMES[chosenDesign]:null;
+  let s='NeonLine — escolhas\n\nDesign: '+(t?`${t.tag.split(' · ')[0]} · ${t.name}`:'(por escolher)')+'\n';
+  if(t){const others=Object.values(THEMES).filter(x=>x.key!==t.key).map(x=>x.name);s+=`Outros designs (temas desbloqueáveis?): ${others.join(', ')}\n`}
+  GROUPS.forEach(g=>{s+=`\n${g.title}:\n`;const l=sel[g.id];if(!l.length)s+='  (nada)\n';l.forEach(i=>s+=`  - ${g.opts[i][0]}\n`)});
+  return s;
+}
+function updateSummary(){
+  const t=chosenDesign?THEMES[chosenDesign]:null;
+  const n=Object.values(sel).reduce((a,l)=>a+l.length,0);
+  document.getElementById('sumline').textContent=(t?`Design ${t.name}`:'Design por escolher')+` · ${n} opções marcadas`;
+  const ta=document.getElementById('sumtext');ta.value=summaryText();
+}
+document.getElementById('showsum').onclick=e=>{const ta=document.getElementById('sumtext');ta.hidden=!ta.hidden;e.target.textContent=ta.hidden?'Ver resumo':'Esconder resumo'};
+document.getElementById('copysum').onclick=()=>{
+  const btn=document.getElementById('copysum'),ta=document.getElementById('sumtext'),txt=summaryText();ta.value=txt;
+  const ok=()=>{btn.textContent='Copiado';setTimeout(()=>btn.textContent='Copiar escolhas',1600)};
+  const fb=()=>{ta.hidden=false;ta.focus();ta.select();btn.textContent='Seleciona e copia';setTimeout(()=>btn.textContent='Copiar escolhas',2200)};
+  try{navigator.clipboard.writeText(txt).then(ok,fb)}catch(err){fb()}};
+
+/* arranque */
+newGame();renderDirs();renderNB();updateSummary();setTheme(chosenDesign||'a');
+document.getElementById('youDot').classList.add('pdisc');
+</script>

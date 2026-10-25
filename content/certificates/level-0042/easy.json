@@ -1,0 +1,39 @@
+{
+    "levelId": "level-0042",
+    "difficulty": "easy",
+    "engineVersion": 2,
+    "revision": 3,
+    "seedHex": "438e6b85f9c6b98f",
+    "steps": [
+        {
+            "move": "Drop(col=4, kind=NORMAL)",
+            "afterStateHash": "e0e48d28f5185e335afa2d05139d9f12d685b3540abf1e6d3241b6e23871a310",
+            "rngHex": "ddb9123c868cc59a"
+        },
+        {
+            "move": "Drop(col=1, kind=NORMAL)",
+            "afterStateHash": "ceb24dad52dacb79176805fcca8c3e5ca9999a80cac02c44f6d53cdd71eca2ec",
+            "rngHex": "7bf08bf605d741af"
+        },
+        {
+            "move": "Drop(col=2, kind=NORMAL)",
+            "afterStateHash": "be093954943b9921ef8d50ab04369d5441a1861b9db04a9c3b81fdbaae7cefd5",
+            "rngHex": "7bf08bf605d741af"
+        },
+        {
+            "move": "Drop(col=4, kind=NORMAL)",
+            "afterStateHash": "cca6d3026829f7a0fe8edfbf0d2776cfc4a98590fdbb9c4b5ee557c73034c060",
+            "rngHex": "1a2805af8521bdc4"
+        },
+        {
+            "move": "Drop(col=3, kind=NORMAL)",
+            "afterStateHash": "9802f325035d32bef86a940c2a87e88c29698685ef7ef3d0403ba4091af4c1ae",
+            "rngHex": "1a2805af8521bdc4"
+        }
+    ],
+    "humanMoves": 3,
+    "aiNodes": 0,
+    "stars": 3,
+    "outcome": "win:P1",
+    "createdAt": "2026-10-13"
+}

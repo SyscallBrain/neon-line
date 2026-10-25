@@ -1,0 +1,59 @@
+{
+    "levelId": "level-0232",
+    "difficulty": "hard",
+    "engineVersion": 2,
+    "revision": 1,
+    "seedHex": "b0bf0d2ce664bd36",
+    "steps": [
+        {
+            "move": "Drop(col=3, kind=NORMAL)",
+            "afterStateHash": "e16cf4f4417a2ba74552a90f77329e0d47c2d6bf2fac7539728e38ed939841a3",
+            "rngHex": "2e887495992ec123"
+        },
+        {
+            "move": "Drop(col=3, kind=NORMAL)",
+            "afterStateHash": "b070e37498dcc6598cceb3cd787098a074a55ec6c8d46698dafe6e9b40fed82a",
+            "rngHex": "ccbfee4f18793d38"
+        },
+        {
+            "move": "Drop(col=2, kind=NORMAL)",
+            "afterStateHash": "9783185382752ad2cbf8d168121a6a4b31e05ae0b9b8fd3b70a25577bbff4856",
+            "rngHex": "ccbfee4f18793d38"
+        },
+        {
+            "move": "Drop(col=1, kind=NORMAL)",
+            "afterStateHash": "793468d78ef95f192bce8e0c8a86eb6f858926a8d1c12e0586a0085cc8eb1643",
+            "rngHex": "6af7680897c3b94d"
+        },
+        {
+            "move": "Drop(col=4, kind=NORMAL)",
+            "afterStateHash": "a3f040dad1ee1e7ac1ba8d8454c988d6efd6f6df09aa474bed20837173f8bb62",
+            "rngHex": "6af7680897c3b94d"
+        },
+        {
+            "move": "Drop(col=4, kind=NORMAL)",
+            "afterStateHash": "086e498d57b0831d672f417fb42d11a32970779ca5e3450cbfd43a1e681d9673",
+            "rngHex": "092ee1c2170e3562"
+        },
+        {
+            "move": "Drop(col=4, kind=NORMAL)",
+            "afterStateHash": "0c13e5ca8475738b7aeb4f61e4c2296a2c40940ed3564d8fa9d26590ef579741",
+            "rngHex": "092ee1c2170e3562"
+        },
+        {
+            "move": "Drop(col=3, kind=NORMAL)",
+            "afterStateHash": "477b83e00f33224fab8eee0099ebe340a0ce7b50f7eae070e443eeb96faad5d8",
+            "rngHex": "a7665b7b9658b177"
+        },
+        {
+            "move": "Pop(col=4)",
+            "afterStateHash": "09e9d2204e175584ab5934f7fbc42108e46f08db5e5940c55bfca75d545bc8e7",
+            "rngHex": "a7665b7b9658b177"
+        }
+    ],
+    "humanMoves": 5,
+    "aiNodes": 0,
+    "stars": 3,
+    "outcome": "win:P1",
+    "createdAt": "2026-10-13"
+}

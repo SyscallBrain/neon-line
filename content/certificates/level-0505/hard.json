@@ -1,0 +1,104 @@
+{
+    "levelId": "level-0505",
+    "difficulty": "hard",
+    "engineVersion": 2,
+    "revision": 1,
+    "seedHex": "edec5642f02467ed",
+    "steps": [
+        {
+            "move": "Drop(col=0, kind=NORMAL)",
+            "afterStateHash": "682cf06542e4c4dd79b8345202bea2c3e5b7aac730b9cfc028210ad21a71d741",
+            "rngHex": "73db2ffb8f6e1bf8"
+        },
+        {
+            "move": "Drop(col=4, kind=NORMAL)",
+            "afterStateHash": "2138aee6b1127d71c07116607da92f58307ff473509c67220335a8c562dbaf5a",
+            "rngHex": "1212a9b50eb8980d"
+        },
+        {
+            "move": "Drop(col=4, kind=NORMAL)",
+            "afterStateHash": "ad402aeed6d8d2454a0668790b9769a6e81602bdbf06731e5a74d2f0d315a94c",
+            "rngHex": "1212a9b50eb8980d"
+        },
+        {
+            "move": "Drop(col=2, kind=NORMAL)",
+            "afterStateHash": "e64eefaf3614c8eb0cabf21f7b081a87dcb0af28711edfa36128c480679e0638",
+            "rngHex": "b04a236e8e031422"
+        },
+        {
+            "move": "Drop(col=1, kind=NORMAL)",
+            "afterStateHash": "66b87f32c91181aa0760090a4796eb772f30322e6ddd6d2e7ba9a55bd0c5658c",
+            "rngHex": "b04a236e8e031422"
+        },
+        {
+            "move": "Drop(col=3, kind=NORMAL)",
+            "afterStateHash": "f78ae515f5c6657f931296377e8d94c51e0163d64b4c3afddda0a94014102976",
+            "rngHex": "4e819d280d4d9037"
+        },
+        {
+            "move": "Drop(col=3, kind=NORMAL)",
+            "afterStateHash": "316bb6d98b9c671bba58e5d01ad433d8b5af5771112f5341fc2443a9c1997f34",
+            "rngHex": "4e819d280d4d9037"
+        },
+        {
+            "move": "Drop(col=3, kind=NORMAL)",
+            "afterStateHash": "a878dbe5863df7651a90db988e12fa995e3494d60e4eaa779106821c4469a56f",
+            "rngHex": "ecb916e18c980c4c"
+        },
+        {
+            "move": "Pop(col=4)",
+            "afterStateHash": "860f75ba94b371c973599a896e01863cf45f72089625f87ce5a9b1f4bfd672c0",
+            "rngHex": "ecb916e18c980c4c"
+        },
+        {
+            "move": "Drop(col=3, kind=NORMAL)",
+            "afterStateHash": "b11982a815e316867fe49dce4d89828d2273f649f55c5092078edd3f09f2a58a",
+            "rngHex": "8af0909b0be28861"
+        },
+        {
+            "move": "Drop(col=3, kind=NORMAL)",
+            "afterStateHash": "994a52e83ae19269a3e2241dc693f28f9878d52e0aead2018f3bf9eabfa98aaf",
+            "rngHex": "8af0909b0be28861"
+        },
+        {
+            "move": "Drop(col=0, kind=NORMAL)",
+            "afterStateHash": "d114c2bb6dfcb4eac6fff554b385c57773d3403ef1291b28c9d90e528d2400a7",
+            "rngHex": "29280a548b2d0476"
+        },
+        {
+            "move": "Drop(col=5, kind=NORMAL)",
+            "afterStateHash": "fcdbf62816790610bcd6095fca515e52d3133d169098ccfdb6c819e1b142bbad",
+            "rngHex": "29280a548b2d0476"
+        },
+        {
+            "move": "Drop(col=3, kind=NORMAL)",
+            "afterStateHash": "5aec0034a3d3601ccb2282ff23211dbb9b88bc8e9e02183c1370a5bdceac7b0d",
+            "rngHex": "c75f840e0a77808b"
+        },
+        {
+            "move": "Drop(col=3, kind=NORMAL)",
+            "afterStateHash": "5c2e756ffdd98548338890c0acc7c342d00c503dfdcbc185cae49a3a99462113",
+            "rngHex": "c75f840e0a77808b"
+        },
+        {
+            "move": "Drop(col=2, kind=NORMAL)",
+            "afterStateHash": "678ed0af6e0aaf15330d2297760b0e52b241997845b52e9f020fc6b14c18a228",
+            "rngHex": "6596fdc789c1fca0"
+        },
+        {
+            "move": "Drop(col=4, kind=NORMAL)",
+            "afterStateHash": "5fb2440ee27cce84fd7fb0990d4d70f9a13d7a3856567b2b18d2a775dbe57a88",
+            "rngHex": "6596fdc789c1fca0"
+        },
+        {
+            "move": "Drop(col=3, kind=NORMAL)",
+            "afterStateHash": "4d4b3ce79db4ff340db77e56a3565a3625a7f769b005b0f73e8fc9b93d94d7c6",
+            "rngHex": "03ce7781090c78b5"
+        }
+    ],
+    "humanMoves": 9,
+    "aiNodes": 0,
+    "stars": 3,
+    "outcome": "win:P1",
+    "createdAt": "2026-10-13"
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "engineVersion": 2,
+  "lessons": [
+    {"ordinal":571,"familyId":"boulevard-clockwork-parade","titleEn":"Clockwork Parade","titlePt":"Desfile de relógios","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":6,"moveClockSec":15},
+    {"ordinal":572,"familyId":"boulevard-undertow-return","titleEn":"Undertow Return","titlePt":"Regresso da maré","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":6,"popOut":true},
+    {"ordinal":573,"familyId":"boulevard-luminous-trap","titleEn":"Luminous Trap","titlePt":"Armadilha luminosa","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":6,"puzzleMoves":[2,3,4],"sourceHardOrdinal":279},
+    {"ordinal":574,"familyId":"boulevard-vanishing-colors","titleEn":"Vanishing Colors","titlePt":"Cores que desaparecem","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":6,"surviveAiMoves":[4,5,6],"fadeAfter":[5,3,2]},
+    {"ordinal":575,"familyId":"boulevard-crownline-run","titleEn":"Crownline Run","titlePt":"Corrida da coroa","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"rotateEvery":6,"specialInventory":{"wild":1}},
+    {"ordinal":576,"familyId":"boulevard-queens-crossing","titleEn":"Queen's Crossing","titlePt":"Travessia da Rainha","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":4,"openingPairsMax":6,"puzzleMoves":[2,3,4],"sourceHardOrdinal":219,"moveClockSec":10},
+    {"ordinal":577,"familyId":"boulevard-key-of-the-avenue","titleEn":"Key of the Avenue","titlePt":"Chave da avenida","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"rotateEvery":6,"specialInventory":{"lock":1}},
+    {"ordinal":578,"familyId":"boulevard-last-lantern-defense","titleEn":"Last Lantern","titlePt":"Último candeeiro","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"surviveAiMoves":[4,5,6],"popOut":true,"rotateEvery":6},
+    {"ordinal":579,"familyId":"boulevard-afterimage-puzzle","titleEn":"Afterimage Puzzle","titlePt":"Puzzle da imagem persistente","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"puzzleMoves":[2,3,4],"sourceHardOrdinal":219,"mirrorSourceHard":true,"moveClockSec":10},
+    {"ordinal":580,"familyId":"boulevard-double-neon-crescendo","titleEn":"Crescendo of Lights","titlePt":"Crescendo de luzes","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":3,"openingPairsMax":5,"specialInventory":{"bomb":1,"lock":1},"isDoubleNeon":true}
+  ]
+}

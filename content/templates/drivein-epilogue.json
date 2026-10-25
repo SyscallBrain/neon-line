@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "engineVersion": 2,
+  "lessons": [
+    {"ordinal":221,"familyId":"drivein-midnight-snack","titleEn":"Midnight Snack","titlePt":"Lanche da meia-noite","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7},
+    {"ordinal":222,"familyId":"drivein-popcorn-panic","titleEn":"Popcorn Panic","titlePt":"Pânico das pipocas","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":5,"openingPairsMax":7,"popOut":true},
+    {"ordinal":223,"familyId":"drivein-frame-by-frame","titleEn":"Frame by Frame","titlePt":"Fotograma a fotograma","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":10,"openingPairsMax":13,"puzzleMoves":[2,3,4],"popOut":true},
+    {"ordinal":224,"familyId":"drivein-quiet-row","titleEn":"Quiet Row","titlePt":"Fila tranquila","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":10,"surviveAiMoves":[4,5,6]},
+    {"ordinal":225,"familyId":"drivein-projector-jam","titleEn":"Projector Jam","titlePt":"Projetor encravado","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":8,"popOut":true},
+    {"ordinal":226,"familyId":"drivein-plot-twist","titleEn":"Plot Twist","titlePt":"Reviravolta","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":10,"openingPairsMax":13,"puzzleMoves":[2,3,4]},
+    {"ordinal":227,"familyId":"drivein-closing-time","titleEn":"Closing Time","titlePt":"Hora de fechar","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":8},
+    {"ordinal":228,"familyId":"drivein-last-screening","titleEn":"Last Screening","titlePt":"Última sessão","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":10,"surviveAiMoves":[4,5,6],"popOut":true},
+    {"ordinal":229,"familyId":"drivein-final-cut","titleEn":"Final Cut","titlePt":"Corte final","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":10,"openingPairsMax":13,"puzzleMoves":[2,3,4],"sourceOrdinals":[219,216,219],"sourceHardOrdinal":219},
+    {"ordinal":230,"familyId":"drivein-after-credits","titleEn":"After Credits","titlePt":"Depois dos créditos","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":6,"openingPairsMax":8,"popOut":true,"isDoubleNeon":true}
+  ]
+}

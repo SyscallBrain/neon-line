@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "engineVersion": 2,
+  "lessons": [
+    {"ordinal":461,"familyId":"night-fair-duel","titleEn":"Lights Along the Lake","titlePt":"Luzes junto ao lago","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":3,"openingPairsMax":3},
+    {"ordinal":462,"familyId":"night-fair-duel","titleEn":"Lantern Keeper","titlePt":"Guardião das lanternas","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":3,"openingPairsMax":4},
+    {"ordinal":463,"familyId":"night-fair-duel","titleEn":"A Quiet Circuit","titlePt":"Um circuito tranquilo","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":3,"openingPairsMax":4},
+    {"ordinal":464,"familyId":"night-fair-duel","titleEn":"The Painted Midway","titlePt":"O recinto pintado","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":4,"openingPairsMax":6},
+    {"ordinal":465,"familyId":"night-fair-duel","titleEn":"Wheel Shadow","titlePt":"Sombra da roda","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":4,"openingPairsMax":6},
+    {"ordinal":466,"familyId":"night-fair-duel","titleEn":"Crossing Lines","titlePt":"Linhas cruzadas","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":4,"openingPairsMax":6},
+    {"ordinal":467,"familyId":"night-fair-duel","titleEn":"Starlit Carousel","titlePt":"Carrossel estrelado","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":5,"openingPairsMax":7},
+    {"ordinal":468,"familyId":"night-fair-duel","titleEn":"The Last Lantern","titlePt":"A última lanterna","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":5,"openingPairsMax":7},
+    {"ordinal":469,"familyId":"night-fair-duel","titleEn":"Midnight Canopy","titlePt":"Teto da meia-noite","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":6,"openingPairsMax":8},
+    {"ordinal":470,"familyId":"night-fair-double-neon","titleEn":"Ferris Wheel Finale","titlePt":"Final na roda-gigante","kind":"duel","width":9,"height":7,"connect":5,"openingPairsMin":3,"openingPairsMax":5,"isDoubleNeon":true}
+  ]
+}

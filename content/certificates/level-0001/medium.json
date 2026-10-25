@@ -1,0 +1,19 @@
+{
+    "levelId": "level-0001",
+    "difficulty": "medium",
+    "engineVersion": 2,
+    "revision": 3,
+    "seedHex": "9ec82c5abe1ecea2",
+    "steps": [
+        {
+            "move": "Drop(col=3, kind=NORMAL)",
+            "afterStateHash": "937f8602a85d4a0f98e53e13e0589143c7cd119599a586eed6548cf83498b1f5",
+            "rngHex": "00ff55e3c154b2b7"
+        }
+    ],
+    "humanMoves": 1,
+    "aiNodes": 0,
+    "stars": 3,
+    "outcome": "win:P1",
+    "createdAt": "2026-10-13"
+}

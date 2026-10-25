@@ -1,0 +1,344 @@
+{
+    "schemaVersion": 1,
+    "engineVersion": 2,
+    "id": "level-0473",
+    "ordinal": 473,
+    "stopId": "stop-10",
+    "titlePt": "O vendedor de balões",
+    "titleEn": "The Balloon Seller",
+    "familyId": "night-fair-duel",
+    "learningTags": [
+        "night-fair",
+        "duel"
+    ],
+    "revision": 1,
+    "isDoubleNeon": false,
+    "tutorial": null,
+    "variants": {
+        "easy": {
+            "seedHex": "27da839ce1d91826",
+            "kind": {
+                "type": "duel",
+                "winInMoves": null,
+                "surviveAiMoves": null,
+                "shapeRule": null,
+                "bestOf": null
+            },
+            "width": 9,
+            "height": 7,
+            "connect": 5,
+            "mask": [
+                "XXXXXXXXX",
+                "XXXXXXXXX",
+                "XXXXXXXXX",
+                "XXXXXXXXX",
+                "XXXXXXXXX",
+                "XXXXXXXXX",
+                "XXXXXXXXX"
+            ],
+            "pieces": [
+                {
+                    "r": 4,
+                    "c": 6,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 3,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 6,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 0,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 3,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 4,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 5,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 6,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                }
+            ],
+            "targets": [],
+            "shapeRule": null,
+            "rules": {
+                "popOut": false,
+                "rotateEvery": null,
+                "fadeAfter": null,
+                "moveClockSec": null
+            },
+            "inventory": {},
+            "firstToMove": "P1",
+            "rival": "wheel",
+            "ai": {
+                "maxDepth": 2,
+                "nodeBudget": 400,
+                "blunderRate": 420,
+                "attack": 3,
+                "defense": 4,
+                "center": 2,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "stars": {
+                "two": 25,
+                "three": 20
+            },
+            "hints": 3,
+            "expectedMetrics": {
+                "humanWinRate": 0.875,
+                "solverMoves": 18
+            },
+            "bossRounds": []
+        },
+        "medium": {
+            "seedHex": "2feb3e3f1c3597dd",
+            "kind": {
+                "type": "duel",
+                "winInMoves": null,
+                "surviveAiMoves": null,
+                "shapeRule": null,
+                "bestOf": null
+            },
+            "width": 9,
+            "height": 7,
+            "connect": 5,
+            "mask": [
+                "XXXXXXXXX",
+                "XXXXXXXXX",
+                "XXXXXXXXX",
+                "XXXXXXXXX",
+                "XXXXXXXXX",
+                "XXXXXXXXX",
+                "XXXXXXXXX"
+            ],
+            "pieces": [
+                {
+                    "r": 4,
+                    "c": 5,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 5,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 5,
+                    "c": 6,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 0,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 2,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 5,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 6,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 8,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                }
+            ],
+            "targets": [],
+            "shapeRule": null,
+            "rules": {
+                "popOut": false,
+                "rotateEvery": null,
+                "fadeAfter": null,
+                "moveClockSec": null
+            },
+            "inventory": {},
+            "firstToMove": "P1",
+            "rival": "wheel",
+            "ai": {
+                "maxDepth": 2,
+                "nodeBudget": 600,
+                "blunderRate": 260,
+                "attack": 4,
+                "defense": 5,
+                "center": 3,
+                "trap": 3,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": true
+            },
+            "stars": {
+                "two": 27,
+                "three": 22
+            },
+            "hints": 2,
+            "expectedMetrics": {
+                "humanWinRate": 0.625,
+                "solverMoves": 20
+            },
+            "bossRounds": []
+        },
+        "hard": {
+            "seedHex": "df4cafb6b8e18bed",
+            "kind": {
+                "type": "duel",
+                "winInMoves": null,
+                "surviveAiMoves": null,
+                "shapeRule": null,
+                "bestOf": null
+            },
+            "width": 9,
+            "height": 7,
+            "connect": 5,
+            "mask": [
+                "XXXXXXXXX",
+                "XXXXXXXXX",
+                "XXXXXXXXX",
+                "XXXXXXXXX",
+                "XXXXXXXXX",
+                "XXXXXXXXX",
+                "XXXXXXXXX"
+            ],
+            "pieces": [
+                {
+                    "r": 5,
+                    "c": 7,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 2,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 4,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 5,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 6,
+                    "owner": "P2",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                },
+                {
+                    "r": 6,
+                    "c": 7,
+                    "owner": "P1",
+                    "kind": "normal",
+                    "placedAtPly": 0
+                }
+            ],
+            "targets": [],
+            "shapeRule": null,
+            "rules": {
+                "popOut": false,
+                "rotateEvery": null,
+                "fadeAfter": null,
+                "moveClockSec": null
+            },
+            "inventory": {},
+            "firstToMove": "P1",
+            "rival": "wheel",
+            "ai": {
+                "maxDepth": 3,
+                "nodeBudget": 1000,
+                "blunderRate": 40,
+                "attack": 5,
+                "defense": 5,
+                "center": 3,
+                "trap": 4,
+                "mirror": false,
+                "prefersPop": false,
+                "blunderMayMiss": false
+            },
+            "stars": {
+                "two": 20,
+                "three": 15
+            },
+            "hints": 1,
+            "expectedMetrics": {
+                "humanWinRate": 0.5,
+                "solverMoves": 13
+            },
+            "bossRounds": []
+        }
+    }
+}

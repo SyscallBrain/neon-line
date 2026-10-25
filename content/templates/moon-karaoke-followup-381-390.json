@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "engineVersion": 2,
+  "lessons": [
+    {"ordinal":381,"familyId":"karaoke-duel","titleEn":"High Note","titlePt":"Nota alta","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":12,"fadeAfter":[5,3,2],"isDoubleNeon":false},
+    {"ordinal":382,"familyId":"karaoke-puzzle","titleEn":"Borrowed Spotlight","titlePt":"Holofote emprestado","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":12,"fadeAfter":[5,3,2],"isDoubleNeon":false,"puzzleMoves":[2,3,4],"popOut":true},
+    {"ordinal":383,"familyId":"karaoke-defense","titleEn":"Fade the Crowd","titlePt":"Acalmar a plateia","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":12,"fadeAfter":[5,3,2],"isDoubleNeon":false,"surviveAiMoves":[4,5,6]},
+    {"ordinal":384,"familyId":"karaoke-duel","titleEn":"Mirror in Motion","titlePt":"Espelho em movimento","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":12,"fadeAfter":[5,3,2],"isDoubleNeon":false},
+    {"ordinal":385,"familyId":"karaoke-puzzle","titleEn":"Rotating Refrain","titlePt":"Refrão em rotação","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":12,"fadeAfter":[5,3,2],"isDoubleNeon":false,"puzzleMoves":[2,3,4],"rotateEvery":6},
+    {"ordinal":386,"familyId":"karaoke-duel","titleEn":"Pop Encore","titlePt":"Encore com salto","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":12,"fadeAfter":[5,3,2],"isDoubleNeon":false,"popOut":true},
+    {"ordinal":387,"familyId":"karaoke-defense","titleEn":"Hold the Stage","titlePt":"Segura o palco","kind":"defense","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":12,"fadeAfter":[5,3,2],"isDoubleNeon":false,"surviveAiMoves":[4,5,6]},
+    {"ordinal":388,"familyId":"karaoke-puzzle","titleEn":"Turning Lights","titlePt":"Luzes em rotação","kind":"puzzle","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":12,"fadeAfter":[5,3,2],"isDoubleNeon":false,"puzzleMoves":[2,3,4],"rotateEvery":6},
+    {"ordinal":389,"familyId":"karaoke-duel","titleEn":"Diva's Final Bow","titlePt":"Vénia final da Diva","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":12,"fadeAfter":[5,3,2],"isDoubleNeon":false},
+    {"ordinal":390,"familyId":"karaoke-duel","titleEn":"Moonlight Encore","titlePt":"Encore ao luar","kind":"duel","width":7,"height":6,"connect":4,"openingPairsMin":7,"openingPairsMax":12,"fadeAfter":[5,3,2],"isDoubleNeon":true}
+  ]
+}
